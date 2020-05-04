@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="this_is_settings">Voilà les paramètres</string>
+    <string name="title_settings">Paramètres</string>
+    <string name="title_home">Acceuil</string>
+    <string name="french">Français</string>
+    <string name="English">Anglais</string>
+    <string name="languages_option">Langue</string>
+    <string name="about_option">Info</string>
+</resources>
