@@ -5,8 +5,6 @@ import android.content.ClipData
 import android.content.Context
 import android.content.res.Configuration
 import android.os.Bundle
-import android.widget.Button
-import android.widget.RadioButton
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -18,8 +16,6 @@ import androidx.navigation.ui.setupWithNavController
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-    lateinit var mBtn: Button
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         loadLocate()
@@ -31,23 +27,21 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_settings
+                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_settings, R.id.language_item
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+        navView.setOnNavigationItemSelectedListener {item ->
+                    item.isChecked = true
+                    when(item.itemId){
+                        R.id.language_item -> showChangeLang()
 
-
-        mBtn = findViewById(R.id.languageButton)
-
-        mBtn.setOnClickListener {
-
-            showChangeLang()
-
-        }
+                    }
+            true
+                }
 
     }
-
 
     private fun showChangeLang() {
 
@@ -55,7 +49,7 @@ class MainActivity : AppCompatActivity() {
 
         val mBuilder = AlertDialog.Builder(this@MainActivity)
         mBuilder.setTitle("Choose Language")
-        mBuilder.setSingleChoiceItems(listItmes, -1) { dialog, which ->
+        mBuilder.setSingleChoiceItems(listItmes, 1) { dialog, which ->
             if (which == 0) {
                 setLocate("fr")
                 recreate()
@@ -63,13 +57,10 @@ class MainActivity : AppCompatActivity() {
                 setLocate("en")
                 recreate()
             }
-
             dialog.dismiss()
         }
         val mDialog = mBuilder.create()
-
         mDialog.show()
-
     }
 
     private fun setLocate(Lang: String) {
