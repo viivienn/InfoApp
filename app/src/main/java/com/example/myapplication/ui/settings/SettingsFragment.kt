@@ -29,7 +29,7 @@ class SettingsFragment : Fragment() {
         val binding: FragmentSettingsBinding = DataBindingUtil.inflate(
             inflater, R.layout.fragment_settings, container, false
         )
-        binding.languagesOption.setOnClickListener { view: View ->
+        binding.language_button.setOnClickListener { view: View ->
             view.findNavController().navigate(SettingsFragmentDirections.actionNavigationSettingsToLanguageFragment2())
         }
 
