@@ -4,7 +4,8 @@
     <string name="title_settings">Paramètres</string>
     <string name="title_home">Acceuil</string>
     <string name="french">Français</string>
-    <string name="English">Anglais</string>
-    <string name="languages_option">Langue</string>
-    <string name="about_option">Info</string>
+    <string name="english">Anglais</string>
+    <string name="about_button">Info</string>
+    <string name="title_language">Langue</string>
+    <string name="language_button">Langue</string>
 </resources>

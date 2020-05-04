@@ -23,14 +23,14 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <RadioButton
-                android:id="@+id/english_button"
+                android:id="@+id/englishButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="@string/English" />
+                android:text="@string/english" />
 
             <RadioButton
-                android:id="@+id/french_button"
+                android:id="@+id/frenchButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/french" />

@@ -10,7 +10,14 @@ import androidx.navigation.findNavController
 import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentLanguageBinding
 import com.example.myapplication.databinding.FragmentSettingsBinding
-import com.example.myapplication.ui.settings.SettingsFragmentDirections
+import java.util.*
+
+import android.app.Activity
+import android.content.Context
+import android.content.DialogInterface
+import android.content.res.Configuration
+import android.widget.Button
+import java.util.*
 
 class LanguageFragment : Fragment()  {
 //    private lateinit var homeViewModel: HomeViewModel
@@ -22,8 +29,12 @@ class LanguageFragment : Fragment()  {
     ): View? {
         val binding: FragmentLanguageBinding = DataBindingUtil.inflate(
             inflater, R.layout.fragment_language, container, false
+
         )
 
         return binding.root
     }
+
+
+
 }
