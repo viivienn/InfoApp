@@ -4,52 +4,79 @@ import android.app.Activity
 import android.content.ClipData
 import android.content.Context
 import android.content.res.Configuration
+import android.graphics.drawable.DrawableContainer
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.ActionBarContainer
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.databinding.DataBindingUtil
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.myapplication.databinding.ActivityMainBinding
+import kotlinx.android.synthetic.*
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var container : ConstraintLayout
+    private lateinit var ulang : String
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
+
         loadLocate()
-        setContentView(R.layout.activity_main)
-        val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
-        val navController = findNavController(R.id.nav_host_fragment)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        val appBarConfiguration = AppBarConfiguration(
-            setOf(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_settings, R.id.language_item
-            )
-        )
-        setupActionBarWithNavController(navController, appBarConfiguration)
-        navView.setupWithNavController(navController)
-        navView.setOnNavigationItemSelectedListener {item ->
-                    item.isChecked = true
-                    when(item.itemId){
-                        R.id.language_item -> showChangeLang()
+        val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
+        container = binding.container
+        val navController = this.findNavController(R.id.nav_host_fragment)
+//
+//        NavigationUI.setupActionBarWithNavController(this, navController)
+        NavigationUI.setupWithNavController(binding.navView, navController)
 
-                    }
-            true
-                }
+//        val navView: BottomNavigationView = findViewById(R.id.nav_view)
+//        val navController = this.findNavController(R.id.nav_host_fragment)
+//        // Passing each menu ID as a set of Ids because each
+//        // menu should be considered as top level destinations.
+//        val appBarConfiguration = AppBarConfiguration(
+//            setOf(
+//                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_settings, R.id.language_item
+//            )
+//        )
+//
+//
+//        setupActionBarWithNavController(navController, appBarConfiguration)
+//        navView.setupWithNavController(navController)
+
+//        navView.setOnNavigationItemSelectedListener {item ->
+//                    item.isChecked = true
+//                    when(item.itemId){
+//                        R.id.language_item -> showChangeLang()
+//
+//                    }
+//            true
+//                }
 
     }
 
-    private fun showChangeLang() {
+    public fun showChangeLang() {
 
+        var option = -1
         val listItmes = arrayOf("Francais", "English")
 
         val mBuilder = AlertDialog.Builder(this@MainActivity)
         mBuilder.setTitle("Choose Language")
-        mBuilder.setSingleChoiceItems(listItmes, 1) { dialog, which ->
+
+        if(ulang == "en")
+            option = 1
+        else
+            option = 0
+        mBuilder.setSingleChoiceItems(listItmes, option) { dialog, which ->
             if (which == 0) {
                 setLocate("fr")
                 recreate()
@@ -83,6 +110,7 @@ class MainActivity : AppCompatActivity() {
         val sharedPreferences = getSharedPreferences("Settings", Activity.MODE_PRIVATE)
         val language = sharedPreferences.getString("My_Lang", "")
         if (language != null) {
+            ulang = language
             setLocate(language)
         }
     }
