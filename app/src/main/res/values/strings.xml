@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">InfoApp</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_search" translatable="false">Search</string>
     <string name="title_settings">Settings</string>
     <string name="french">French</string>
     <string name="english">English</string>
@@ -13,4 +13,5 @@
     <string name="logo_image" translatable="false">Logo_image</string>
     <string name="share_detail" translatable="false">share_subchapter_detail</string>
     <string name="share_message" translatable="false">Check out the %s plant in the Android Sunflower app</string>
+    <string name="checklist">Checklist</string>
 </resources>

@@ -16,15 +16,15 @@ data class Chapter(
 )
 
 
-@Entity(tableName = "subchapters")
-//    foreignKeys= [ForeignKey(
-//    entity=Chapter::class,
-//    parentColumns= ["chapterId"],
-//    childColumns= ["parentChapterId"],
-//    onDelete=CASCADE
-//)],
-//    indices = [(Index(value = ["subChapterId"]))]
-//)
+@Entity(tableName = "subchapters",
+    foreignKeys= [ForeignKey(
+    entity=Chapter::class,
+    parentColumns= ["chapterId"],
+    childColumns= ["parentChapterId"],
+    onDelete=CASCADE
+)],
+    indices = [(Index(value = ["subChapterId"]))]
+)
 data class SubChapter(
     @PrimaryKey @ColumnInfo(name = "subChapterId") val subChapterId: String,
     @ColumnInfo(name = "parentChapterId") val parentChapterId: String,

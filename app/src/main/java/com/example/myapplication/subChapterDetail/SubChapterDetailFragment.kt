@@ -31,8 +31,7 @@ class SubChapterDetailFragment : Fragment() {
     private val args: SubChapterDetailFragmentArgs by navArgs()
 
     private val subChapterDetailViewModel: SubChapterDetailViewModel by viewModels () {
-        val result = InjectorUtils.provideSubChapterDetailViewModelFactory(requireActivity(), args.subChapterId, args.parentChapterId)
-        return@viewModels result
+        InjectorUtils.provideSubChapterDetailViewModelFactory(requireActivity(), args.subChapterId, args.parentChapterId)
     }
 
     override fun onCreateView(
@@ -40,15 +39,15 @@ class SubChapterDetailFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding:FragmentSubchapterDetailBinding = DataBindingUtil.inflate(
+        val binding:FragmentSubchapterDetailBinding = DataBindingUtil.inflate<FragmentSubchapterDetailBinding>(
             inflater, R.layout.fragment_subchapter_detail, container, false)
-        val result = AppDatabase.getInstance(requireContext()).chapterDao().getSubChapterr(args.subChapterId, args.parentChapterId)
-        val test = result.content
-        binding.plantDescription.setText(test)
-        //val result = InjectorUtils.provideSubChapterDetailViewModelFactory(requireActivity(), args.subChapterId, args.parentChapterId)
-//        ).apply {
-//            viewModel = subChapterDetailViewModel
-//            lifecycleOwner = viewLifecycleOwner
+//        val result = AppDatabase.getInstance(requireContext()).chapterDao().getSubChapterr(args.subChapterId, args.parentChapterId)
+//        val test = result.content
+//        binding.plantDescription.setText(test)
+//        val result = InjectorUtils.provideSubChapterDetailViewModelFactory(requireActivity(), args.subChapterId, args.parentChapterId)
+        .apply {
+            viewModel = subChapterDetailViewModel
+            lifecycleOwner = viewLifecycleOwner
 
 //            var isToolbarShown = false
 //
@@ -89,7 +88,7 @@ class SubChapterDetailFragment : Fragment() {
 //            }
 //        }
 //        setHasOptionsMenu(true)
-//            }
+            }
         return binding.root
     }
 

@@ -16,12 +16,6 @@
     </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.myapplication.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
-    <fragment
         android:id="@+id/navigation_settings"
         android:name="com.example.myapplication.settings.SettingsFragment"
         android:label="@string/title_settings"
@@ -44,6 +38,12 @@
         <action
             android:id="@+id/action_subChapterListFragment_to_subChaptertDetailFragment"
             app:destination="@id/subChapterDetailFragment" />
+        <action
+            android:id="@+id/action_subChapterListFragment_to_quizTitleFragment"
+            app:destination="@id/quizTitleFragment" />
+        <action
+            android:id="@+id/action_subChapterListFragment_to_checklistFragment"
+            app:destination="@id/checklistFragment" />
     </fragment>
     <fragment
         android:id="@+id/subChapterDetailFragment"
@@ -56,5 +56,30 @@
             android:name="parentChapterId"
             app:argType="string" />
     </fragment>
-
+    <fragment
+        android:id="@+id/quizTitleFragment"
+        android:name="com.example.myapplication.quiz.QuizTitleFragment"
+        android:label="QuizTitleFragment">
+        <argument
+            android:name="subChapterId"
+            app:argType="string" />
+        <argument
+            android:name="parentChapterId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/checklistFragment"
+        android:name="com.example.myapplication.checklist.ChecklistFragment"
+        android:label="ChecklistFragment">
+        <argument
+            android:name="subChapterId"
+            app:argType="string" />
+        <argument
+            android:name="parentChapterId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.myapplication.search.SearchFragment"
+        android:label="SearchFragment" />
 </navigation>

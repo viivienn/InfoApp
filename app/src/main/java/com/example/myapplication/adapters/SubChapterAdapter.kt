@@ -30,9 +30,36 @@ class SubChapterAdapter : ListAdapter<SubChapter, RecyclerView.ViewHolder>(SubCh
         init {
             binding.setClickListener {
                 binding.subChapter?.let { subchapter ->
-                    navigateToSubChapterDetail(subchapter, it)
+                    if(subchapter.title == "Quiz"){
+                        navigateToQuiz(subchapter, it)
+                    }
+                    else if(subchapter.title == "Checklist"){
+                        navigateToChecklist(subchapter, it)
+                    }
+                    else{
+                        navigateToSubChapterDetail(subchapter, it)
+                    }
                 }
             }
+        }
+
+        private fun navigateToChecklist(
+            subchapter: SubChapter,
+            view: View
+        ) {
+            val direction = SubChapterListFragmentDirections.actionSubChapterListFragmentToChecklistFragment(
+                subchapter.subChapterId, subchapter.parentChapterId
+            )
+            view.findNavController().navigate(direction)
+        }
+        private fun navigateToQuiz(
+            subchapter: SubChapter,
+            view: View
+        ) {
+            val direction = SubChapterListFragmentDirections.actionSubChapterListFragmentToQuizTitleFragment(
+                subchapter.subChapterId, subchapter.parentChapterId
+            )
+            view.findNavController().navigate(direction)
         }
 
         private fun navigateToSubChapterDetail(
@@ -44,9 +71,7 @@ class SubChapterAdapter : ListAdapter<SubChapter, RecyclerView.ViewHolder>(SubCh
                     it
                 )
             }
-            if (direction != null) {
-                view.findNavController().navigate(direction)
-            }
+            view.findNavController().navigate(direction)
         }
 
         fun bind(item: SubChapter) {

@@ -12,5 +12,19 @@
   "title": "Cures",
   "image": "lucky.png",
   "content": "lucky is gud"
+  },
+  {
+    "parentChapterId": "1",
+    "subChapterId": "3",
+    "title": "Checklist",
+    "image": "lucky.png",
+    "content": "i love lucky"
+  },
+  {
+    "parentChapterId": "1",
+    "subChapterId": "4",
+    "title": "Quiz",
+    "image": "lucky.png",
+    "content": "i love lucky"
   }
 ]
