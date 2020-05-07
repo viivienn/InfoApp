@@ -1,0 +1,16 @@
+[
+  {
+    "parentChapterId": "1",
+    "subChapterId": "1",
+    "title": "Symptoms",
+    "image": "lucky.png",
+    "content": "i love lucky"
+  },
+  {
+  "parentChapterId": "1",
+  "subChapterId": "2",
+  "title": "Cures",
+  "image": "lucky.png",
+  "content": "lucky is gud"
+  }
+]

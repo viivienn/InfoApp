@@ -11,4 +11,6 @@
     <string name="about_text">I love Lucky!</string>
     <string name="welcome_message">Welcome to LuckyApp!</string>
     <string name="logo_image" translatable="false">Logo_image</string>
+    <string name="share_detail" translatable="false">share_subchapter_detail</string>
+    <string name="share_message" translatable="false">Check out the %s plant in the Android Sunflower app</string>
 </resources>

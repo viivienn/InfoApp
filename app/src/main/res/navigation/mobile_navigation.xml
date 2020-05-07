@@ -7,9 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.myapplication.home.HomeFragment"
+        android:name="com.example.myapplication.chapterList.ChapterListFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_chapter_list" >
+        <action
+            android:id="@+id/action_navigation_home_to_subChapterListFragment"
+            app:destination="@id/subChapterListFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -30,4 +34,27 @@
         android:id="@+id/aboutFragment"
         android:name="com.example.myapplication.about.AboutFragment"
         android:label="AboutFragment" />
+    <fragment
+        android:id="@+id/subChapterListFragment"
+        android:name="com.example.myapplication.subChapterList.SubChapterListFragment"
+        android:label="SubChapterListFragment">
+        <argument
+            android:name="parentChapterId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_subChapterListFragment_to_subChaptertDetailFragment"
+            app:destination="@id/subChapterDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subChapterDetailFragment"
+        android:name="com.example.myapplication.subChapterDetail.SubChapterDetailFragment"
+        android:label="SubChapterDetailFragment">
+        <argument
+            android:name="subChapterId"
+            app:argType="string" />
+        <argument
+            android:name="parentChapterId"
+            app:argType="string" />
+    </fragment>
+
 </navigation>

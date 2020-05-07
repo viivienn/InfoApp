@@ -9,7 +9,6 @@ import androidx.fragment.app.Fragment
 import com.example.myapplication.MainActivity
 import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentAboutBinding
-import com.example.myapplication.databinding.FragmentSettingsBinding
 
 
 class AboutFragment : Fragment() {

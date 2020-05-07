@@ -15,10 +15,10 @@ import com.example.myapplication.workers.SeedDatabaseWorker
 /**
  * The Room database for this app
  */
-@Database(entities = [Chapter::class], version = 1, exportSchema = false)
-@TypeConverters(Converters::class)
+@Database(entities = [Chapter::class, SubChapter::class], version = 1, exportSchema = false)
+//@TypeConverters(SubChapterConvertor::class)
 abstract class AppDatabase : RoomDatabase() {
-    abstract fun plantDao(): PlantDao
+    abstract fun chapterDao(): ChapterDao
 
     companion object {
 
@@ -42,7 +42,7 @@ abstract class AppDatabase : RoomDatabase() {
                         WorkManager.getInstance(context).enqueue(request)
                     }
                 })
-                .build()
+                .allowMainThreadQueries().build()
         }
     }
 }
