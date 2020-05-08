@@ -3,7 +3,6 @@ package com.example.myapplication.chapterList
 import androidx.fragment.app.viewModels
 import com.example.myapplication.adapters.ChapterAdapter
 import com.example.myapplication.databinding.FragmentChapterListBinding
-import com.example.myapplication.databinding.FragmentHomeBinding
 import com.example.myapplication.utilities.InjectorUtils
 import android.os.Bundle
 import android.view.LayoutInflater

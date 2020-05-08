@@ -34,6 +34,7 @@
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
                 app:statusBarScrim="?attr/colorPrimaryDark"
                 app:titleEnabled="true"
+                app:title="@{sviewModel.chapter.title}"
                 app:toolbarId="@+id/toolbar">
 
                 <ImageView

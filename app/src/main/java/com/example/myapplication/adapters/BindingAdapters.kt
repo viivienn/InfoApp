@@ -64,7 +64,7 @@ fun bindRenderHtml(view: TextView, content: String?) {
         view.text = HtmlCompat.fromHtml(content, FROM_HTML_MODE_COMPACT)
         view.movementMethod = LinkMovementMethod.getInstance()
     } else {
-        view.text = "hey baby"
+        view.text = "Loading..."
     }
 }
 

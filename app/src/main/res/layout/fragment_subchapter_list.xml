@@ -33,7 +33,7 @@
                 app:contentScrim="?attr/colorPrimaryDark"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
                 app:statusBarScrim="?attr/colorPrimaryDark"
-                app:titleEnabled="true"
+                app:title="@{sviewModel.chapter.title}"
                 app:toolbarId="@+id/toolbar">
 
                 <ImageView
@@ -51,6 +51,7 @@
                     android:layout_height="?attr/actionBarSize"
                     android:background="@android:color/transparent"
                     android:visibility="visible"
+                    app:itemIconTint="@color/sunflower_black"
                     app:navigationIcon="@drawable/abc_vector_test"
                     app:titleTextColor="@android:color/white" />
 

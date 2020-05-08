@@ -14,6 +14,7 @@ import com.example.myapplication.adapters.SubChapterAdapter
 import com.example.myapplication.databinding.FragmentSubchapterListBinding
 import com.example.myapplication.utilities.InjectorUtils
 import kotlinx.android.synthetic.main.fragment_subchapter_list.*
+import kotlinx.android.synthetic.main.fragment_subchapter_list.view.*
 
 class SubChapterListFragment : Fragment() {
     private val args: SubChapterListFragmentArgs by navArgs()
@@ -33,7 +34,10 @@ class SubChapterListFragment : Fragment() {
                 toolbar.setNavigationOnClickListener { view ->
                 view.findNavController().navigateUp()
             }
+
         }
+        binding.setLifecycleOwner(this);
+//        context ?: return binding.root
 
         val adapter = SubChapterAdapter()
         binding.subchapterList.adapter = adapter

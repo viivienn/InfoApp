@@ -1,4 +1,4 @@
-package com.example.myapplication.search
+package com.example.myapplication.favorites
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,19 +7,19 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.example.myapplication.R
-import com.example.myapplication.databinding.FragmentSearchBinding
+import com.example.myapplication.databinding.FragmentFavoritesBinding
 
-class SearchFragment : Fragment() {
+class FavoritesFragment : Fragment() {
 
-    private lateinit var searchViewModel: SearchViewModel
+    private lateinit var favoritesViewModel: FavoritesViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        val binding: FragmentSearchBinding = DataBindingUtil.inflate(
-            inflater, R.layout.fragment_search, container, false
+        val binding: FragmentFavoritesBinding = DataBindingUtil.inflate(
+            inflater, R.layout.fragment_favorites, container, false
         )
         return binding.root
     }

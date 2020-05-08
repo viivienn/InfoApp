@@ -3,6 +3,7 @@ package com.example.myapplication.utilities
 import android.content.Context
 import androidx.fragment.app.Fragment
 import com.example.myapplication.chapterList.ChapterListViewModelFactory
+import com.example.myapplication.checklist.ChecklistViewModelFactory
 import com.example.myapplication.subChapterList.SubChapterListViewModelFactory
 import com.example.myapplication.data.AppDatabase
 import com.example.myapplication.data.ChapterRepository
@@ -35,5 +36,14 @@ object InjectorUtils {
         val repository = getChapterRepository(fragment.requireContext())
 
     return SubChapterListViewModelFactory(parentChapterId, repository, fragment)
+    }
+
+    fun provideChecklistViewModelFactory(
+        fragment: Fragment,
+        parentChapterId: String
+    ): ChecklistViewModelFactory {
+        val repository = getChapterRepository(fragment.requireContext())
+
+        return ChecklistViewModelFactory(parentChapterId, repository, fragment)
     }
 }

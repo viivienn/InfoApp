@@ -18,9 +18,9 @@ class QuizTitleFragment : Fragment() {
             inflater, R.layout.fragment_quiz_title, container, false
         )
 
-//        binding.playButton.setOnClickListener { view: View ->
-//            view.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
-//        }
+        binding.playButton.setOnClickListener { view: View ->
+            view.findNavController().navigate(QuizTitleFragmentDirections.actionQuizTitleFragmentToGameFragment())
+        }
         //The complete onClickListener with Navigation using createNavigateOnClickListener
 //        binding.playButton.setOnClickListener(
 //                Navigation.createNavigateOnClickListener())

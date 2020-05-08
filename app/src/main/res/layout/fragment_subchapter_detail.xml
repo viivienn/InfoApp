@@ -77,7 +77,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/plant_detail_app_bar_height"
                     android:fitsSystemWindows="true"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
                     app:imageFromString="@{viewModel.subChapter.image}"
                     app:layout_collapseMode="parallax" />
 

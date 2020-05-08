@@ -1,7 +1,6 @@
 package com.example.myapplication.data
 
 import android.content.Context
-import androidx.databinding.adapters.Converters
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
@@ -16,6 +15,7 @@ import com.example.myapplication.workers.SeedDatabaseWorker
  * The Room database for this app
  */
 @Database(entities = [Chapter::class, SubChapter::class], version = 1, exportSchema = false)
+@TypeConverters(Converters::class)
 //@TypeConverters(SubChapterConvertor::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun chapterDao(): ChapterDao

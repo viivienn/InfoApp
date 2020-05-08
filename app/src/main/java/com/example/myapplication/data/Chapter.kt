@@ -3,16 +3,14 @@ package com.example.myapplication.data
 import androidx.room.*
 import androidx.room.ForeignKey.CASCADE
 import com.google.gson.Gson
-import org.json.JSONArray
-import java.util.*
-import java.util.Collections.list
-import org.json.*
+import com.google.gson.reflect.TypeToken
 
 @Entity(tableName = "chapters")
 data class Chapter(
     @PrimaryKey @ColumnInfo(name = "chapterId") val chapterId: String,
     val title: String,
-    val image: String
+    val image: String,
+    val checklist: List<String>
 )
 
 
@@ -33,6 +31,31 @@ data class SubChapter(
     val content: String
 )
 
+//class Converters {
+//    @TypeConverter
+//    fun fromString(value: String?): List<String> {
+//        val listType =
+//            object : TypeToken<List<String?>?>() {}.type
+//        return Gson().fromJson(value, listType)
+//    }
+//
+//    @TypeConverter
+//    fun fromArrayList(list: List<String?>?): String {
+//        val gson = Gson()
+//        return gson.toJson(list)
+//    }
+//}
+//class Converters {
+//    @TypeConverter
+//    fun fromTimestamp(value: Long?): Date? {
+//        return value?.let { Date(it) }
+//    }
+//
+//    @TypeConverter
+//    fun dateToTimestamp(date: Date?): Long? {
+//        return date?.time?.toLong()
+//    }
+//}
 //class SubChapterConvertor {
 //    companion object {
 //

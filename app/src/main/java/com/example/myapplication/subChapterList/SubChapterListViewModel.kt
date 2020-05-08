@@ -16,6 +16,5 @@ class SubChapterListViewModel internal constructor(
 ) : ViewModel() {
     val subChapters: LiveData<List<SubChapter>> = chapterRepository.getSubChapters(parentChapterId)
 
-//    val chapter: LiveData<Chapter> = chapterRepository.getChapter(parentChapterId)
-//    val title: LiveData<String> = chapterRepository.getChapterTile(parentChapterId)
+    val chapter: LiveData<Chapter> = chapterRepository.getChapter(parentChapterId)
 }
