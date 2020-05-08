@@ -8,9 +8,11 @@ class ChapterRepository private constructor(private val chapterDao: ChapterDao) 
 
     fun getSubChapters(parentChapterId: String) = chapterDao.getSubChapters(parentChapterId)
 
-    //fun getChapter(chapterId: String) = chapterDao.getChapter(chapterId)
+    fun getChapter(chapterId: String) = chapterDao.getChapter(chapterId)
 //
     fun getSubChapter(subChapterId: String, parentChapterId: String) =  chapterDao.getSubChapter(subChapterId, parentChapterId)
+
+    fun getChapterTile(parentChapterId: String) = chapterDao.getChapterTitle(parentChapterId)
 
     companion object {
 

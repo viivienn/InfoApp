@@ -18,8 +18,10 @@
         android:layout_marginStart="@dimen/card_side_margin"
         android:layout_marginEnd="@dimen/card_side_margin"
         android:layout_marginBottom="@dimen/card_bottom_margin"
+        android:gravity="center_horizontal"
         android:onClick="@{clickListener}"
-        app:cardElevation="@dimen/card_elevation"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
         app:cardPreventCornerOverlap="false"
         app:shapeAppearanceOverlay="@style/ShapeAppearance.Sunflower.Card">
 
@@ -28,29 +30,32 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/plant_item_image"
-                android:layout_width="0dp"
-                android:layout_height="@dimen/plant_item_image_height"
-                android:contentDescription="is a book"
+                android:id="@+id/chapter_item_image"
+                android:layout_width="85dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="16dp"
                 android:scaleType="centerCrop"
+                app:imageFromString="@{chapter.image}"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/me_time" />
 
             <TextView
-                android:id="@+id/plant_item_title"
+                android:id="@+id/chapter_item_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_normal"
                 android:layout_marginTop="@dimen/margin_normal"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:gravity="center_horizontal"
                 android:text="@{chapter.title}"
                 android:textAppearance="?attr/textAppearanceListItem"
-                android:gravity="center_horizontal"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/plant_item_image"
-                app:layout_constraintBottom_toBottomOf="parent"
-                tools:text="Tomato"/>
+                app:layout_constraintTop_toBottomOf="@id/chapter_item_image"
+                tools:text="Chapter" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

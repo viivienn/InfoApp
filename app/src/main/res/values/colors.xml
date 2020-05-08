@@ -13,4 +13,7 @@
     <color name="sunflower_white">#deffffff</color>
     <color name="sunflower_yellow_300">#f8f99f</color>
     <color name="sunflower_yellow_500">#ffff63</color>
+    <color name="colorSurface">#FFFFFF</color>
+    #FFFFFF
+
 </resources>

@@ -1,12 +1,38 @@
 [
   {
     "chapterId": "1",
-    "title": "1",
+    "title": "Fall Prevention",
     "image": "me_time.png"
   },
   {
     "chapterId": "2",
-    "title": "2",
+    "title": "Skin Integrity",
+    "image": "me_time.png"
+  },
+  {
+    "chapterId": "3",
+    "title": "Transfer Techniques",
+    "image": "me_time.png"
+  },
+  {
+    "chapterId": "4",
+    "title": "Dysphagia/Feeding",
+    "image": "me_time.png"
+  },
+  {
+    "chapterId": "5",
+    "title": "Mobility Aidds",
+    "image": "me_time.png"
+  },
+  {
+    "chapterId": "6",
+    "title": "Basic ADL Training",
+    "image": "me_time.png"
+  },
+  {
+    "chapterId": "7",
+    "title": "Communication",
     "image": "me_time.png"
   }
+
 ]

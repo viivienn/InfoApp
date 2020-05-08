@@ -1,16 +1,19 @@
 package com.example.myapplication.subChapterList
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.observe
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.myapplication.adapters.SubChapterAdapter
 import com.example.myapplication.databinding.FragmentSubchapterListBinding
 import com.example.myapplication.utilities.InjectorUtils
+import kotlinx.android.synthetic.main.fragment_subchapter_list.*
 
 class SubChapterListFragment : Fragment() {
     private val args: SubChapterListFragmentArgs by navArgs()
@@ -25,12 +28,19 @@ class SubChapterListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentSubchapterListBinding.inflate(inflater, container, false)
-        context ?: return binding.root
+            .apply {
+                sviewModel = viewModel
+                toolbar.setNavigationOnClickListener { view ->
+                view.findNavController().navigateUp()
+            }
+        }
 
         val adapter = SubChapterAdapter()
         binding.subchapterList.adapter = adapter
         subscribeUi(adapter)
-
+//        binding.toolbarLayout.title = viewModel.chapter.value?.title.toString()
+//        Log.i("title", viewModel.title.toString())
+//        Log.i("title", viewModel.chapter.value?.title.toString())
         return binding.root
     }
 

@@ -3,8 +3,11 @@ package com.example.myapplication.subChapterList
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.myapplication.data.Chapter
 import com.example.myapplication.data.ChapterRepository
 import com.example.myapplication.data.SubChapter
+import kotlinx.coroutines.launch
 
 class SubChapterListViewModel internal constructor(
     chapterRepository: ChapterRepository,
@@ -13,4 +16,6 @@ class SubChapterListViewModel internal constructor(
 ) : ViewModel() {
     val subChapters: LiveData<List<SubChapter>> = chapterRepository.getSubChapters(parentChapterId)
 
+//    val chapter: LiveData<Chapter> = chapterRepository.getChapter(parentChapterId)
+//    val title: LiveData<String> = chapterRepository.getChapterTile(parentChapterId)
 }
