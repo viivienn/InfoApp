@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">LuckyApp</string>
+    <string name="app_name" translatable="false">SafeTrained</string>
     <string name="title_home">Home</string>
     <string name="title_favorites" translatable="false">Favorites</string>
     <string name="title_settings">Settings</string>
@@ -9,7 +9,7 @@
     <string name="about_button">About</string>
     <string name="title_language">Language</string>
     <string name="about_text">I love Lucky!</string>
-    <string name="welcome_message">Welcome to LuckyApp!</string>
+    <string name="welcome_message">Welcome to SafeTrained!</string>
     <string name="logo_image" translatable="false">Logo_image</string>
     <string name="share_detail" translatable="false">share_subchapter_detail</string>
     <string name="share_message" translatable="false">Check out this %s module in the Android Lucky app</string>

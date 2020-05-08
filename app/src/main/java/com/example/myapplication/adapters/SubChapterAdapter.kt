@@ -30,10 +30,10 @@ class SubChapterAdapter : ListAdapter<SubChapter, RecyclerView.ViewHolder>(SubCh
         init {
             binding.setClickListener {
                 binding.subChapter?.let { subchapter ->
-                    if(subchapter.title == "Quiz"){
+                    if(subchapter.title.contains("Quiz")){
                         navigateToQuiz(subchapter, it)
                     }
-                    else if(subchapter.title == "Checklist"){
+                    else if(subchapter.title.contains("Checklist")){
                         navigateToChecklist(subchapter, it)
                     }
                     else{

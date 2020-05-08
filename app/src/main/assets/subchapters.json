@@ -2,28 +2,28 @@
   {
     "parentChapterId": "1",
     "subChapterId": "1",
-    "title": "Symptoms",
+    "title": "1. Symptoms",
     "image": "lucky.png",
     "content": "i love lucky"
   },
   {
   "parentChapterId": "1",
   "subChapterId": "2",
-  "title": "Cures",
+  "title": "2. Cures",
   "image": "lucky.png",
   "content": "lucky is gud"
   },
   {
     "parentChapterId": "1",
     "subChapterId": "3",
-    "title": "Checklist",
+    "title": "3. Checklist",
     "image": "lucky.png",
     "content": "i love lucky"
   },
   {
     "parentChapterId": "1",
     "subChapterId": "4",
-    "title": "Quiz",
+    "title": "4. Quiz",
     "image": "lucky.png",
     "content": "i love lucky"
   }
