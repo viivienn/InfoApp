@@ -23,9 +23,18 @@ interface ChapterDao {
     @Query("SELECT * FROM subchapters WHERE parentChapterId = :parentChapterId AND subChapterId = :subChapterId ORDER BY subChapterId LIMIT 1")
     fun getSubChapter(subChapterId: String, parentChapterId:String): LiveData<SubChapter>
 
+    @Query("SELECT * FROM questions WHERE parentChapterId = :parentChapterId ORDER BY questionId")
+    fun getQuestions(parentChapterId: String): List<Question>
+
+    @Query("SELECT * FROM questions WHERE parentChapterId = :parentChapterId AND questionId = :questionId ORDER BY questionId LIMIT 1")
+    fun getQuestion(questionId: String, parentChapterId: String): LiveData<Question>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAll(chapters: List<Chapter>)
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAllSubChapters(subChapters: List<SubChapter>)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertAllQuestions(subChapters: List<Question>)
 }

@@ -3,6 +3,8 @@ package com.example.myapplication.adapters
 import android.content.res.Resources
 import android.net.Uri
 import android.text.method.LinkMovementMethod
+import android.util.Log
+import android.webkit.WebView
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.text.HtmlCompat
@@ -59,15 +61,28 @@ fun setImageUri(view: ImageView, imageUri: String?) {
 //}
 
 @BindingAdapter("renderHtml")
-fun bindRenderHtml(view: TextView, content: String?) {
+fun bindRenderHtml(view: WebView, content: String?) {
     if (content != null) {
-        view.text = HtmlCompat.fromHtml(content, FROM_HTML_MODE_COMPACT)
-        view.movementMethod = LinkMovementMethod.getInstance()
+//        view.text = HtmlCompat.fromHtml(content, FROM_HTML_MODE_COMPACT)
+        view.loadDataWithBaseURL(null, content, "text/html", "utf-8", null)
+//        view.movementMethod = LinkMovementMethod.getInstance()
     } else {
-        view.text = "Loading..."
+//        view.text = "Loading..."
     }
 }
-
+@BindingAdapter("renderWeb")
+fun bindRenderHtmlWeb(view: WebView, content: String?) {
+    if (content != null) {
+//        view.text = HtmlCompat.fromHtml(content, FROM_HTML_MODE_COMPACT)
+        val ncontent = "file:///android_asset/" + content
+        Log.i("c", ncontent)
+        view.loadUrl(ncontent)
+//        view.loadDataWithBaseURL(null, content, "text/html", "utf-8", null)
+//        view.movementMethod = LinkMovementMethod.getInstance()
+    } else {
+//        view.text = "Loading..."
+    }
+}
 //@BindingAdapter("wateringText")
 //fun bindWateringText(textView: TextView, wateringInterval: Int) {
 //    val resources = textView.context.resources

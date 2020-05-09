@@ -37,7 +37,7 @@ class SubChapterDetailFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding:FragmentSubchapterDetailBinding = DataBindingUtil.inflate<FragmentSubchapterDetailBinding>(
+        val binding: FragmentSubchapterDetailBinding = DataBindingUtil.inflate<FragmentSubchapterDetailBinding>(
             inflater, R.layout.fragment_subchapter_detail, container, false)
 //        val result = AppDatabase.getInstance(requireContext()).chapterDao().getSubChapterr(args.subChapterId, args.parentChapterId)
 //        val test = result.content

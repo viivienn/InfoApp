@@ -5,11 +5,14 @@ import android.view.*
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.navArgs
 import androidx.navigation.ui.NavigationUI
 import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentQuizTitleBinding
+import com.example.myapplication.subChapterList.SubChapterListFragmentArgs
 
 class QuizTitleFragment : Fragment() {
+    private val args: QuizTitleFragmentArgs by navArgs()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -19,7 +22,7 @@ class QuizTitleFragment : Fragment() {
         )
 
         binding.playButton.setOnClickListener { view: View ->
-            view.findNavController().navigate(QuizTitleFragmentDirections.actionQuizTitleFragmentToGameFragment())
+            view.findNavController().navigate(QuizTitleFragmentDirections.actionQuizTitleFragmentToGameFragment(args.parentChapterId))
         }
         //The complete onClickListener with Navigation using createNavigateOnClickListener
 //        binding.playButton.setOnClickListener(

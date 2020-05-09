@@ -10,6 +10,7 @@ data class Chapter(
     @PrimaryKey @ColumnInfo(name = "chapterId") val chapterId: String,
     val title: String,
     val image: String,
+    val language: String,
     val checklist: List<String>
 )
 
@@ -31,6 +32,22 @@ data class SubChapter(
     val content: String
 )
 
+@Entity(tableName = "questions",
+    foreignKeys= [ForeignKey(
+        entity=Chapter::class,
+        parentColumns= ["chapterId"],
+        childColumns= ["parentChapterId"],
+        onDelete=CASCADE
+    )],
+    indices = [(Index(value = ["questionId"]))]
+)
+data class Question(
+    @PrimaryKey @ColumnInfo(name = "questionId") val questionId: String,
+    @ColumnInfo(name = "parentChapterId") val parentChapterId: String,
+    val question: String,
+    val choices: List<String>,
+    val answer: String
+)
 //class Converters {
 //    @TypeConverter
 //    fun fromString(value: String?): List<String> {

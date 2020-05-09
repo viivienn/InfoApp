@@ -61,9 +61,6 @@
         android:name="com.example.myapplication.quiz.QuizTitleFragment"
         android:label="QuizTitleFragment">
         <argument
-            android:name="subChapterId"
-            app:argType="string" />
-        <argument
             android:name="parentChapterId"
             app:argType="string" />
         <action
@@ -81,44 +78,71 @@
             android:name="parentChapterId"
             app:argType="string" />
     </fragment>
-    <fragment
-        android:id="@+id/navigation_favorites"
-        android:name="com.example.myapplication.favorites.FavoritesFragment"
-        android:label="FavoritesFragment" />
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_favorites"-->
+<!--        android:name="com.example.myapplication.favorites.FavoritesFragment"-->
+<!--        android:label="FavoritesFragment" />-->
+
     <fragment
         android:id="@+id/gameOverFragment"
         android:name="com.example.myapplication.quiz.GameOverFragment"
         android:label="GameOverFragment" >
+        <argument
+            android:name="parentChapterId"
+            app:argType="string" />
         <action
-            android:id="@+id/action_gameOverFragment_to_gameFragment"
-            app:destination="@id/gameFragment"
+            android:id="@+id/action_gameOverFragment_to_quizTitleFragment"
+            app:destination="@id/quizTitleFragment"
             app:popUpTo="@id/quizTitleFragment" />
+
     </fragment>
     <fragment
         android:id="@+id/gameWonFragment"
         android:name="com.example.myapplication.quiz.GameWonFragment"
         android:label="fragment_game_won"
         tools:layout="@layout/fragment_game_won" >
-        <action
-            android:id="@+id/action_gameWonFragment_to_gameFragment"
-            app:destination="@id/gameFragment"
-            app:popUpTo="@id/quizTitleFragment" />
+        <argument
+            android:name="parentChapterId"
+            app:argType="string" />
         <argument
             android:name="numQuestions"
             app:argType="integer" />
         <argument
             android:name="numCorrect"
             app:argType="integer" />
+        <action
+            android:id="@+id/action_gameWonFragment_to_quizTitleFragment"
+            app:destination="@id/quizTitleFragment"
+            app:popUpTo="@id/quizTitleFragment" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
         android:name="com.example.myapplication.quiz.GameFragment"
         android:label="GameFragment" >
+        <argument
+            android:name="parentChapterId"
+            app:argType="string" />
         <action
             android:id="@+id/action_gameFragment_to_gameWonFragment"
             app:destination="@id/gameWonFragment" />
         <action
             android:id="@+id/action_gameFragment_to_gameOverFragment"
             app:destination="@id/gameOverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_glossary"
+        android:name="com.example.myapplication.glossary.GlossaryFragment"
+        android:label="GlossaryFragment" >
+        <action
+            android:id="@+id/action_navigation_glossary_to_definitionFragment"
+            app:destination="@id/definitionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/definitionFragment"
+        android:name="com.example.myapplication.glossary.DefinitionFragment"
+        android:label="DefinitionFragment">
+        <argument
+            android:name="wordId"
+            app:argType="string" />
     </fragment>
 </navigation>

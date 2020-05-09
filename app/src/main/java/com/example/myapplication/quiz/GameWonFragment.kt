@@ -7,11 +7,12 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.navArgs
 import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentGameWonBinding
 
 class GameWonFragment : Fragment() {
-
+    private val args: GameWonFragmentArgs by navArgs()
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
@@ -19,7 +20,7 @@ class GameWonFragment : Fragment() {
             inflater, R.layout.fragment_game_won, container, false)
         binding.tryAgainButton.setOnClickListener {
                 view: View ->
-            view.findNavController().navigate(GameOverFragmentDirections.actionGameOverFragmentToGameFragment())
+            view.findNavController().navigate(GameOverFragmentDirections.actionGameOverFragmentToQuizTitleFragment(args.parentChapterId))
         }
         return binding.root
     }

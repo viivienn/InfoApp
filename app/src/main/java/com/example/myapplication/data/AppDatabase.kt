@@ -14,11 +14,12 @@ import com.example.myapplication.workers.SeedDatabaseWorker
 /**
  * The Room database for this app
  */
-@Database(entities = [Chapter::class, SubChapter::class], version = 1, exportSchema = false)
+@Database(entities = [Chapter::class, SubChapter::class, Question::class, Word::class], version = 1, exportSchema = false)
 @TypeConverters(Converters::class)
 //@TypeConverters(SubChapterConvertor::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun chapterDao(): ChapterDao
+    abstract fun glossaryDao(): GlossaryDao
 
     companion object {
 

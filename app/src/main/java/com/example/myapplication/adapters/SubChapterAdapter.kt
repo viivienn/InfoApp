@@ -56,9 +56,7 @@ class SubChapterAdapter : ListAdapter<SubChapter, RecyclerView.ViewHolder>(SubCh
             subchapter: SubChapter,
             view: View
         ) {
-            val direction = SubChapterListFragmentDirections.actionSubChapterListFragmentToQuizTitleFragment(
-                subchapter.subChapterId, subchapter.parentChapterId
-            )
+            val direction = SubChapterListFragmentDirections.actionSubChapterListFragmentToQuizTitleFragment(subchapter.parentChapterId)
             view.findNavController().navigate(direction)
         }
 

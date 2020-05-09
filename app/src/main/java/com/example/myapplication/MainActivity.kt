@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var container : ConstraintLayout
     private lateinit var ulang : String
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)
 
         super.onCreate(savedInstanceState)
 
@@ -41,7 +42,6 @@ class MainActivity : AppCompatActivity() {
         container = binding.container
         val navController = this.findNavController(R.id.nav_host_fragment)
 //
-//        NavigationUI.setupActionBarWithNavController(this, navController)
         NavigationUI.setupWithNavController(binding.navView, navController)
 //        val navView: BottomNavigationView = findViewById(R.id.nav_view)
 //        val navController = this.findNavController(R.id.nav_host_fragment)
