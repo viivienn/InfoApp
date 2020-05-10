@@ -1,10 +1,10 @@
 package com.example.myapplication.data
 
 import androidx.lifecycle.LiveData
+import com.example.myapplication.LanguageState
 
 class ChapterRepository private constructor(private val chapterDao: ChapterDao) {
-
-    fun getChapters() = chapterDao.getChapters()
+    fun getChapters() = chapterDao.getChapters(LanguageState.instance.getLang())
 
     fun getSubChapters(parentChapterId: String) = chapterDao.getSubChapters(parentChapterId)
     fun getQuestions(parentChapterId: String) = chapterDao.getQuestions(parentChapterId)

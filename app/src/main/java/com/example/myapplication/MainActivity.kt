@@ -30,11 +30,12 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
     private lateinit var container : ConstraintLayout
-    private lateinit var ulang : String
+    private lateinit var languageState: LanguageState
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
 
         super.onCreate(savedInstanceState)
+        languageState = LanguageState.instance
 
         loadLocate()
 
@@ -70,23 +71,21 @@ class MainActivity : AppCompatActivity() {
 
 
     public fun showChangeLang() {
-
-        var option = -1
-        val listItmes = arrayOf("Francais", "English")
+        var option =  languageState.getOption()
+//        var option = -1
+        val listItmes = arrayOf("English", "Francais")
 
         val mBuilder = AlertDialog.Builder(this@MainActivity)
         mBuilder.setTitle("Choose Language")
 
-        if(ulang == "en")
-            option = 1
-        else
-            option = 0
         mBuilder.setSingleChoiceItems(listItmes, option) { dialog, which ->
-            if (which == 0) {
+            if (which == 1) {
                 setLocate("fr")
+                languageState.setLang("fr")
                 recreate()
-            } else if (which == 1) {
+            } else if (which == 0) {
                 setLocate("en")
+                languageState.setLang("en")
                 recreate()
             }
             dialog.dismiss()
@@ -114,8 +113,8 @@ class MainActivity : AppCompatActivity() {
     private fun loadLocate() {
         val sharedPreferences = getSharedPreferences("Settings", Activity.MODE_PRIVATE)
         val language = sharedPreferences.getString("My_Lang", "")
+        languageState.setLang(Locale.getDefault().getLanguage())
         if (language != null) {
-            ulang = language
             setLocate(language)
         }
     }

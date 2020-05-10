@@ -1,12 +1,14 @@
 [
   {
-    "wordId": "1",
-    "word": "fall: Fall is a sbdashdajsdhahgdgaskjhagsdhajdksjd",
-    "definition": "fall is a noun"
-  },
-  {
     "wordId": "2",
     "word": "moon",
-    "definition": "fall is a noun"
+    "lang": "en",
+    "definition": "moon is a planet"
+  },
+  {
+    "wordId": "3",
+    "word": "lune",
+    "lang": "fr",
+    "definition": "lune est une planete"
   }
 ]

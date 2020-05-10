@@ -3,47 +3,29 @@
     "chapterId": "1",
     "title": "Fall Prevention",
     "image": "me_time.png",
-    "checklist": ["lotion", "cream", "bandaid"]
-  },  {
-  "chapterId": "1",
-  "title": "Skin Care",
-  "image": "me_time.png",
-  "checklist": ["lotion", "cream", "bandaid"]
-},
-  {
-    "chapterId": "2",
-    "title": "Fall Prevention",
-    "image": "me_time.png",
+    "lang": "en",
     "checklist": ["lotion", "cream", "bandaid"]
   },
   {
-    "chapterId": "3",
-    "title": "Fall Prevention",
+    "chapterId": "2",
+    "title": "Prevention tomber",
     "image": "me_time.png",
+    "lang": "fr",
+    "checklist": ["lotion", "cream", "bandaid"]
+  },
+
+  {
+    "chapterId": "3",
+    "title": "Skin Care",
+    "image": "me_time.png",
+    "lang": "en",
     "checklist": ["lotion", "cream", "bandaid"]
   },
   {
     "chapterId": "4",
-    "title": "Fall Prevention",
+    "title": "Peau Soin",
     "image": "me_time.png",
-    "checklist": ["lotion", "cream", "bandaid"]
-  },
-  {
-    "chapterId": "5",
-    "title": "Fall Prevention",
-    "image": "me_time.png",
-    "checklist": ["lotion", "cream", "bandaid"]
-  },
-  {
-    "chapterId": "6",
-    "title": "Fall Prevention",
-    "image": "me_time.png",
-    "checklist": ["lotion", "cream", "bandaid"]
-  },
-  {
-    "chapterId": "7",
-    "title": "Fall Prevention",
-    "image": "me_time.png",
+    "lang": "fr",
     "checklist": ["lotion", "cream", "bandaid"]
   }
 ]

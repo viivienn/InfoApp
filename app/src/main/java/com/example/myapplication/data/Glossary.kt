@@ -8,5 +8,6 @@ import androidx.room.PrimaryKey
 data class Word(
     @PrimaryKey @ColumnInfo(name = "wordId") val wordId: String,
     val word: String,
+    val lang: String,
     val definition: String
 )
