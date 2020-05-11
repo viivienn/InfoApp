@@ -28,41 +28,15 @@ class MainActivity : AppCompatActivity() {
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
         container = binding.container
         val navController = this.findNavController(R.id.nav_host_fragment)
-//
+
 //        NavigationUI.setupActionBarWithNavController(this, navController)
-
         NavigationUI.setupWithNavController(binding.navView, navController)
-//        val navView: BottomNavigationView = findViewById(R.id.nav_view)
-//        val navController = this.findNavController(R.id.nav_host_fragment)
-//        // Passing each menu ID as a set of Ids because each
-//        // menu should be considered as top level destinations.
-//        val appBarConfiguration = AppBarConfiguration(
-//            setOf(
-//                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_settings, R.id.language_item
-//            )
-//        )
-//
-//
-//        setupActionBarWithNavController(navController, appBarConfiguration)
 //        getSupportActionBar()?.setDisplayHomeAsUpEnabled(true);
-
-//        navView.setupWithNavController(navController)
-
-//        navView.setOnNavigationItemSelectedListener {item ->
-//                    item.isChecked = true
-//                    when(item.itemId){
-//                        R.id.language_item -> showChangeLang()
-//
-//                    }
-//            true
-//                }
-
     }
 
 
-    public fun showChangeLang() {
+    fun showChangeLang() {
         var option =  languageState.getOption()
-//        var option = -1
         val listItmes = arrayOf("English", "Francais")
 
         val mBuilder = AlertDialog.Builder(this@MainActivity)
@@ -108,20 +82,6 @@ class MainActivity : AppCompatActivity() {
             setLocate(language)
         }
     }
-
-//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-//        when (item.getItemId()) {
-//            android.R.id.home -> {
-//                finish()
-//                return true
-//            }
-//        }
-//        return super.onOptionsItemSelected(item)
-//    }
-//
-//    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-//        return true
-//    }
 
     override fun onSupportNavigateUp(): Boolean {
         findNavController(R.id.nav_host_fragment).navigateUp()

@@ -27,7 +27,6 @@ class LanguageState: Application() {
         }
     }
 
-
     companion object {
         val instance = LanguageState()
     }

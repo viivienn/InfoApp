@@ -24,7 +24,6 @@ class ChapterListFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-//        (activity as AppCompatActivity).supportActionBar?.hide()
         val binding = FragmentChapterListBinding.inflate(inflater, container, false)
         context ?: return binding.root
 

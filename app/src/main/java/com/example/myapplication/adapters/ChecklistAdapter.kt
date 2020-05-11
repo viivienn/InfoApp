@@ -30,10 +30,7 @@ class ChecklistAdapter(parentId: String) : ListAdapter<String, RecyclerView.View
         private val parentId: String
     ) : RecyclerView.ViewHolder(binding.root) {
 
-//        var isChecked = settings.getBoolean("cbx1_ischecked", false)
-//        checkbox1.setChecked(isChecked );
         var settings: SharedPreferences = context!!.getSharedPreferences("checklists", 0)
-        var checkedState: HashMap<String, Boolean> = HashMap<String, Boolean>()
                 init {
             binding.setClickListener {
                 binding?.let { checkbox ->

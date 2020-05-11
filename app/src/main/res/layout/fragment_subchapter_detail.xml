@@ -90,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/margin_small"
                     android:layout_marginLeft="@dimen/margin_small"
-                    android:minHeight="@dimen/plant_description_min_height"
+                    android:minHeight="@dimen/description_min_height"
                     android:textIsSelectable="true"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"

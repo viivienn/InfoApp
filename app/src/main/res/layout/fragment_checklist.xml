@@ -47,7 +47,7 @@
                     android:layout_height="?attr/actionBarSize"
                     android:background="@android:color/transparent"
                     android:visibility="visible"
-                    app:itemIconTint="@color/sunflower_black"
+                    app:itemIconTint="@android:color/black"
                     app:navigationIcon="@drawable/abc_vector_test"
                     app:titleTextColor="@android:color/white" />
 
