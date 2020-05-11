@@ -29,18 +29,15 @@ import androidx.databinding.BindingAdapter
 
 @BindingAdapter("imageFromString")
 fun setImageUri(view: ImageView, imageUri: String?) {
-    if (imageUri == null) {
-        view.setImageURI(null)
-    } else {
+    if (imageUri == null || imageUri=="") {
+        val resources: Resources = view.resources
+        val resourceId = resources.getIdentifier("bg4", "drawable",  "com.example.myapplication")
+        view.setImageResource(resourceId)
+    }
+    else {
         var imageName = imageUri.replace(".png", "")
         val resources: Resources = view.resources
         val resourceId = resources.getIdentifier(imageName, "drawable",  "com.example.myapplication")
-//        val uri = Uri.Builder()
-//            .scheme(ContentResolver.SCHEME_ANDROID_RESOURCE)
-//            .authority(resources.getResourcePackageName(resourceId))
-//            .appendPath(resources.getResourceTypeName(resourceId))
-//            .appendPath(resources.getResourceEntryName(resourceId))
-//            .build()
         view.setImageResource(resourceId)
     }
 }
@@ -67,7 +64,7 @@ fun bindRenderHtml(view: WebView, content: String?) {
         view.loadDataWithBaseURL(null, content, "text/html", "utf-8", null)
 //        view.movementMethod = LinkMovementMethod.getInstance()
     } else {
-//        view.text = "Loading..."
+        view.loadDataWithBaseURL(null, "loading.html", "text/html", "utf-8", null)
     }
 }
 @BindingAdapter("renderWeb")
@@ -80,7 +77,7 @@ fun bindRenderHtmlWeb(view: WebView, content: String?) {
 //        view.loadDataWithBaseURL(null, content, "text/html", "utf-8", null)
 //        view.movementMethod = LinkMovementMethod.getInstance()
     } else {
-//        view.text = "Loading..."
+        view.loadDataWithBaseURL(null, "loading.html", "text/html", "utf-8", null)
     }
 }
 //@BindingAdapter("wateringText")

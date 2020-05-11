@@ -10,45 +10,37 @@
             type="com.example.myapplication.subChapterDetail.SubChapterDetailViewModel" />
     </data>
 
-        <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true"
-        android:background="@color/colorSurface"
-        tools:ignore="MergeRootFrame">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        tools:ignore="MergeRootFrame"
+        style="@style/CoordLayout">
 
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appbar"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/plant_detail_app_bar_height"
-            android:animateLayoutChanges="true"
-            android:background="@color/design_default_color_background"
-            android:fitsSystemWindows="true"
-            android:stateListAnimator="@animator/show_toolbar"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            style="@style/AppBar">
 
             <com.google.android.material.appbar.CollapsingToolbarLayout
                 android:id="@+id/toolbar_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fitsSystemWindows="true"
                 app:collapsedTitleGravity="center"
+                app:collapsedTitleTextAppearance="@style/TextAppearance.Toolbar.Text"
                 app:contentScrim="?attr/colorPrimaryDark"
+                app:expandedTitleMargin="@dimen/collapse_title_margin"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
                 app:statusBarScrim="?attr/colorPrimaryDark"
                 app:title="@{viewModel.subChapter.title}"
                 app:titleEnabled="false"
                 app:toolbarId="@id/toolbar">
 
+
                 <ImageView
-                    android:id="@+id/detail_image"
+                    android:id="@+id/subchapter_image"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/plant_detail_app_bar_height"
-                    android:fitsSystemWindows="true"
-                    android:scaleType="fitXY"
+                    android:layout_height="@dimen/app_bar_height"
+                    android:contentDescription="@string/image_description"
+                    android:scaleType="centerCrop"
                     app:imageFromString="@{viewModel.subChapter.image}"
-                    app:layout_collapseMode="parallax"
-                    tools:srcCompat="@drawable/lucky" />
+                    app:layout_collapseMode="parallax" />
 
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
@@ -58,15 +50,14 @@
                     app:contentInsetStartWithNavigation="0dp"
                     app:layout_collapseMode="pin"
                     app:menu="@menu/menu_subchapter_detail"
-                    app:navigationIcon="?attr/actionModeCloseDrawable"
-                    app:titleTextColor="@color/colorSurface" />
+                    app:navigationIcon="@drawable/abc_vector_test" />
 
             </com.google.android.material.appbar.CollapsingToolbarLayout>
 
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.core.widget.NestedScrollView
-            android:id="@+id/plant_detail_scrollview"
+            android:id="@+id/chapter_detail_scrollview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
@@ -76,10 +67,10 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="0dp">
+                android:layout_margin="16dp">
 
                 <TextView
-                    android:id="@+id/plant_detail_name"
+                    android:id="@+id/subchapter_title"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/margin_small"
@@ -93,7 +84,7 @@
                     tools:text="Symptoms" />
 
                 <WebView
-                    android:id="@+id/plant_description"
+                    android:id="@+id/subchapter_content"
                     style="?android:attr/textAppearanceMedium"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -104,7 +95,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/plant_detail_name"
+                    app:layout_constraintTop_toBottomOf="@+id/subchapter_title"
                     app:renderWeb="@{viewModel.subChapter.content}"
                     tools:text="Details about the plant" />
 
@@ -112,7 +103,6 @@
 
         </androidx.core.widget.NestedScrollView>
 
-
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </layout>

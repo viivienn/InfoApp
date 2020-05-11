@@ -8,7 +8,8 @@
     <string name="language_button">Language</string>
     <string name="about_button">About</string>
     <string name="title_language">Language</string>
-    <string name="about_text">I love Lucky!</string>
+    <string name="about_text">This app is designed for assistant of PAB and new hires of long term care facilities. The application was developed by ETS student Vivien and the content was written by
+    Cindy Chow, Masters in Occupational Therapy who have consulted doctors to verify the content.</string>
     <string name="welcome_message">Welcome to SafeTrained!</string>
     <string name="logo_image" translatable="false">Logo_image</string>
     <string name="share_detail" translatable="false">share_subchapter_detail</string>
@@ -28,7 +29,17 @@
     <string name="congratulations">Congratulations!</string>
     <string name="share">Share</string>
     <string name="sharing_not_available">Sharing Not Available</string>
+    <string name="correct_res" translatable="false">"You got %s out of %s correct!"</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_description">default background</string>
+    <string name="title_about">About</string>
+    <string name="title_definition">Definition</string>
+    <string name="title_glossary">Glossary</string>
+    <string name="title_game">Game</string>
+    <string name="title_results">Results</string>
+    <string name="title_checklist">Checklist</string>
+    <string name="title_quiz">Quiz</string>
+    <string name="try_again_button">Try Again</string>
 </resources>

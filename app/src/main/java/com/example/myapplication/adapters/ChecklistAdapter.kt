@@ -1,21 +1,21 @@
 package com.example.myapplication.adapters
 
+import android.content.Context
+import android.content.SharedPreferences
+import android.content.SharedPreferences.Editor
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.findNavController
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication.databinding.ListItemChapterBinding
 import com.example.myapplication.databinding.ListItemChecklistBinding
 
 
-class ChecklistAdapter : ListAdapter<String, RecyclerView.ViewHolder>(ChecklistDiffCallback()) {
-
+class ChecklistAdapter(parentId: String) : ListAdapter<String, RecyclerView.ViewHolder>(ChecklistDiffCallback()) {
+    val parentIdValue = parentId
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return ChecklistViewHolder(ListItemChecklistBinding.inflate(
-            LayoutInflater.from(parent.context), parent, false))
+            LayoutInflater.from(parent.context), parent, false), parent.context, parentIdValue)
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
@@ -24,19 +24,29 @@ class ChecklistAdapter : ListAdapter<String, RecyclerView.ViewHolder>(ChecklistD
     }
 
     class ChecklistViewHolder(
-        private val binding: ListItemChecklistBinding
+
+        private val binding: ListItemChecklistBinding,
+        private val context: Context,
+        private val parentId: String
     ) : RecyclerView.ViewHolder(binding.root) {
-//        init {
-//            binding.setClickListener {
-//                binding?.let { checkbox ->
-//
-//
-//                }
-//            }
-//        }
+
+//        var isChecked = settings.getBoolean("cbx1_ischecked", false)
+//        checkbox1.setChecked(isChecked );
+        var settings: SharedPreferences = context!!.getSharedPreferences("checklists", 0)
+        var checkedState: HashMap<String, Boolean> = HashMap<String, Boolean>()
+                init {
+            binding.setClickListener {
+                binding?.let { checkbox ->
+                    val editor: Editor = settings.edit()
+                    editor.putString(parentId + "-" + checkbox.checkBoxItem.text.toString(), checkbox.checkBoxItem.isChecked.toString())
+                    editor.apply()
+                }
+            }
+        }
         fun bind(item: String) {
             binding.apply {
                  checkbox = item
+                checkBoxItem.isChecked = settings.getString("$parentId-$item", "false")!!.toBoolean();
                 executePendingBindings()
             }
         }

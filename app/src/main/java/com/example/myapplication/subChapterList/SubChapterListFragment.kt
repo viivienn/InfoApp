@@ -1,10 +1,10 @@
 package com.example.myapplication.subChapterList
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.observe
@@ -13,8 +13,6 @@ import androidx.navigation.fragment.navArgs
 import com.example.myapplication.adapters.SubChapterAdapter
 import com.example.myapplication.databinding.FragmentSubchapterListBinding
 import com.example.myapplication.utilities.InjectorUtils
-import kotlinx.android.synthetic.main.fragment_subchapter_list.*
-import kotlinx.android.synthetic.main.fragment_subchapter_list.view.*
 
 class SubChapterListFragment : Fragment() {
     private val args: SubChapterListFragmentArgs by navArgs()
@@ -28,6 +26,7 @@ class SubChapterListFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+//        (activity as AppCompatActivity).supportActionBar?.hide()
         val binding = FragmentSubchapterListBinding.inflate(inflater, container, false)
             .apply {
                 sviewModel = viewModel
@@ -47,7 +46,6 @@ class SubChapterListFragment : Fragment() {
 //        Log.i("title", viewModel.chapter.value?.title.toString())
         return binding.root
     }
-
     private fun subscribeUi(adapter: SubChapterAdapter) {
         viewModel.subChapters.observe(viewLifecycleOwner) { subChapters ->
             adapter.submitList(subChapters)

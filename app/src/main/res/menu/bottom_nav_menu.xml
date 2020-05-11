@@ -14,12 +14,12 @@
 <!--        android:title="@string/title_favorites" />-->
     <item
         android:id="@+id/navigation_glossary"
-        android:icon="@drawable/ic_search_black_24dp"
-        android:title="Glossary" />
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/title_glossary" />
 
     <item
         android:id="@+id/navigation_settings"
-        android:icon="@android:drawable/ic_menu_help"
+        android:icon="@android:drawable/ic_menu_manage"
         android:title="@string/title_settings" />
 
 </menu>

@@ -34,7 +34,7 @@ class ChecklistFragment : Fragment() {
 
             }
 
-        val adapter = ChecklistAdapter()
+        val adapter = ChecklistAdapter(args.parentChapterId)
         binding.checklistList.adapter = adapter
         subscribeUi(adapter)
 //        binding.toolbarLayout.title = viewModel.chapter.value?.title.toString()

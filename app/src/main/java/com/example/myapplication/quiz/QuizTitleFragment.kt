@@ -1,15 +1,17 @@
 package com.example.myapplication.quiz
 
 import android.os.Bundle
-import android.view.*
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.ImageButton
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
-import androidx.navigation.ui.NavigationUI
 import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentQuizTitleBinding
-import com.example.myapplication.subChapterList.SubChapterListFragmentArgs
+
 
 class QuizTitleFragment : Fragment() {
     private val args: QuizTitleFragmentArgs by navArgs()
@@ -21,6 +23,15 @@ class QuizTitleFragment : Fragment() {
             inflater, R.layout.fragment_quiz_title, container, false
         )
 
+        binding.backButton.setOnClickListener{ view ->
+            view.findNavController().navigateUp()
+        }
+
+//        val back = binding.backButton as ImageButton
+//        back.setOnClickListener(view: View ->
+//            viewonBackPressed()
+//        )
+
         binding.playButton.setOnClickListener { view: View ->
             view.findNavController().navigate(QuizTitleFragmentDirections.actionQuizTitleFragmentToGameFragment(args.parentChapterId))
         }
@@ -31,6 +42,8 @@ class QuizTitleFragment : Fragment() {
         setHasOptionsMenu(true)
 
         return binding.root
+
+
 
     }
 }

@@ -1,14 +1,14 @@
 [
   {
-    "wordId": "2",
-    "word": "moon",
+    "wordId": "1",
+    "word": "Moon",
     "lang": "en",
-    "definition": "moon is a planet"
+    "definition": "Moon is a planet"
   },
   {
-    "wordId": "3",
-    "word": "lune",
+    "wordId": "2",
+    "word": "Lune",
     "lang": "fr",
-    "definition": "lune est une planete"
+    "definition": "Lune est une planete"
   }
 ]

@@ -4,10 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.observe
+import androidx.navigation.findNavController
 import com.example.myapplication.R
 import com.example.myapplication.adapters.ChapterAdapter
 import com.example.myapplication.adapters.GlossaryAdapter
@@ -29,7 +31,11 @@ class GlossaryFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentGlossaryBinding.inflate(inflater, container, false)
+        val binding = FragmentGlossaryBinding.inflate(inflater, container, false) .apply {
+            toolbar.setNavigationOnClickListener { view ->
+                view.findNavController().navigateUp()
+            }
+        }
         context ?: return binding.root
 
         val adapter = GlossaryAdapter()
@@ -45,7 +51,6 @@ class GlossaryFragment : Fragment() {
             adapter.submitList(words)
         }
     }
-
 }
 
 
