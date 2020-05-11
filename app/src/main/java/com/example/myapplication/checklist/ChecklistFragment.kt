@@ -14,6 +14,8 @@ import com.example.myapplication.adapters.ChecklistAdapter
 import com.example.myapplication.databinding.FragmentChecklistBinding
 
 import com.example.myapplication.utilities.InjectorUtils
+import com.google.android.material.appbar.AppBarLayout
+import kotlinx.android.synthetic.main.fragment_checklist.*
 
 class ChecklistFragment : Fragment() {
     private val args: ChecklistFragmentArgs by navArgs()
@@ -31,6 +33,22 @@ class ChecklistFragment : Fragment() {
                 toolbar.setNavigationOnClickListener { view ->
                     view.findNavController().navigateUp()
                 }
+
+                var isShow = true
+                var scrollRange = -1
+                appbar.addOnOffsetChangedListener(AppBarLayout.OnOffsetChangedListener { barLayout, verticalOffset ->
+                    if (scrollRange == -1){
+                        scrollRange = barLayout?.totalScrollRange!!
+                    }
+                    if (scrollRange + verticalOffset == 0){
+                        toolbar_layout.title = "Checklist"
+                        isShow = true
+                    } else if (isShow){
+                        toolbar_layout.title = " " //careful there should a space between double quote otherwise it wont work
+                        isShow = false
+                    }
+                })
+
 
             }
 

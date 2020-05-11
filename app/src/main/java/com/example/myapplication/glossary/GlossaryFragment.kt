@@ -4,21 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
-import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.observe
 import androidx.navigation.findNavController
-import com.example.myapplication.R
-import com.example.myapplication.adapters.ChapterAdapter
 import com.example.myapplication.adapters.GlossaryAdapter
-import com.example.myapplication.chapterList.ChapterListViewModel
-import com.example.myapplication.databinding.FragmentChapterListBinding
-import com.example.myapplication.databinding.FragmentFavoritesBinding
 import com.example.myapplication.databinding.FragmentGlossaryBinding
-import com.example.myapplication.favorites.FavoritesViewModel
 import com.example.myapplication.utilities.InjectorUtils
+import com.google.android.material.appbar.AppBarLayout
+import kotlinx.android.synthetic.main.fragment_glossary.*
 
 class GlossaryFragment : Fragment() {
 

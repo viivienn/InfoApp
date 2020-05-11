@@ -17,7 +17,7 @@
     <dimen name="margin_extra_small">4dp</dimen>
     <dimen name="collapse_title_margin">15dp</dimen>
 
-    <dimen name="plant_item_image_height">95dp</dimen>
+    <dimen name="item_image_height">95dp</dimen>
 
     <dimen name="card_side_margin">12dp</dimen>
     <dimen name="card_bottom_margin">20dp</dimen>

@@ -4,54 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true"
-        tools:context=".ScrollingActivity">
+        tools:ignore="MergeRootFrame"
+        style="@style/CoordLayout">
 
         <com.google.android.material.appbar.AppBarLayout
-            android:id="@+id/appBarLayout"
-            android:layout_width="match_parent"
-            android:layout_height="244dp"
-            android:animateLayoutChanges="true"
-            android:background="@color/design_default_color_background"
-            android:stateListAnimator="@animator/show_toolbar"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            android:id="@+id/appbar"
+            style="@style/AppBar">
 
 
             <com.google.android.material.appbar.CollapsingToolbarLayout
                 android:id="@+id/toolbar_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fitsSystemWindows="true"
-                app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Large"
+                app:collapsedTitleGravity="center"
+                app:collapsedTitleTextAppearance="@style/TextAppearance.Toolbar.Text"
                 app:contentScrim="?attr/colorPrimaryDark"
+                app:expandedTitleMargin="@dimen/collapse_title_margin"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
                 app:statusBarScrim="?attr/colorPrimaryDark"
-                app:title="Checklist"
-                app:titleEnabled="false"
-                app:toolbarId="@+id/toolbar">
+                app:title="@string/title_checklist"
+                app:toolbarId="@id/toolbar">
+
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/app_bar_height"
-                    android:fitsSystemWindows="true"
+                    android:contentDescription="@string/image_description"
                     android:scaleType="centerCrop"
                     app:layout_collapseMode="parallax"
                     app:srcCompat="@drawable/check" />
 
-
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
-                    android:layout_width="match_parent"
-                    android:layout_height="?attr/actionBarSize"
-                    android:background="@android:color/transparent"
-                    android:visibility="visible"
-                    app:itemIconTint="@android:color/black"
+                    app:contentInsetStartWithNavigation="0dp"
+                    app:layout_collapseMode="pin"
                     app:navigationIcon="@drawable/abc_vector_test"
-                    app:titleTextColor="@android:color/white" />
+                    style="@style/Toolbar" />
 
             </com.google.android.material.appbar.CollapsingToolbarLayout>
+
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.recyclerview.widget.RecyclerView

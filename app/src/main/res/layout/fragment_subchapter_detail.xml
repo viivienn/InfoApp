@@ -29,7 +29,6 @@
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
                 app:statusBarScrim="?attr/colorPrimaryDark"
                 app:title="@{viewModel.subChapter.title}"
-                app:titleEnabled="false"
                 app:toolbarId="@id/toolbar">
 
 
@@ -96,8 +95,7 @@
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/subchapter_title"
-                    app:renderWeb="@{viewModel.subChapter.content}"
-                    tools:text="Details about the plant" />
+                    app:renderWeb="@{viewModel.subChapter.content}" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

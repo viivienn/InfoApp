@@ -47,10 +47,13 @@
     </style>
 
 
-    <style name="Theme.Sunflower.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
-
     <style name="TextAppearance.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline5" >
         <item name="android:textColor">@color/colorSurface</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="TextAppearance.Toolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline5" >
+        <item name="android:textColor">@android:color/black</item>
         <item name="android:fontFamily">@font/roboto</item>
     </style>
 

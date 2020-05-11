@@ -1,14 +1,9 @@
 package com.example.myapplication.adapters
 
 import android.content.res.Resources
-import android.net.Uri
-import android.text.method.LinkMovementMethod
 import android.util.Log
 import android.webkit.WebView
 import android.widget.ImageView
-import android.widget.TextView
-import androidx.core.text.HtmlCompat
-import androidx.core.text.HtmlCompat.FROM_HTML_MODE_COMPACT
 import androidx.databinding.BindingAdapter
 
 @BindingAdapter("imageFromString")

@@ -7,10 +7,7 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication.chapterList.ChapterListFragmentDirections
-import com.example.myapplication.data.Chapter
 import com.example.myapplication.data.Word
-import com.example.myapplication.databinding.ListItemChecklistBinding
 import com.example.myapplication.databinding.ListItemGlossaryBinding
 import com.example.myapplication.glossary.GlossaryFragmentDirections
 
