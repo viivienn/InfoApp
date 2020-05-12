@@ -4,6 +4,9 @@ Demo:
 
 https://youtu.be/DzjBdaCgJLc
 
+
+![Logo](/app/src/main/assets/logo.png)
+
 The SafeTrained app is designed to enhance learning for assistants of the orderlies and new hires of long term care facilities. Being aware of the ongoing staffing and time constraints, our goal is to provide easily accessible information and resources on an interactive platform to ensure patient and staff safety.
 
 The application was developed by ETS student Vivien and the content was written and translated by Selma Bannour, Cindy Chow, Cindy Guo, Celine Tran, Jonathan-Hao Tran, MSc. Occupational Therapy students at McGill University. 
