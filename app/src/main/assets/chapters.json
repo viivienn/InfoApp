@@ -22,7 +22,7 @@
   },
   {
     "chapterId": "4",
-    "title": "hydration, feeding & dysphagia",
+    "title": "Hydration, feeding & dysphagia",
     "image": "feeding_assistance.png",
     "lang": "en", 
     "checklist": ["lotion", "cream", "bandaid"]
@@ -85,7 +85,7 @@
     },
     {
       "chapterId": "13",
-      "title": "Self-Care Management",
+      "title": "Soins Personels",
       "image": "selfcare_management.png",
       "lang": "fr", 
       "checklist": ["lotion", "cream", "bandaid"]
