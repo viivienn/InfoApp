@@ -4,8 +4,7 @@ Demo:
 
 https://youtu.be/DzjBdaCgJLc
 
-
-![Quiz](/screenshots/quiz)
+Screenshots: All screenshots are in the /screenshots folder as there are multiple screens.
 
 The SafeTrained app is designed to enhance learning for assistants of the orderlies and new hires of long term care facilities. Being aware of the ongoing staffing and time constraints, our goal is to provide easily accessible information and resources on an interactive platform to ensure patient and staff safety.
 
