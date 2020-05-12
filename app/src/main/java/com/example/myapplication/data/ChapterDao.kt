@@ -11,7 +11,7 @@ interface ChapterDao {
     @Query("SELECT * FROM chapters WHERE lang = :lang ORDER BY chapterId")
     fun getChapters(lang: String): LiveData<List<Chapter>>
 
-    @Query("SELECT * FROM subchapters WHERE parentChapterId = :parentChapterId ORDER BY subChapterId")
+    @Query("SELECT * FROM subchapters WHERE parentChapterId = :parentChapterId ORDER BY title")
     fun getSubChapters(parentChapterId: String): LiveData<List<SubChapter>>
 
     @Query("SELECT title FROM chapters WHERE chapterId = :chapterId")
