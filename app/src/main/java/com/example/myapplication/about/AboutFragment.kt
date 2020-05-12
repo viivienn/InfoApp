@@ -8,6 +8,7 @@ import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.myapplication.databinding.FragmentAboutBinding
+import kotlinx.android.synthetic.main.fragment_about.*
 
 
 class AboutFragment : Fragment() {

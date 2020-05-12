@@ -8,8 +8,10 @@
     <string name="language_button">Language</string>
     <string name="about_button">About</string>
     <string name="title_language">Language</string>
-    <string name="about_text">This app is designed for assistant of PAB and new hires of long term care facilities. The application was developed by ETS student Vivien and the content was written by
-    Cindy Chow, Masters in Occupational Therapy who have consulted doctors to verify the content.</string>
+    <string name="about_text">The SafeTrained app is designed to enhance learning for assistants of the orderlies and new hires of long term care facilities. Being aware of the ongoing staffing and time constraints, our goal is to provide easily accessible information and resources on an interactive platform to ensure patient and staff safety.
+    \n\nThe application was developed by ETS student Vivien and the content was written and translated by Selma Bannour, Cindy Chow, Cindy Guo, Celine Tran, Jonathan-Hao Tran, MSc. Occupational Therapy students at McGill University. The project is supervised and verified by Occupational Therapist, Karen Falccichio.\n\nOther acknowledgments: Perrine Peckre, OT at CIUSSS de l\'Ouest-de-l\'Île
+Pamela Scher, OT at Vigi Santé of West island Tiffany Chenn for logo designs
+    </string>
     <string name="welcome_message">Welcome to SafeTrained!</string>
     <string name="logo_image" translatable="false">Logo_image</string>
     <string name="share_detail" translatable="false">share_subchapter_detail</string>
