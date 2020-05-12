@@ -5,7 +5,7 @@ Demo:
 https://youtu.be/DzjBdaCgJLc
 
 
-![Logo](/images/logo.png)
+![Logo](/app/src/main/assets/logo.png)
 
 The SafeTrained app is designed to enhance learning for assistants of the orderlies and new hires of long term care facilities. Being aware of the ongoing staffing and time constraints, our goal is to provide easily accessible information and resources on an interactive platform to ensure patient and staff safety.
 
