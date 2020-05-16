@@ -17,6 +17,7 @@ import com.example.myapplication.databinding.FragmentGameResultsBinding
 import com.example.myapplication.databinding.FragmentQuizResultsBinding
 import com.example.myapplication.databinding.FragmentSubchapterListBinding
 import com.example.myapplication.utilities.InjectorUtils
+import kotlinx.android.synthetic.main.list_item_result.view.*
 
 class GameResultsFragment : Fragment() {
     private val args: GameResultsFragmentArgs by navArgs()
@@ -30,30 +31,23 @@ class GameResultsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 //        (activity as AppCompatActivity).supportActionBar?.hide()
-        val binding = FragmentGameResultsBinding.inflate(inflater, container, false)
+        val binding = FragmentQuizResultsBinding.inflate(inflater, container, false)
         binding.setLifecycleOwner(this);
 
         binding.backButton.setOnClickListener{ view ->
             view.findNavController().navigateUp()
         }
-//        binding.resultText.setText(getString(R.string.correct_res, args.numCorrect.toString(), args.numQuestions.toString()))
-//        binding.tryAgainButton.setOnClickListener {
-//                view: View ->
-//            view.findNavController().navigate(GameResultsFragmentDirections.actionGameWonFragmentToQuizTitleFragment(args.parentChapterId))
-//        }
-//        val adapter = GameAdapter()
-//        binding.resultsList.adapter = adapter
-//        subscribeUi(adapter)
-
+        binding.resultText.setText(getString(R.string.correct_res, args.numCorrect.toString(), args.numQuestions.toString()))
+        binding.tryAgainButton.setOnClickListener {
+                view: View ->
+            view.findNavController().navigate(GameResultsFragmentDirections.actionGameWonFragmentToQuizTitleFragment(args.parentChapterId))
+        }
+        val adapter = GameAdapter(viewModel.questions, args.userAnswers )
+        binding.resultsList.adapter = adapter
 
         // Inflate the layout for this fragment
 
         return binding.root
     }
 
-//    private fun subscribeUi(adapter: GameAdapter) {
-//        viewModel.questions.observe(viewLifecycleOwner) { questions ->
-//            adapter.submitList(questions)
-//        }
-//    }
 }

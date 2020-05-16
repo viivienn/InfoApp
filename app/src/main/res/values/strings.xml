@@ -34,4 +34,6 @@ Pamela Scher, OT at Vigi Santé of West island Tiffany Chenn for logo designs
     <string name="title_quiz" translatable="false">Quiz</string>
     <string name="try_again_button">Try Again</string>
     <string name="quiz_time">Quiz Time!</string>
+    <string name="your_answer_text">Your Answer:</string>
+    <string name="correct_answer_text">Correct Answer:</string>
 </resources>

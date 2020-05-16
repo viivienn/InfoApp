@@ -25,4 +25,6 @@
     <string name="share">Partagez</string>
     <string name="sharing_not_available">Option non disponible</string>
     <string name="quiz_time">Temps pour un quiz!</string>
+    <string name="your_answer_text">Votre réponse:</string>
+    <string name="correct_answer_text">La bonne réponse:</string>
 </resources>
