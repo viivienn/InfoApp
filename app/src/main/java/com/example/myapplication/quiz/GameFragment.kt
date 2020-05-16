@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.observe
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
@@ -32,6 +34,7 @@ class GameFragment : Fragment() {
     lateinit var currentQuestion: Question
     lateinit var answers: MutableList<String>
     lateinit var questions: MutableList<Question>
+    var uAnswers = ""
     private var correct = 0
     private var questionIndex = 0
     private var numQuestions = -1
@@ -47,7 +50,7 @@ class GameFragment : Fragment() {
         binding.backButton.setOnClickListener{ view ->
             view.findNavController().navigateUp()
         }
-        questions= viewModel.questions.toMutableList()
+        questions = viewModel.questions.toMutableList()
         numQuestions = 3 //Math.min((questions.size + 1) / 2, 3)
 //         Shuffles the questions and sets the question index to the first question.
         randomizeQuestions()
@@ -72,6 +75,8 @@ class GameFragment : Fragment() {
                 if (answers[answerIndex] == currentQuestion.answer) {
                     correct++
                 }
+
+                uAnswers+=answerIndex
                 questionIndex++
 
                 // Advance to the next question
@@ -80,7 +85,7 @@ class GameFragment : Fragment() {
                     setQuestion()
                     binding.invalidateAll()
                 } else {
-                    view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToGameWonFragment(args.parentChapterId, numQuestions, correct))
+                    view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToGameWonFragment(args.parentChapterId, numQuestions, correct, uAnswers))
                 }
 //                } else {
 //
@@ -95,7 +100,7 @@ class GameFragment : Fragment() {
 
 //     randomize the questions and set the first question
     private fun randomizeQuestions() {
-        questions.shuffle()
+//        questions.shuffle()
         questionIndex = 0
         setQuestion()
     }
@@ -104,7 +109,7 @@ class GameFragment : Fragment() {
     // Calling invalidateAll on the FragmentGameBinding updates the data.
     private fun setQuestion() {
         currentQuestion = questions[questionIndex]
-        // randomize the answers into a copy of the array
+
         answers = currentQuestion.choices.toMutableList()
         // and shuffle them
         answers.shuffle()

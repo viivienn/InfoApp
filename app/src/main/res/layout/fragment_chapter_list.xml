@@ -6,7 +6,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bg6"
+        android:background="@drawable/bg"
     >
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:fontFamily="@font/bowlby_one_sc"
+                android:fontFamily="@font/montserrat_bold"
                 android:text="@string/welcome_message"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
@@ -29,15 +29,15 @@
 
             <ImageView
                 android:id="@+id/pillImage"
-                android:layout_width="71dp"
-                android:layout_height="78dp"
+                android:layout_width="81dp"
+                android:layout_height="77dp"
                 android:layout_marginTop="16dp"
                 android:contentDescription="@string/logo_image"
-                android:src="@drawable/pill_removebg_preview"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo__1_" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/chapter_list"

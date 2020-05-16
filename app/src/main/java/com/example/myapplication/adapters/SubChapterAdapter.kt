@@ -36,49 +36,49 @@ class SubChapterAdapter : ListAdapter<SubChapter, RecyclerView.ViewHolder>(SubCh
                     else if(subchapter.title.contains("Checklist")){
                         navigateToChecklist(subchapter, it)
                     }
-                    else{
-                        navigateToSubChapterDetail(subchapter, it)
-                    }
-                }
-            }
-        }
+else{
+    navigateToSubChapterDetail(subchapter, it)
+}
+}
+}
+}
 
-        private fun navigateToChecklist(
-            subchapter: SubChapter,
-            view: View
-        ) {
-            val direction = SubChapterListFragmentDirections.actionSubChapterListFragmentToChecklistFragment(
-                subchapter.subChapterId, subchapter.parentChapterId
-            )
-            view.findNavController().navigate(direction)
-        }
-        private fun navigateToQuiz(
-            subchapter: SubChapter,
-            view: View
-        ) {
-            val direction = SubChapterListFragmentDirections.actionSubChapterListFragmentToQuizTitleFragment(subchapter.parentChapterId)
-            view.findNavController().navigate(direction)
-        }
+private fun navigateToChecklist(
+    subchapter: SubChapter,
+    view: View
+) {
+    val direction = SubChapterListFragmentDirections.actionSubChapterListFragmentToChecklistFragment(
+        subchapter.subChapterId, subchapter.parentChapterId
+    )
+    view.findNavController().navigate(direction)
+}
+private fun navigateToQuiz(
+    subchapter: SubChapter,
+    view: View
+) {
+    val direction = SubChapterListFragmentDirections.actionSubChapterListFragmentToQuizTitleFragment(subchapter.parentChapterId)
+    view.findNavController().navigate(direction)
+}
 
-        private fun navigateToSubChapterDetail(
-            subchapter: SubChapter,
-            view: View
-        ) {
-            val direction = subchapter.parentChapterId?.let {
-                SubChapterListFragmentDirections.actionSubChapterListFragmentToSubChaptertDetailFragment(subchapter.subChapterId,
-                    it
-                )
-            }
-            view.findNavController().navigate(direction)
-        }
-
-        fun bind(item: SubChapter) {
-            binding.apply {
-                subChapter = item
-                executePendingBindings()
-            }
-        }
+private fun navigateToSubChapterDetail(
+    subchapter: SubChapter,
+    view: View
+) {
+    val direction = subchapter.parentChapterId?.let {
+        SubChapterListFragmentDirections.actionSubChapterListFragmentToSubChaptertDetailFragment(subchapter.subChapterId,
+            it
+        )
     }
+    view.findNavController().navigate(direction)
+}
+
+fun bind(item: SubChapter) {
+    binding.apply {
+        subChapter = item
+        executePendingBindings()
+    }
+}
+}
 }
 
 private class SubChapterDiffCallback : DiffUtil.ItemCallback<SubChapter>() {

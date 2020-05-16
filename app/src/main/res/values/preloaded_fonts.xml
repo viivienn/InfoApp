@@ -2,7 +2,11 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/bowlby_one_sc</item>
+        <item>@font/montserrat_bold</item>
+        <item>@font/open_sans</item>
         <item>@font/permanent_marker</item>
+        <item>@font/playfair_display</item>
+        <item>@font/playfair_display_bold</item>
         <item>@font/roboto</item>
     </array>
 </resources>

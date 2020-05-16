@@ -97,6 +97,9 @@
         <argument
             android:name="numCorrect"
             app:argType="integer" />
+        <argument
+            android:name="userAnswers"
+            app:argType="string" />
         <action
             android:id="@+id/action_gameWonFragment_to_quizTitleFragment"
             app:destination="@id/quizTitleFragment"

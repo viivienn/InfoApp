@@ -12,7 +12,7 @@
     \n\nThe application was developed by ETS student Vivien and the content was written and translated by Selma Bannour, Cindy Chow, Cindy Guo, Celine Tran, Jonathan-Hao Tran, MSc. Occupational Therapy students at McGill University. The project is supervised and verified by Occupational Therapist, Karen Falccichio.\n\nOther acknowledgments: Perrine Peckre, OT at CIUSSS de l\'Ouest-de-l\'Île
 Pamela Scher, OT at Vigi Santé of West island Tiffany Chenn for logo designs
     </string>
-    <string name="welcome_message">Welcome to SafeTrained!</string>
+    <string name="welcome_message">Welcome to SafeTrained</string>
     <string name="logo_image" translatable="false">Logo_image</string>
     <string name="share_detail" translatable="false">share_subchapter_detail</string>
     <string name="share_message">Check out this %s module on SafeTrained</string>

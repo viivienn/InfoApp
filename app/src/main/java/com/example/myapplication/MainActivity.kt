@@ -19,29 +19,22 @@ class MainActivity : AppCompatActivity() {
     private lateinit var languageState: LanguageState
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
-
         super.onCreate(savedInstanceState)
         languageState = LanguageState.instance
-
         loadLocate()
-
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
         container = binding.container
         val navController = this.findNavController(R.id.nav_host_fragment)
-
 //        NavigationUI.setupActionBarWithNavController(this, navController)
         NavigationUI.setupWithNavController(binding.navView, navController)
 //        getSupportActionBar()?.setDisplayHomeAsUpEnabled(true);
     }
 
-
     fun showChangeLang() {
         var option =  languageState.getOption()
         val listItmes = arrayOf("English", "Francais")
-
         val mBuilder = AlertDialog.Builder(this@MainActivity)
         mBuilder.setTitle("Choose Language")
-
         mBuilder.setSingleChoiceItems(listItmes, option) { dialog, which ->
             if (which == 1) {
                 setLocate("fr")
@@ -59,16 +52,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setLocate(Lang: String) {
-
         val locale = Locale(Lang)
-
         Locale.setDefault(locale)
-
         val config = Configuration()
-
         config.locale = locale
         baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)
-
         val editor = getSharedPreferences("Settings", Context.MODE_PRIVATE).edit()
         editor.putString("My_Lang", Lang)
         editor.apply()
