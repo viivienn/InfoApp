@@ -45,7 +45,6 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:fontFamily="sans-serif"
-                android:justificationMode="inter_word"
                 android:text="@{game.currentQuestion.question}"
                 android:textSize="@dimen/question_text_size"
                 android:textStyle="bold"
