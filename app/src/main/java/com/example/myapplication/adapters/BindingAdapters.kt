@@ -12,9 +12,9 @@ import androidx.databinding.BindingAdapter
 @BindingAdapter("imageFromString")
 fun setImageUri(view: ImageView, imageUri: String?) {
     if (imageUri == null || imageUri=="") {
-        val resources: Resources = view.resources
-        val resourceId = resources.getIdentifier("bg4", "drawable",  "com.example.myapplication")
-        view.setImageResource(resourceId)
+//        val resources: Resources = view.resources
+//        val resourceId = resources.getIdentifier("bg4", "drawable",  "com.example.myapplication")
+//        view.setImageResource(resourceId)
     }
     else {
         var imageName = imageUri.replace(".png", "")
@@ -54,6 +54,6 @@ fun bindRenderHtmlWeb(view: WebView, content: String?) {
         view.loadUrl(ncontent)
 
     } else {
-        view.loadDataWithBaseURL(null, "loading.html", "text/html", "utf-8", null)
+//        view.loadDataWithBaseURL(null, "loading.html", "text/html", "utf-8", null)
     }
 }
