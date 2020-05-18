@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:fontFamily="@font/montserrat_bold"
+                android:fontFamily="@font/open_sans_semibold"
                 android:text="@string/welcome_message"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
