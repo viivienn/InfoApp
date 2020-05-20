@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="title_settings">Paramètres</string>
-    <string name="title_home">Acceuil</string>
+    <string name="title_home">Accueil</string>
     <string name="french">Français</string>
     <string name="english">Anglais</string>
     <string name="about_button">À Propos</string>
