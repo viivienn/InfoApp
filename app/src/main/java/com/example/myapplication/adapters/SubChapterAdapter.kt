@@ -33,7 +33,7 @@ class SubChapterAdapter : ListAdapter<SubChapter, RecyclerView.ViewHolder>(SubCh
                     if(subchapter.title.contains("Quiz")){
                         navigateToQuiz(subchapter, it)
                     }
-                    else if(subchapter.title.contains("Checklist")){
+                    else if(subchapter.title.contains("Key Points")  || subchapter.title.contains("Points à retenir")){
                         navigateToChecklist(subchapter, it)
                     }
 else{

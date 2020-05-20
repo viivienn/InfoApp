@@ -1,36 +1,43 @@
-[
+﻿[
   {
     "chapterId": "1",
     "title": "Fall Prevention",
     "image": "fall_prevention.png",
+    "image_sub": "fallprevention.png",
     "lang": "en", 
-    "checklist": ["Is the call bell within their reach?", "Is the walking aid next to the patient?", "Does the patient need anything before you leave?"]
+    "checklist": ["Is the call bell within their reach?",
+       "Is the walking aid next to the patient?",
+        "Does the patient need anything before you leave?"]
 },
   {
     "chapterId": "2",
     "title": "Patient Handling Techniques",
     "image": "patient_handling.png",
+    "image_sub": "patienthandling.png",
     "lang": "en", 
-    "checklist": ["lotion", "cream", "bandaid"]
+    "checklist": ["lotion", "cream", "bandaid" ]
   },
   {
     "chapterId": "3",
-    "title": "Mobility Aids and Bed system",
+    "title": "Mobility Aids and Bed System",
     "image": "mobility_aid_and_equipment.png",
+    "image_sub": "mobilityaid.png",
     "lang": "en", 
     "checklist": ["lotion", "cream", "bandaid"]
   },
   {
     "chapterId": "4",
-    "title": "Hydration, feeding & dysphagia",
+    "title": "Hydration, Feeding & Dysphagia",
     "image": "feeding_assistance.png",
+    "image_sub": "feeding.png",
     "lang": "en", 
     "checklist": ["lotion", "cream", "bandaid"]
   },
   {
     "chapterId": "5",
-    "title": "Pressure Wound Prevention",
+    "title": "Pressure Sores Prevention",
     "image": "pressure_wound_prevention.png",
+    "image_sub": "pressure.png",
     "lang": "en", 
     "checklist": ["lotion", "cream", "bandaid"]
   },
@@ -38,13 +45,15 @@
     "chapterId": "6",
     "title": "Self-Care Management",
     "image": "selfcare_management.png",
+    "image_sub": "selfcare.png",
     "lang": "en", 
     "checklist": ["lotion", "cream", "bandaid"]
   },
   {
     "chapterId": "7",
-    "title": "Communication strategies with residents",
+    "title": "Communication Strategies with Residents",
     "image": "communication_strategies.png",
+    "image_sub": "communication.png",
     "lang": "en", 
     "checklist": ["lotion", "cream", "bandaid"]
   },
@@ -52,49 +61,91 @@
       "chapterId": "8",
       "title": "Prévention des chutes",
       "image": "fall_prevention.png",
+      "image_sub": "fallprevention.png",
       "lang": "fr", 
-      "checklist": ["La cloche d'appel est-elle à leur portée?", "Les aides à la mobilités sont-ils placé à côté du patient? ?", "Le patient a-t-il besoin de quelque chose avant que vous partez?"]
+      "checklist": ["La cloche d’appel et tout objet essentiel sont à proximité du résident",
+         "L’accessoire de marche (marchette, cane) est toujours placé à côté du lit",
+         "Aucun obstacle, fil électrique ou dégât n’est sur le plancher",
+         "Le résident porte toujours des souliers adéquats lorsqu’il marche",
+         "Tous les besoins du résident sont satisfaits avant de quitter la chambre"]
   },
     {
       "chapterId": "9",
-      "title": "Déplacement Sécuritaire",
+      "title": "Principes pour le déplacement sécuritaire",
       "image": "patient_handling.png",
+      "image_sub": "patienthandling.png",
       "lang": "fr", 
-      "checklist": ["lotion", "cream", "bandaid"]
+      "checklist": ["Avoir tout équipement nécessaire à la portée de la main. Cela inclut les aides à la mobilité du patient (marchette, canne), le fauteuil roulant, le piqué, etc.",
+         "cream",
+         "bandaid",
+         "",
+         "",
+         ""]
     },
     {
       "chapterId": "10",
-      "title": "Aides à la mobilité et le système de lit",
+      "title": "Aides à la mobilité et système de lit",
       "image": "mobility_aid_and_equipment.png",
+      "image_sub": "mobilityaid.png",
       "lang": "fr", 
-      "checklist": ["lotion", "cream", "bandaid"]
+      "checklist": ["Les freins du fauteuil roulant doivent être mis durant toute manoeuvre de déplacement",
+         "cream",
+         "bandaid",
+         "Communiquer avec le résident avant de pousser ou déplacer le fauteuil roulant",
+         "Communiquer avec le résident avant de basculer ou incliner le fauteuil roulant",
+         "Familiariser avec le système de lit à votre établissement de soins longue durée",
+         "Dans le fauteuil roulant, le résident est assis au fond du siège (les fesses touchant l’arrière du siège)", 
+         "Dans le fauteuil roulant, le résident est assis tout droit",
+         "Dans le fauteuil roulant, les genoux et le bassin du résident doivent être au même niveau durant l'utilisation des appuis-pieds",
+         "Le lit du résident est maintenu à la position la plus basse avec les freins engagés",
+         "Le résident ne doit pas tenir sur sa canne ou marchette lorsqu’il se lève"]
     },
     {
       "chapterId": "11",
-      "title": "Hydratation, Alimentation et Dysphagie",
+      "title": "Hydratation, alimentation et dysphagie",
       "image": "feeding_assistance.png",
+      "image_sub": "feeding.png",
       "lang": "fr", 
       "checklist": ["lotion", "cream", "bandaid"]
     },
     {
       "chapterId": "12",
-      "title": "Prévention des plaies de pression",
+      "title": "Plaie de pression et prévention",
       "image": "pressure_wound_prevention.png",
+      "image_sub": "pressure.png",
       "lang": "fr", 
       "checklist": ["lotion", "cream", "bandaid"]
     },
     {
       "chapterId": "13",
-      "title": "Soins Personels",
+      "title": "Gestion de soins personnels",
       "image": "selfcare_management.png",
+      "image_sub": "selfcare.png",
       "lang": "fr", 
-      "checklist": ["lotion", "cream", "bandaid"]
+      "checklist": ["Garder un oeil sur les plaies de pressions, surtout dans les régions fréquemment touchées",
+         "Aviser un professionnel immédiatement si vous soupçonnez la formation d’une plaie de pression",
+         "Changer de position toutes les 2 heures au lit",
+         "Limiter les mouvements qui peuvent créer de la friction ou des cisaillements chez le résident durant les transferts", 
+         "Vérifier que la posture du résident est bien alignée en tout temps (avec des équipements de positionnement, si nécessaire)"]
     },
     {
       "chapterId": "14",
-      "title": "Stratégies de Communication with residents",
+      "title": "Stratégies de communication avec les résidents",
       "image": "communication_strategies.png",
+      "image_sub": "communication.png",
       "lang": "fr", 
-      "checklist": ["lotion", "cream", "bandaid"]
+      "checklist": ["S’introduire lorsque vous entrez dans la chambre d’un résident",
+         "Expliquer la raison de votre visite au résident: utiliser un vocabulaire simple et parler clairement",
+         "bandaid",
+         "Si le résident est en mesure de donner son consentement, demander pour son consentement avant de commencer votre intervention",
+         "S’assurer que le résident est en mesure de voir, d’entendre et de comprendre ce que vous êtes en train de dire",
+         "Être patient et rassurant durant toutes les interventions et communications auprès des résidents",
+         "Valider leurs émotions et ce qu’il vient de dire",
+         "Avant de commencer vos interventions, il y a certaines questions que vous pouvez poser aux résidents pour les aider à s’orienter",
+         "Donner une consigne à la fois. Éviter de donner toutes les instructions d’un coup",
+         "Simplifier les consignes données en utilisant des mots simples",
+         "S’assurer de toujours adresser les résidents avec respect et de ne pas sous-estimer leur intelligence, même si le résident a des troubles cognitifs",
+         "Éviter toute forme de confrontation avec le résident. Éviter de couper la parole du résident brusquement, surtout si c’est pour corriger ce qu’il vient tout juste de dire",
+        ]
     }
 ]

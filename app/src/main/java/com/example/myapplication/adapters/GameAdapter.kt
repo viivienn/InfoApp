@@ -1,6 +1,7 @@
 package com.example.myapplication.adapters
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -83,7 +84,9 @@ class GameAdapter(val items : List<Question>, val uAnswer: String) : RecyclerVie
         position: Int
     ) {
         val question = items[position]
-        val choice = uAnswer.get(position).toString().toInt()
+        val choice = uAnswer[position].toString().toInt()
+
+        Log.i("choice", choice.toString())
         val uans = question.choices[choice]
         var color = ""
         if(question.answer == uans){

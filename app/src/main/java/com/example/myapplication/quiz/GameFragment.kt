@@ -51,7 +51,7 @@ class GameFragment : Fragment() {
             view.findNavController().navigateUp()
         }
         questions = viewModel.questions.toMutableList()
-        numQuestions = 3 //Math.min((questions.size + 1) / 2, 3)
+        numQuestions = questions.size //Math.min((questions.size + 1) / 2, 3)
 //         Shuffles the questions and sets the question index to the first question.
         randomizeQuestions()
 

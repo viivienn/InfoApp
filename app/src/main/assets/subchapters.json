@@ -1,311 +1,629 @@
 [
-  {
-    "parentChapterId": "1",
-    "subChapterId": "1",
-    "title": "1. Safe environment",
-    "image": "fall_prevention.png",
-    "content": "94.html"
-  },
-  {
-  "parentChapterId": "1",
-  "subChapterId": "2",
-  "title": "2. Mobility assistance",
-  "image": "fall_prevention.png",
-  "content": "12.html"
-  },
-  {
-    "parentChapterId": "1",
-    "subChapterId": "3",
-    "title": "3. Reducing risk factors",
-    "image": "",
-    "content": "13.html"
-  },
-  {
-    "parentChapterId": "1",
-    "subChapterId": "4",
-    "title": "4. Questions to ask the resident",
-    "image": "",
-    "content": "14.html"
-  },
-{
-    "parentChapterId": "1",
-    "subChapterId": "5",
-    "title": "5. Checklist",
-    "image": "",
-    "content": "15.html"
-  },
-{
-    "parentChapterId": "1",
-    "subChapterId": "6",
-    "title": "6. Quiz",
-    "image": "",
-    "content": "16.html"
-	
- }, 
- {
-    "parentChapterId": "2",
-    "subChapterId": "7",
-    "title": "1. General points on transfers",
-    "image": "",
-    "content": "21.html"
-  },
-  {
-  "parentChapterId": "2",
-  "subChapterId": "8",
-  "title": "2. Four guidelines to patient handling",
-  "image": "",
-  "content": "22.html"
-  },
-  {
-    "parentChapterId": "2",
-    "subChapterId": "9",
-    "title": "3. Two-person transfers",
-    "image": "",
-    "content": "23.html"
-  },
-  {
-    "parentChapterId": "2",
-    "subChapterId": "10",
-    "title": "4. Checklist",
-    "image": "",
-    "content": "24.html"
-  }, 
-{
-    "parentChapterId": "2",
-    "subChapterId": "11",
-    "title": "5. Quiz",
-    "image": "",
-    "content": "25.html"
-  },
-  {
-    "parentChapterId": "3",
-    "subChapterId": "12",
-    "title": "1. Components of the wheelchairs (general, tilt-in space or geriatric) ",
-    "image": "",
-    "content": "31.html"
-  },
-  {
-  "parentChapterId": "3",
-  "subChapterId": "13",
-  "title": "2. Positioning and mobility in a wheelchair",
-  "image": "",
-  "content": "32.html"
-  },
-  {
-    "parentChapterId": "3",
-    "subChapterId": "14",
-    "title": "3. Other aids",
-    "image": "",
-    "content": "33.html"
-  },
-  {
-    "parentChapterId": "3",
-    "subChapterId": "15",
-    "title": "4. Checklist",
-    "image": "",
-    "content": "34.html"
-  }, 
-{
-    "parentChapterId": "3",
-    "subChapterId": "16",
-    "title": "5. Quiz",
-    "image": "",
-    "content": "35.html"
-  },
-  {
-    "parentChapterId": "4",
-    "subChapterId": "17",
-    "title": "1. What is dysphagia & Warning Signs",
-    "image": "",
-    "content": "41.html"
-  },
-  {
-  "parentChapterId": "4",
-  "subChapterId": "18",
-  "title": "2. Positioning of client",
-  "image": "",
-  "content": "42.html"
-  },
-  {
-    "parentChapterId": "4",
-    "subChapterId": "19",
-    "title": "3. Feeding and hydration assistance (partial or total)",
-    "image": "",
-    "content": "43.html"
-  },
-  {
-    "parentChapterId": "4",
-    "subChapterId": "20",
-    "title": "4. Food texture and fluid consistency",
-    "image": "",
-    "content": "44.html"
-  },
-{
-    "parentChapterId": "4",
-    "subChapterId": "21",
-    "title": "5. Checklist",
-    "image": "",
-    "content": "45.html"
-  },
-{
-    "parentChapterId": "4",
-    "subChapterId": "22",
-    "title": "6. Quiz",
-    "image": "",
-    "content": "46.html"
-  },
-  {
-    "parentChapterId": "8",
-    "subChapterId": "22",
-    "title": "1. Environnement sécuritaire",
-    "image": "",
-    "content": "81.html"
-},
-{
-    "parentChapterId": "8",
-    "subChapterId": "23",
-    "title": "2. Assistance à la mobilité",
-    "image": "",
-    "content": "82.html"
-},
-{
-    "parentChapterId": "8",
-    "subChapterId": "24",
-    "title": "3. Réduire les facteurs de risque",
-    "image": "",
-    "content": "83.html"
-},
-{
-    "parentChapterId": "8",
-    "subChapterId": "25",
-    "title": "4. Questions à poser au résident",
-    "image": "",
-    "content": "84.html"
-},
-{
-    "parentChapterId": "8",
-    "subChapterId": "26",
-    "title": "5. Checklist",
-    "image": "",
-    "content": "85.html"
-},
-{
-    "parentChapterId": "8",
-    "subChapterId": "27",
-    "title": "6. Quiz",
-    "image": "",
-    "content": "86.html"
-},
-{
-    "parentChapterId": "9",
-    "subChapterId": "28",
-    "title": "1. Points généraux à retenir",
-    "image": "",
-    "content": "91.html"
-},
-{
-    "parentChapterId": "9",
-    "subChapterId": "29",
-    "title": "2. 4 principes pour déplacement securitaire",
-    "image": "",
-    "content": "92.html"
-},
-{
-    "parentChapterId": "9",
-    "subChapterId": "30",
-    "title": "3. Transfers à deux personnes",
-    "image": "",
-    "content": "93.html"
-},
-{
-    "parentChapterId": "9",
-    "subChapterId": "31",
-    "title": "4. Checklist",
-    "image": "",
-    "content": "94.html"
-},
-{
-    "parentChapterId": "9",
-    "subChapterId": "32",
-    "title": "5.Quiz",
-    "image": "",
-    "content": "95.html"
-},
-{
-    "parentChapterId": "10",
-    "subChapterId": "33",
-    "title": "1. Composants des fauteuils roulants (manual, base roulante ou gériatrique)",
-    "image": "",
-    "content": "101.html"
-},
-{
-    "parentChapterId": "10",
-    "subChapterId": "34",
-    "title": "2. Positionnement et mobilité en fauteuil roulant",
-    "image": "",
-    "content": "102.html"
-},
-{
-    "parentChapterId": "10",
-    "subChapterId": "35",
-    "title": "3. Autres aides à la mobilité",
-    "image": "",
-    "content": "103.html"
-},
-{
-    "parentChapterId": "10",
-    "subChapterId": "36",
-    "title": "4. Checklist",
-    "image": "",
-    "content": "104.html"
-},
-{
-    "parentChapterId": "10",
-    "subChapterId": "37",
-    "title": "5. Quiz",
-    "image": "",
-    "content": "105.html"
-},
-{
-    "parentChapterId": "11",
-    "subChapterId": "38",
-    "title": "1. La dysphagie et les signes de dysphagie",
-    "image": "",
-    "content": "111.html"
-},
-{
-    "parentChapterId": "11",
-    "subChapterId": "39",
-    "title": "2. Positionnement du client",
-    "image": "",
-    "content": "112.html"
-},
-{
-    "parentChapterId": "11",
-    "subChapterId": "40",
-    "title": "3. Assistance à l'alimentation et à l'hydratation",
-    "image": "",
-    "content": "113.html"
-},
-{
-    "parentChapterId": "11",
-    "subChapterId": "41",
-    "title": "4. Textures et consistances adaptées",
-    "image": "",
-    "content": "114.html"
-},
-{
-    "parentChapterId": "11",
-    "subChapterId": "42",
-    "title": "5. Checklist",
-    "image": "",
-    "content": "115.html"
-},
-{
-    "parentChapterId": "11",
-    "subChapterId": "43",
-    "title": "6. Quiz",
-    "image": "",
-    "content": "116.html"
-}
-]
+
+        {
+          "parentChapterId": "1",
+          "subChapterId": "1",
+          "title": "1. Safe Environment",
+          "image": "fall_prevention.png",
+          "content": "11.html"
+        },
+        {
+        "parentChapterId": "1",
+        "subChapterId": "2",
+        "title": "2. Mobility Assistance",
+        "image": "",
+        "content": "12.html"
+        },
+        {
+          "parentChapterId": "1",
+          "subChapterId": "3",
+          "title": "3. Reducing Risk Factors",
+          "image": "",
+          "content": "13.html"
+        },
+        {
+          "parentChapterId": "1",
+          "subChapterId": "4",
+          "title": "4. Questions to Ask the Resident",
+          "image": "",
+          "content": "14.html"
+        },
+        {
+          "parentChapterId": "1",
+          "subChapterId": "5",
+          "title": "5. What to Do If a Resident Falls",
+          "image": "",
+          "content": "15.html"
+        },
+      {
+          "parentChapterId": "1",
+          "subChapterId": "6",
+          "title": "6. Key Points",
+          "image": "",
+          "content": "16.html"
+        },
+      {
+          "parentChapterId": "1",
+          "subChapterId": "7",
+          "title": "7. Quiz",
+          "image": "",
+          "content": "17.html"
+       }, 
+       {
+          "parentChapterId": "2",
+          "subChapterId": "8",
+          "title": "1. General Points on Transfers",
+          "image": "",
+          "content": "21.html"
+        },
+        {
+        "parentChapterId": "2",
+        "subChapterId": "9",
+        "title": "2. Four Guidelines to Patient Handling",
+        "image": "",
+        "content": "22.html"
+        },
+        {
+          "parentChapterId": "2",
+          "subChapterId": "10",
+          "title": "3. Two-Person Transfers",
+          "image": "",
+          "content": "23.html"
+        },
+        {
+          "parentChapterId": "2",
+          "subChapterId": "11",
+          "title": "4. Key points",
+          "image": "",
+          "content": "24.html"
+        }, 
+      {
+          "parentChapterId": "2",
+          "subChapterId": "12",
+          "title": "5. Quiz",
+          "image": "",
+          "content": "25.html"
+        },
+        {
+          "parentChapterId": "3",
+          "subChapterId": "13",
+          "title": "1. Components of the Wheelchairs (General, Tilt-In Space or Geriatric) ",
+          "image": "",
+          "content": "31.html"
+        },
+        {
+        "parentChapterId": "3",
+        "subChapterId": "14",
+        "title": "2. Positioning and Mobility in a Wheelchair",
+        "image": "",
+        "content": "32.html"
+        },
+        {
+          "parentChapterId": "3",
+          "subChapterId": "15",
+          "title": "3. Other Aids (Cane, Walker)",
+          "image": "",
+          "content": "33.html"
+        },
+        {
+            "parentChapterId": "3",
+            "subChapterId": "16",
+            "title": "4. Bed System",
+            "image": "",
+            "content": "34.html"
+          },
+        {
+          "parentChapterId": "3",
+          "subChapterId": "17",
+          "title": "5. Key points",
+          "image": "",
+          "content": "35.html"
+        }, 
+      {
+          "parentChapterId": "3",
+          "subChapterId": "18",
+          "title": "6. Quiz",
+          "image": "",
+          "content": "36.html"
+        },
+        {
+          "parentChapterId": "4",
+          "subChapterId": "19",
+          "title": "1. What is dysphagia & Warning Signs",
+          "image": "",
+          "content": "41.html"
+        },
+        {
+        "parentChapterId": "4",
+        "subChapterId": "20",
+        "title": "2. Positioning of the resident",
+        "image": "",
+        "content": "42.html"
+        },
+        {
+          "parentChapterId": "4",
+          "subChapterId": "21",
+          "title": "3. Feeding and hydration assistance (partial or total)",
+          "image": "",
+          "content": "43.html"
+        },
+        {
+          "parentChapterId": "4",
+          "subChapterId": "22",
+          "title": "4. Food texture and fluid consistency",
+          "image": "",
+          "content": "44.html"
+        },
+      {
+          "parentChapterId": "4",
+          "subChapterId": "23",
+          "title": "5. Key points",
+          "image": "",
+          "content": "45.html"
+        },
+      {
+          "parentChapterId": "4",
+          "subChapterId": "24",
+          "title": "6. Quiz",
+          "image": "",
+          "content": "46.html"
+        },
+        {
+            "parentChapterId": "5",
+            "subChapterId": "25",
+            "title": "1. Pressure Sores and Risk Factors",
+            "image": "",
+            "content": "51.html"
+        },
+        {
+            "parentChapterId": "5",
+            "subChapterId": "26",
+            "title": "2. Observation of Pressure Wounds",
+            "image": "",
+            "content": "52.html"
+        },
+        {
+            "parentChapterId": "5",
+            "subChapterId": "27",
+            "title": "3. Prevention of Pressure Sores",
+            "image": "",
+            "content": "53.html"
+        },
+        {
+            "parentChapterId": "5",
+            "subChapterId": "28",
+            "title": "4. Basic Body Positions",
+            "image": "",
+            "content": "54.html"
+        },
+        {
+            "parentChapterId": "5",
+            "subChapterId": "29",
+            "title": "5. Key Points",
+            "image": "",
+            "content": "55.html"
+        },
+        {
+            "parentChapterId": "5",
+            "subChapterId": "30",
+            "title": "6. Quiz",
+            "image": "",
+            "content": "56.html"
+        },
+        {
+            "parentChapterId": "6",
+            "subChapterId": "31",
+            "title": "1. Maintaining & Cleaning Dentures",
+            "image": "",
+            "content": "61.html"
+        },
+        {
+            "parentChapterId": "6",
+            "subChapterId": "32",
+            "title": "2. Brushing Teeth in Bed",
+            "image": "",
+            "content": "62.html"
+        },
+        {
+            "parentChapterId": "6",
+            "subChapterId": "33",
+            "title": "3. Toileting and Diaper Change",
+            "image": "",
+            "content": "63.html"
+        },
+        {
+            "parentChapterId": "6",
+            "subChapterId": "34",
+            "title": "4. Dressing",
+            "image": "",
+            "content": "64.html"
+        },
+        {
+            "parentChapterId": "6",
+            "subChapterId": "35",
+            "title": "5. Bathing in Bed",
+            "image": "",
+            "content": "65.html"
+        },
+        {
+            "parentChapterId": "6",
+            "subChapterId": "36",
+            "title": "6. Key Points",
+            "image": "",
+            "content": "66.html"
+        },
+        {
+            "parentChapterId": "6",
+            "subChapterId": "37",
+            "title": "7. Quiz",
+            "image": "",
+            "content": "67.html"
+        },
+        {
+            "parentChapterId": "7",
+            "subChapterId": "38",
+            "title": "1. Overview of the Long-Term Care Population",
+            "image": "",
+            "content": "71.html"
+        },
+        {
+            "parentChapterId": "7",
+            "subChapterId": "39",
+            "title": "2. Communication Strategies",
+            "image": "",
+            "content": "72.html"
+        },
+        {
+            "parentChapterId": "7",
+            "subChapterId": "40",
+            "title": "3. What Are Cognitive Impairments?",
+            "image": "",
+            "content": "73.html"
+        },
+        {
+            "parentChapterId": "7",
+            "subChapterId": "41",
+            "title": "4. Impact of Cognitive Difficulties on Communication",
+            "image": "",
+            "content": "74.html"
+        },
+        {
+            "parentChapterId": "7",
+            "subChapterId": "42",
+            "title": "5. How to Act When Patient Is Aggressive or Anxious",
+            "image": "",
+            "content": "75.html"
+        },
+        {
+            "parentChapterId": "7",
+            "subChapterId": "43",
+            "title": "6. Key Points",
+            "image": "",
+            "content": "76.html"
+        },
+        {
+            "parentChapterId": "7",
+            "subChapterId": "44",
+            "title": "7. Quiz",
+            "image": "",
+            "content": "77.html"
+        },
+        {
+            "parentChapterId": "8",
+            "subChapterId": "45",
+            "title": "1. Environnement sécuritaire",
+            "image": "",
+            "content": "81.html"
+        },
+        {
+            "parentChapterId": "8",
+            "subChapterId": "46",
+            "title": "2. Assistance à la mobilité",
+            "image": "",
+            "content": "82.html"
+        },
+        {
+            "parentChapterId": "8",
+            "subChapterId": "47",
+            "title": "3. Réduire les facteurs de risque",
+            "image": "",
+            "content": "83.html"
+        },
+        {
+            "parentChapterId": "8",
+            "subChapterId": "48",
+            "title": "4. Questions à poser au résident",
+            "image": "",
+            "content": "84.html"
+        },
+        {
+            "parentChapterId": "8",
+            "subChapterId": "49",
+            "title": "5. Quoi faire dans le cas d'une chute",
+            "image": "",
+            "content": "85.html"
+        },
+        {
+            "parentChapterId": "8",
+            "subChapterId": "50",
+            "title": "6. Points à retenir",
+            "image": "",
+            "content": "86.html"
+        },
+        {
+            "parentChapterId": "8",
+            "subChapterId": "51",
+            "title": "7. Quiz",
+            "image": "",
+            "content": "87.html"
+        },
+        {
+            "parentChapterId": "9",
+            "subChapterId": "52",
+            "title": "1. Points généraux à retenir à propos des déplacements",
+            "image": "",
+            "content": "91.html"
+        },
+        {
+            "parentChapterId": "9",
+            "subChapterId": "53",
+            "title": "2. Quatre principes pour déplacement securitaire",
+            "image": "",
+            "content": "92.html"
+        },
+        {
+            "parentChapterId": "9",
+            "subChapterId": "54",
+            "title": "3. Déplacements à 2 personnes",
+            "image": "",
+            "content": "93.html"
+        },
+        {
+            "parentChapterId": "9",
+            "subChapterId": "55",
+            "title": "4. Points à retenir",
+            "image": "",
+            "content": "94.html"
+        },
+        {
+            "parentChapterId": "9",
+            "subChapterId": "56",
+            "title": "5. Quiz",
+            "image": "",
+            "content": "95.html"
+        },
+        {
+            "parentChapterId": "10",
+            "subChapterId": "57",
+            "title": "1. Composants du fauteuil roulant (manuel, base roulante ou gériatrique)",
+            "image": "",
+            "content": "101.html"
+        },
+        {
+            "parentChapterId": "10",
+            "subChapterId": "58",
+            "title": "2. Positionnement et mobilité en fauteuil roulant",
+            "image": "",
+            "content": "102.html"
+        },
+        {
+            "parentChapterId": "10",
+            "subChapterId": "59",
+            "title": "3. Autres aides à la mobilité",
+            "image": "",
+            "content": "103.html"
+        },
+        {
+            "parentChapterId": "10",
+            "subChapterId": "60",
+            "title": "4. Système de lit",
+            "image": "",
+            "content": "104.html"
+        },
+        {
+            "parentChapterId": "10",
+            "subChapterId": "61",
+            "title": "5. Points à retenir",
+            "image": "",
+            "content": "105.html"
+        },
+        {
+            "parentChapterId": "10",
+            "subChapterId": "62",
+            "title": "6. Quiz",
+            "image": "",
+            "content": "106.html"
+        },
+        {
+            "parentChapterId": "11",
+            "subChapterId": "63",
+            "title": "1. La dysphagie et les signes de dysphagie",
+            "image": "",
+            "content": "111.html"
+        },
+        {
+            "parentChapterId": "11",
+            "subChapterId": "64",
+            "title": "2. Positionnement du client",
+            "image": "",
+            "content": "112.html"
+        },
+        {
+            "parentChapterId": "11",
+            "subChapterId": "65",
+            "title": "3. Assistance à l'alimentation et à l'hydratation",
+            "image": "",
+            "content": "113.html"
+        },
+        {
+            "parentChapterId": "11",
+            "subChapterId": "66",
+            "title": "4. Textures et consistances adaptées",
+            "image": "",
+            "content": "114.html"
+        },
+        {
+            "parentChapterId": "11",
+            "subChapterId": "67",
+            "title": "5. Points à retenir",
+            "image": "",
+            "content": "115.html"
+        },
+        {
+            "parentChapterId": "11",
+            "subChapterId": "68",
+            "title": "6. Quiz",
+            "image": "",
+            "content": "116.html"
+        },
+        {
+            "parentChapterId": "12",
+            "subChapterId": "69",
+            "title": "1. Plaies de pression et facteurs de risque",
+            "image": "",
+            "content": "121.html"
+        },
+        {
+            "parentChapterId": "12",
+            "subChapterId": "70",
+            "title": "2. Observer une plaie de pression ",
+            "image": "",
+            "content": "122.html"
+        },
+        {
+            "parentChapterId": "12",
+            "subChapterId": "71",
+            "title": "3. Prévention des plaies de pressure",
+            "image": "",
+            "content": "123.html"
+        },
+        {
+            "parentChapterId": "12",
+            "subChapterId": "72",
+            "title": "4. Positionnement de base au lit",
+            "image": "",
+            "content": "124.html"
+        },
+        {
+            "parentChapterId": "12",
+            "subChapterId": "73",
+            "title": "5. Points à retenir",
+            "image": "",
+            "content": "125.html"
+        },
+        {
+            "parentChapterId": "12",
+            "subChapterId": "74",
+            "title": "6. Quiz",
+            "image": "",
+            "content": "126.html"
+        },
+        {
+            "parentChapterId": "13",
+            "subChapterId": "75",
+            "title": "1. Nettoyage des prothèses dentaires (dentiers)",
+            "image": "",
+            "content": "131.html"
+        },
+        {
+            "parentChapterId": "13",
+            "subChapterId": "76",
+            "title": "2. Brosser les dents d'un résident au lit",
+            "image": "",
+            "content": "132.html"
+        },
+        {
+            "parentChapterId": "13",
+            "subChapterId": "77",
+            "title": "3. Hygiène aux toilettes et changement de la culotte d'incontinence ",
+            "image": "",
+            "content": "133.html"
+        },
+        {
+            "parentChapterId": "13",
+            "subChapterId": "78",
+            "title": "4. L'habillement",
+            "image": "",
+            "content": "134.html"
+        },
+        {
+            "parentChapterId": "13",
+            "subChapterId": "79",
+            "title": "5. Donner un bain dans un lit",
+            "image": "",
+            "content": "135.html"
+        },
+        {
+            "parentChapterId": "13",
+            "subChapterId": "80",
+            "title": "6. Points à retenir",
+            "image": "",
+            "content": "136.html"
+        },
+        {
+            "parentChapterId": "13",
+            "subChapterId": "81",
+            "title": "7. Quiz",
+            "image": "",
+            "content": "137.html"
+        },
+        {
+            "parentChapterId": "14",
+            "subChapterId": "82",
+            "title": "1. Aperçu de la population dans les CHSLDs",
+            "image": "",
+            "content": "141.html"
+        },
+        {
+            "parentChapterId": "14",
+            "subChapterId": "83",
+            "title": "2. Stratégies de communication",
+            "image": "",
+            "content": "142.html"
+        },
+        {
+            "parentChapterId": "14",
+            "subChapterId": "84",
+            "title": "3. Qu'est-ce que les troubles cognitifs?",
+            "image": "",
+            "content": "143.html"
+        },
+        {
+            "parentChapterId": "14",
+            "subChapterId": "85",
+            "title": "4. Impacts des troubles cognitifs sur la communication",
+            "image": "",
+            "content": "144.html"
+        },
+        {
+            "parentChapterId": "14",
+            "subChapterId": "86",
+            "title": "5. Comment agir si le patient devient agressif ou anxieux",
+            "image": "",
+            "content": "145.html"
+        },
+        {
+            "parentChapterId": "14",
+            "subChapterId": "87",
+            "title": "6. Points à retenir",
+            "image": "",
+            "content": "146.html"
+        },
+        {
+            "parentChapterId": "14",
+            "subChapterId": "88",
+            "title": "7. Quiz",
+            "image": "",
+            "content": "147.html"
+        }
+    ]
+"1. Pressure Sores and Risk Factors", "2. Observation of Pressure Wounds", "3. Prevention of Pressure Sores", "4. Basic Body Positions", "5. Key Points", "6. Quiz",
+"1. Maintaining & Cleaning Dentures", "2. Brushing Teeth in Bed", "3. Toileting and Diaper Change", "4. Dressing", "5. Bathing in Bed", "6. Key Points", "7. Quiz",
+"1. Overview of the Long-Term Care Population", "2. Communication Strategies", "3. What Are Cognitive Impairments?", "4. Impact of Cognitive Difficulties on Communication", "5. How to Act When Patient Is Aggressive or Anxious", "6. Key Points", "7. Quiz",
+"1. Environnement sécuritaire", "2. Assistance à la mobilité", "3. Réduire les facteurs de risque","4. Questions à poser au résident", "5. Quoi faire dans le cas d’une chute", "6. Points à retenir", "7. Quiz",
+"1. Points généraux à retenir à propos des déplacements", "2. Quatre principes pour déplacement securitaire", "3. Déplacements à 2 personnes", "4. Points à retenir", "5. Quiz",
+"1. Composants du fauteuil roulant (manuel, base roulante ou gériatrique)","2. Positionnement et mobilité en fauteuil roulant","3. Autres aides à la mobilité", "4. Système de lit", "5. Points à retenir", "6. Quiz",
+"1. La dysphagie et les signes de dysphagie", "2. Positionnement du client", "3. Assistance à l’alimentation et à l’hydratation", "4. Textures et consistances adaptées", "5. Points à retenir", "6. Quiz",
+"1. Plaies de pression et facteurs de risque", "2. Observer une plaie de pression ", "3. Prévention des plaies de pressure", "4. Positionnement de base au lit", "5. Points à retenir", "6. Quiz",
+"1. Nettoyage des prothèses dentaires (dentiers)", "2. Brosser les dents d’un résident au lit", "3. Hygiène aux toilettes et changement de la culotte d’incontinence ", "4. L’habillement", "5. Donner un bain dans un lit", "6. Points à retenir", "7. Quiz",
+"1. Aperçu de la population dans les CHSLDs", "2. Stratégies de communication", "3. Qu’est-ce que les troubles cognitifs?", "4. Impacts des troubles cognitifs sur la communication", "5. Comment agir si le patient devient agressif ou anxieux", "6. Points à retenir", "7. Quiz",

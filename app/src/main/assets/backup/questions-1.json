@@ -1,0 +1,44 @@
+[
+  {
+    "questionId": "1",
+    "parentChapterId": "1",
+    "question": "What must you ensure before a resident gets up to walk?",
+    "choices": ["They are wearing proper footwear", "Their clothing is not tangled and the bed sheets aren't tangled in their legs", "You are aware of the resident's level of walking capacity", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "questionId": "2",
+    "parentChapterId": "1",
+    "question": "How can you create a safe walking environment?",
+    "choices": ["Ensure there is no clutter or electrical cords on the floor", "Ensure that the floors are not wet and that any spills are cleaned", "Ensure the room is well lit", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "questionId": "3",
+    "parentChapterId": "1",
+    "question": "What must you ensure before leaving the room?",
+    "choices": ["The call bell is within reach and personal items are within reach", "The resident's walking aid is next to the bed", "You ask the resident if they need anything else", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+  "questionId": "4",
+  "parentChapterId": "8",
+  "question": "Que devez-vous vous assurer avant que le résident se lève pour marcher?",
+  "choices": ["Le résident porte des souliers adéquats pour la marche", "S'assurer que aucun draps ou vêtements ne sont entortillés dans ses jambes", "Vous savez le niveau de leur indépendance à marcher", "Toutes les réponses ci-dessus"],
+  "answer": "Toutes les réponses ci-dessus"
+  },
+  {
+    "questionId": "5",
+    "parentChapterId": "8",
+    "question": "Comment pouvez-vous créer un environnement sécuritaire pour la marche?",
+    "choices": ["S'assurer qu'il n'y a pas d'obstacles ou de fils électriques qui trainent sur le plancher", "S'assurer que le plancher n'est pas mouillé et que tout dégât est nettoyé tout de suite", "S'assurer que l'environnement est bien éclairé", "Toutes les réponses ci-dessus"],
+    "answer": "Toutes les réponses ci-dessus"
+  },
+  {
+    "questionId": "6",
+    "parentChapterId": "8",
+    "question": "Que devez-vous vous assurer avant de quitter la pièce?",
+    "choices": ["La cloche d'appel et tous éléments essentiels soient à proximité du résident", "S'assurer que l'accessoire de marche est à proximité du résident", "Demander au résident s'il a besoin de quelque chose d'autre", "Toutes les réponses ci-dessus"],
+    "answer": "Toutes les réponses ci-dessus"
+  }
+]

@@ -10,6 +10,7 @@ data class Chapter(
     @PrimaryKey @ColumnInfo(name = "chapterId") val chapterId: String,
     val title: String,
     val image: String,
+    val image_sub: String,
     val lang: String,
     val checklist: List<String>
 )

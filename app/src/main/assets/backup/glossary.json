@@ -1,0 +1,38 @@
+[
+  {
+    "wordId": "1",
+    "word": "Cane",
+	"lang": "en",
+    "definition": "A cane or a walking stick is a type of mobility aid that is often used when a patient has a minor balance problem or a problem with one side of their legs.  Canes can come with one single tip or four tips, which are also known as a quad cane. Quad canes can provide a broader base of support and help reduce falls."
+  },
+    {
+    "wordId": "2",
+    "word": "Walker",
+	"lang": "en",
+    "definition": "A walker is a type of mobility aid used to help people who are still able to walk (e.g., don't require a wheelchair) yet need assistance. It is a four-legged frame that allows a person to lean on it for balance, support, and rest."
+  },
+  {
+    "wordId": "3",
+    "word": "Occupational Therapists (OTs)",
+	"lang": "en",
+    "definition": "Occupational therapists’ main role in long-term care homes is to promote optimal function and engagement in every day activities such as self-care, mobility and participation in social and leisure activities. Following assessment in areas such as eating, grooming, dressing, bathing, and toileting, OTs can develop individualized programs that may include positioning, adaptive equipment, and cueing."
+  },
+    {
+    "wordId": "4",
+    "word": "Bed Pads",
+	"lang": "en",
+    "definition": "Bed pads or underpads are seen in most of the residents’ beds. These waterproof and reusable sheets have the primary purpose is to contain urinary incontinence and other liquid accidents."
+  },
+  {
+    "wordId": "5",
+    "word": "Canne",
+	"lang": "fr",
+    "definition": "La canne est une d'aide à la mobilité souvent utilisé lorsqu'un patient a un problème d'équilibre mineur ou un problème avec l'un des côté de ses jambes. Les cannes peuvent venir avec une seule pointe ou avec quatre pointes, aussi appelé canne quadripode. Les cannes quadripode peuvent fournir une base de soutien plus large et aider à réduire les chutes."
+  },
+    {
+    "wordId": "6",
+    "word": "Ergothérapeute",
+	"lang": "fr",
+    "definition": "Le rôle principal des ergothérapeutes aux sein des résidents est de promouvoir l'autonomic functionelle et l'engagement dans les activités quotidiennes telles que les soins d'hygiène, la mobilité et l'engagement social et thérapeutiques. Après avoir évalué certaines domaines tels que l'alimentation, le toilettage et l'habillage, les ergothérapeutes peuvent développer des programmes individualisés qui peuvent inclure le positionnement, l'installation par le personnel, l'équipement adaptatif et les repères verbal."
+  }
+]

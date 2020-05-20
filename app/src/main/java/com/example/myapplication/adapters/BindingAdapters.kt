@@ -5,8 +5,11 @@ import android.graphics.Color
 import android.util.Log
 import android.webkit.WebView
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.text.HtmlCompat
+import androidx.core.text.HtmlCompat.FROM_HTML_MODE_COMPACT
 import androidx.databinding.BindingAdapter
 
 @BindingAdapter("imageFromString")
@@ -37,13 +40,13 @@ fun setBackground(background: ConstraintLayout, backgroundColor: String) {
 }
 
 @BindingAdapter("renderHtml")
-fun bindRenderHtml(view: WebView, content: String?) {
+fun bindRenderHtml(view: TextView, content: String?) {
     if (content != null) {
-//        view.text = HtmlCompat.fromHtml(content, FROM_HTML_MODE_COMPACT)
-        view.loadDataWithBaseURL(null, content, "text/html", "utf-8", null)
+        view.text = HtmlCompat.fromHtml(content, FROM_HTML_MODE_COMPACT)
+//        view.loadDataWithBaseURL(null, content, "text/html", "utf-8", null)
 //        view.movementMethod = LinkMovementMethod.getInstance()
     } else {
-        view.loadDataWithBaseURL(null, "loading.html", "text/html", "utf-8", null)
+        view.setText("Loading...")
     }
 }
 @BindingAdapter("renderWeb")
