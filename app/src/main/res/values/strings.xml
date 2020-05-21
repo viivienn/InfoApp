@@ -31,7 +31,7 @@ Tiffany Chenn for logo designs
     <string name="title_about">About</string>
     <string name="title_definition">Definition</string>
     <string name="title_glossary">Glossary</string>
-    <string name="title_game">Game</string>
+    <string name="title_game" translatable="false">Quiz</string>
     <string name="title_results">Results</string>
     <string name="title_checklist">Checklist</string>
     <string name="title_quiz" translatable="false">Quiz</string>
@@ -39,4 +39,5 @@ Tiffany Chenn for logo designs
     <string name="quiz_time">Quiz Time!</string>
     <string name="your_answer_text">Your Answer:</string>
     <string name="correct_answer_text">Correct Answer:</string>
+    <string name="play_button">Play</string>
 </resources>

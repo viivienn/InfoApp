@@ -52,9 +52,11 @@
         <item name="android:fontFamily">@font/open_sans</item>
     </style>
 
-    <style name="TextAppearance.Toolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline5" >
+    <style name="TextAppearance.Toolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline4" >
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:ellipsize">marquee</item>
+        <item name="android:shadowColor">#55000000</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
         <item name="android:fontFamily">@font/open_sans</item>
     </style>
 
