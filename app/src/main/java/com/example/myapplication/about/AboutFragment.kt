@@ -43,7 +43,7 @@ class AboutFragment : Fragment() {
                         }
                     }
                 )
-
+                executePendingBindings()
                 toolbar.setNavigationOnClickListener { view ->
                     view.findNavController().navigateUp()
                 }

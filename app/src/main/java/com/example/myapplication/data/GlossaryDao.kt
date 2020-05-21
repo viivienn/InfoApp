@@ -8,7 +8,7 @@ import androidx.room.Query
 
 @Dao
 interface GlossaryDao {
-    @Query("SELECT * FROM words WHERE lang = :lang ORDER BY wordId")
+    @Query("SELECT * FROM words WHERE lang = :lang ORDER BY word")
     fun getWords(lang: String): LiveData<List<Word>>
 
     @Query("SELECT * FROM words WHERE wordId= :wordId ORDER BY wordId")

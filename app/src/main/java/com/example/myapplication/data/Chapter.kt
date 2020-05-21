@@ -43,7 +43,7 @@ data class SubChapter(
     indices = [(Index(value = ["questionId"]))]
 )
 data class Question(
-    @PrimaryKey @ColumnInfo(name = "questionId") val questionId: String,
+    @PrimaryKey @ColumnInfo(name = "questionId") val questionId: Int,
     @ColumnInfo(name = "parentChapterId") val parentChapterId: String,
     val question: String,
     val choices: List<String>,

@@ -30,7 +30,6 @@ class GameFragment : Fragment() {
         InjectorUtils.provideGameViewModelFactory(this, args.parentChapterId)
     }
 
-
     lateinit var currentQuestion: Question
     lateinit var answers: MutableList<String>
     lateinit var questions: MutableList<Question>

@@ -23,7 +23,7 @@ interface ChapterDao {
     @Query("SELECT * FROM subchapters WHERE parentChapterId = :parentChapterId AND subChapterId = :subChapterId ORDER BY subChapterId LIMIT 1")
     fun getSubChapter(subChapterId: String, parentChapterId:String): LiveData<SubChapter>
 
-    @Query("SELECT * FROM questions WHERE parentChapterId = :parentChapterId ORDER BY questionId")
+    @Query("SELECT * FROM questions WHERE parentChapterId = :parentChapterId ORDER BY questionid")
     fun getQuestions(parentChapterId: String): List<Question>
 
     @Query("SELECT * FROM questions WHERE parentChapterId = :parentChapterId AND questionId = :questionId ORDER BY questionId LIMIT 1")
