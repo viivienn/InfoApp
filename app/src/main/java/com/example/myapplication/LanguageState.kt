@@ -9,7 +9,13 @@ class LanguageState: Application() {
     private var option = -1
 
      fun setLang(lang:String){
-        ulang = lang
+         if (lang=="fr"){
+             option = 1
+             ulang = lang
+         }else{
+             ulang = "en"
+             option = 0
+         }
     }
 
     fun getLang(): String {
@@ -17,14 +23,7 @@ class LanguageState: Application() {
     }
 
     fun getOption(): Int {
-        if (ulang=="en"){
-            option = 0
-            return option
-        }
-        else{
-            option = 1
-            return option
-        }
+        return option
     }
 
     companion object {
