@@ -8,7 +8,7 @@ import androidx.room.Query
 
 @Dao
 interface ChapterDao {
-    @Query("SELECT * FROM chapters WHERE lang = :lang ORDER BY chapterId")
+    @Query("SELECT * FROM chapters WHERE lang = :lang")
     fun getChapters(lang: String): LiveData<List<Chapter>>
 
     @Query("SELECT * FROM subchapters WHERE parentChapterId = :parentChapterId ORDER BY title")
