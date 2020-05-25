@@ -12,8 +12,8 @@
        "All of the resident’s needs have been tended to before leaving the room",
        "If a resident falls, try and break the fall by using your body. Stand with feet wide apart and knees slightly bent",
        "Always try to prevent the resident’s head from hitting the floor or any other surfaces",
-       "<b>DO NOT</b> attempt to lift the resident off the floor by yourself. Call and wait for assistance",
-       "<b>DO NOT</b> raise the resident's head from the floor as they may have a head or back injury"]
+       "DO NOT attempt to lift the resident off the floor by yourself. Call and wait for assistance",
+       "DO NOT raise the resident's head from the floor as they may have a head or back injury"]
 },
   {
     "chapterId": "2",
@@ -23,14 +23,14 @@
     "lang": "en", 
     "checklist": ["Have the necessary equipment within reach, such as the patient’s mobility aid (walker, cane, glasses, shoes), a wheelchair, a soaker pad, etc.",
        "Clear the space around", 
-       "<b>For proper positioning,</b> back should be straight. Do not twist or bend your back during a transfer",
+       "For proper positioning, back should be straight. Do not twist or bend your back during a transfer",
        "Feet should be at comfortable shoulder width distance and knees slightly bent to help with your balance",
        "Prioritize the use of weight transfer techniques to reposition a patient (e.g. Transfer weight from your front leg to back leg, from right leg to left leg)",
-       "<b>For proper handling,</b> have a solid grip with fingers closed",
-       "<b>DO NOT</b> pinch or use a claw grip on the patient",
-       "<b>DO NOT</b> tug on the arm or leg of the patient",
-       "<b>Never</b> push the patient away during transfers: <b>always</b> bring them towards you",
-       "<b>Never</b> lift the patient on your own",
+       "For proper handling, have a solid grip with fingers closed",
+       "DO NOT pinch or use a claw grip on the patient",
+       "DO NOT tug on the arm or leg of the patient",
+       "Never push the patient away during transfers: always bring them towards you",
+       "Never lift the patient on your own",
        "Communicate with the patient, offer encouragements, and explain steps clearly",
        "Before repositioning a patient in bed, ensure the soaker pad is well-placed under the patient"]
   },
@@ -46,7 +46,7 @@
       "In the wheelchair, resident should be seated all the way back (buttock and back are touching the backrest)",
       "In the wheelchair, resident should have hips and shoulders aligned (not slanted on either side)",
       "When using the footrest of the wheelchair, resident’s knees and hips should be at the same level (90° of flexion at the hips and the knees, if possible)",
-      "The resident <b>should not</b> hold onto the walker or cane when standing up",
+      "The resident should not hold onto the walker or cane when standing up",
       "Be familiar with the bed system at your long-term care facility",
       "Keep the bed at the lowest level with wheels locked"]
   },
@@ -56,16 +56,16 @@
     "image": "feeding_assistance.png",
     "image_sub": "feeding.png",
     "lang": "en", 
-    "checklist": ["During feeding, ensure resident's head is slightly tilted <b>forward</b>", 
+    "checklist": ["During feeding, ensure resident's head is slightly tilted forward", 
       "Trunk of the resident should be straight, not slanted or twisted on either side", 
       "For residents in a tilt-in-space wheelchair, ensure wheelchair is raised to 90° (straight), prior to feeding ",
       "Resident should be aware and alert during meal",
-      "Resident should wash their hands and brush their teeth <b>before</b> and <b>after</b> meal",
+      "Resident should wash their hands and brush their teeth before and after meal",
       "Before feeding: meal corresponds to resident's meal coupon",
-      "Resident has their belongings and sensory aids <b>before</b> and <b>after</b> each meal",
+      "Resident has their belongings and sensory aids before and after each meal",
       "Feeding assistant is seated in front or slightly next to the resident, at their eye level",
       "Resident is encouraged to take all fluids provided at and between meals",
-      "Resident eats <b>at least 75%</b> of their meal",
+      "Resident eats at least 75% of their meal",
       "After feeding: resident remains in an upright position for 30 minutes"]
   },
   {
@@ -76,7 +76,7 @@
     "lang": "en", 
     "checklist": ["Keep an eye out for pressure sores, especially on areas at risk", 
       "Advise a healthcare professional immediately upon suspicion of pressure sores",
-      "Resident should change position at least <b>every 2h<b/>",
+      "Resident should change position at least every 2h<b/>",
       "Reduce motions of shear and friction on the resident during transfers",
       "Resident should be positioned in correct body alignment at all times (with positioning aids if needed)"]
   },
@@ -88,12 +88,12 @@
     "lang": "en", 
     "checklist": ["Encourage the resident to participate in tasks to promote independence and decrease deconditioning. Provide assistance when necessary",
      "Respect the resident’s privacy and dignity", 
-     "When cleaning dentures, place a washcloth at the bottom of the sink and use <b>cold/lukewarm</b> water",
+     "When cleaning dentures, place a washcloth at the bottom of the sink and use cold/lukewarm water",
      "When cleaning a resident’s teeth in bed, place your arm behind their neck and open their jaw with your index/thumb",
      "When changing a diaper in bed, start by cleaning the genitals before the buttocks",
      "For dressing, make sure to begin with the weaker or injured side to avoid moving their arm (if applicable)",
      "When bathing a resident in bed, only expose sections of the skin when necessary for cleaning",
-     "After bathing, make sure the resident’s skin is dry: <b>pat to dry, do NOT rub</b>"]
+     "After bathing, make sure the resident’s skin is dry: pat to dry, do NOT rub"]
   },
   {
     "chapterId": "7",
@@ -103,7 +103,7 @@
     "lang": "en", 
     "checklist": ["To establish contact with a resident, introduce yourself when you enter the room", 
      "Explain the reason for your visit clearly",
-     "If the resident is able to give consent, obtain consent <b>throughout</b> the interventions",
+     "If the resident is able to give consent, obtain consent throughout the interventions",
      "Ensure the resident can see, hear, and understand what you are saying",
      "Remain patient and reassuring when communicating with a resident",
      "Avoid any kind of confrontation or disagreement with a resident. Avoid interrupting, especially to correct something they said",
@@ -137,10 +137,10 @@
          "L'aidant doit avoir les pieds écartés de la largeur des épaules et les genoux légèrement pliés pour optimiser l'équilibre",
          "Favoriser les transferts de poids lorsque vous repositionnez un patient (ex: Transférer le poids de la jambe-avant à la jambe-arrière, de la jambe droite à la jambe gauche",
          "Avoir une prise solide avec les doigts collés ensemble",
-         "<b>Ne pas</b> utiliser de prises qui pourraient pincer ou griffer le patient",
-         "<b>Ne pas</b> tirer le patient par le bras ou par la jambe",
-         "<b>Ne jamais</b> pousser le patient vers l’extérieur - il faut plutôt amener le patient vers soi",
-         "<b>Ne jamais</b> soulever le patient",
+         "Ne pas utiliser de prises qui pourraient pincer ou griffer le patient",
+         "Ne pas tirer le patient par le bras ou par la jambe",
+         "Ne jamais pousser le patient vers l’extérieur - il faut plutôt amener le patient vers soi",
+         "Ne jamais soulever le patient",
          "Continuer à communiquer avec le patient à travers le déplacement, l’encourager et lui expliquer clairement les étapes"]
     },
     {
@@ -157,7 +157,7 @@
          "En position assise, le bassin et les épaules du résident doivent être alignés (pas d’inclinaison sur les côtés)",
          "Durant l'utilisation des appuis-pieds, les genoux et le bassin du résident doivent être au même niveau (90° de flexion aux hanches et aux genoux, si possible)",
          "Le lit du résident est maintenu à la position la plus basse avec les freins engagés",
-         "Le résident <b>ne doit pas</b> tenir sur sa canne ou marchette lorsqu’il se lève"]
+         "Le résident ne doit pas tenir sur sa canne ou marchette lorsqu’il se lève"]
     },
     {
       "chapterId": "11",
@@ -165,17 +165,17 @@
       "image": "feeding_assistance.png",
       "image_sub": "feeding.png",
       "lang": "fr", 
-      "checklist": ["Lors de l'alimentation, s'assurer que la tête du résident est légèrement inclinée <b>vers l’avant</b>",
+      "checklist": ["Lors de l'alimentation, s'assurer que la tête du résident est légèrement inclinée vers l’avant",
       "Le tronc du résident est droit - ni penché ni tourné d’un côté",
       "Pour les résidents dans un fauteuil à base roulante, assurez-vous que le fauteuil est redressé à 90°",
       "S’assurer que le résident est éveillé durant le repas",
-      "Laver les mains et brosser les dents du résident <b>avant</b> et <b>après</b> l’alimentation",
+      "Laver les mains et brosser les dents du résident avant et après l’alimentation",
       "Avant l’alimentation: vérifier que les aliments correspondent au coupon repas du résident",
-      "S’assurer que le résident a tous ses objets personnels et aides sensorielles <b>avant</b> et <b>après</b> chaque repas",
+      "S’assurer que le résident a tous ses objets personnels et aides sensorielles avant et après chaque repas",
       "S’asseoir au même niveau que le résident, préférablement face à lui ou à côté de lui",
       "Encourager le résident à s’hydrater pendant et entre les repas",
-      "S’assurer que le résident a mangé <b>au moins 75% du repas</b>",
-      "<b>Après le repas</b>: le résident devrait rester assis pendant au moins 30 minutes"]
+      "S’assurer que le résident a mangé au moins 75% du repas",
+      "Après le repas: le résident devrait rester assis pendant au moins 30 minutes"]
     },
     {
       "chapterId": "12",
@@ -197,11 +197,11 @@
       "lang": "fr", 
       "checklist": ["Encourager le résident à participer lors des tâches afin de promouvoir leur autonomie et réduire le déconditionnement. Fournir de l’assistance si nécessaire",
       "Toujours respecter la dignité et l’intimité du résident",
-      "Lors du nettoyage des prothèses dentaires, placer une débarbouillette au fond du lavabo et utiliser de l’eau <b>froide/tiède</b>",
+      "Lors du nettoyage des prothèses dentaires, placer une débarbouillette au fond du lavabo et utiliser de l’eau froide/tiède",
       "Pour brosser les dents d’un résident au lit, placer votre bras derrière leur cou et ouvrir leur mâchoire avec votre index et votre pouce",
       "Lors du changement de la culotte d’incontinence au lit, commencer par nettoyer les parties génitales avant les fesses",
       "Pour l’habillement, s’assurer de commencer par le côté le plus faible ou atteint et de ne pas trop bouger ce bras",
-      "Après avoir donné un bain au résident, s'assurer que leur peau est bien séchée: <b>tapoter pour sécher, ne pas frotter</b>"]
+      "Après avoir donné un bain au résident, s'assurer que leur peau est bien séchée: tapoter pour sécher, ne pas frotter"]
     },
     {
       "chapterId": "14",
@@ -211,7 +211,7 @@
       "lang": "fr", 
       "checklist": ["Se présenter lorsque vous entrez dans la chambre d’un résident",
          "Expliquer la raison de votre visite au résident: utiliser un vocabulaire simple et parler clairement",
-         "Si le résident est en mesure de donner son consentement, demander pour son consentement <b>tout au long des soins</b>",
+         "Si le résident est en mesure de donner son consentement, demander pour son consentement tout au long des soins",
          "S’assurer que le résident est en mesure de voir, d’entendre et de comprendre ce que vous êtes en train de dire",
          "Être patient et rassurant durant toutes les interventions et communications",
          "Valider leurs émotions et ce qu’il vient de dire",
