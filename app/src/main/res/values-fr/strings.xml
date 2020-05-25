@@ -27,4 +27,8 @@
     <string name="your_answer_text">Votre réponse:</string>
     <string name="correct_answer_text">La bonne réponse:</string>
     <string name="play_button">Jouer</string>
+    <string name="link_button">Lien vers la version document</string>
+    <string name="references_button">Références</string>
+    <string name="references_title">Références</string>
+    <string name="reference_text">Référence</string>
 </resources>

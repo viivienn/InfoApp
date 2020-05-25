@@ -1,24 +1,21 @@
-package com.example.myapplication.about
+package com.example.myapplication.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.example.myapplication.databinding.FragmentAboutBinding
-import kotlinx.android.synthetic.main.fragment_about.*
+import com.example.myapplication.databinding.FragmentReferencesBinding
 
-
-class AboutFragment : Fragment() {
+class ReferencesFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentAboutBinding.inflate(inflater, container, false)
+        val binding = FragmentReferencesBinding.inflate(inflater, container, false)
             .apply {
                 executePendingBindings()
                 toolbar.setNavigationOnClickListener { view ->

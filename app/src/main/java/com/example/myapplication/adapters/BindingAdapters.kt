@@ -43,8 +43,6 @@ fun setBackground(background: ConstraintLayout, backgroundColor: String) {
 fun bindRenderHtml(view: TextView, content: String?) {
     if (content != null) {
         view.text = HtmlCompat.fromHtml(content, FROM_HTML_MODE_COMPACT)
-//        view.loadDataWithBaseURL(null, content, "text/html", "utf-8", null)
-//        view.movementMethod = LinkMovementMethod.getInstance()
     } else {
         view.setText("Loading...")
     }

@@ -47,7 +47,7 @@
                 android:paddingStart="@dimen/card_side_margin"
                 android:paddingTop="@dimen/header_margin"
                 android:paddingEnd="@dimen/card_side_margin"
-                android:paddingBottom="48dp"
+                android:paddingBottom="60dp"
                 app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

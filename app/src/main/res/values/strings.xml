@@ -36,4 +36,8 @@ Tiffany Chenn for logo designs
     <string name="your_answer_text">Your Answer:</string>
     <string name="correct_answer_text">Correct Answer:</string>
     <string name="play_button">Play</string>
+    <string name="link_button">Link to Document Version</string>
+    <string name="references_button">References</string>
+    <string name="references_title">References</string>
+    <string name="reference_text">reference</string>
 </resources>

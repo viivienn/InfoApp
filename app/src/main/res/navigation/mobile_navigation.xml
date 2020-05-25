@@ -23,6 +23,9 @@
         <action
             android:id="@+id/action_navigation_settings_to_aboutFragment"
             app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_navigation_settings_to_referencesFragment"
+            app:destination="@id/referencesFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
@@ -132,4 +135,8 @@
             android:name="wordId"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/referencesFragment"
+        android:name="com.example.myapplication.settings.ReferencesFragment"
+        android:label="ReferencesFragment" />
 </navigation>
