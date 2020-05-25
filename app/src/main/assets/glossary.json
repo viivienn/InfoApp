@@ -1,38 +1,254 @@
 [
   {
     "wordId": "1",
-    "word": "Cane",
-	"lang": "en",
-    "definition": "A <b>cane</b> or a walking stick is a type of mobility aid that is often used when a patient has a minor balance problem or a problem with one side of their legs.  Canes can come with one single tip or four tips, which are also known as a quad cane. Quad canes can provide a broader base of support and help reduce falls."
+    "word": "Aspiration",
+  "lang": "en",
+    "definition": "<b>Aspiration</b> is a medical term that is defined as taking in foreign matter into the lungs with the respiratory current."
   },
     {
     "wordId": "2",
-    "word": "Walker",
+    "word": "Assistant of the orderly",
 	"lang": "en",
-    "definition": "A walker is a type of mobility aid used to help people who are still able to walk (e.g., don't require a wheelchair) yet need assistance. It is a four-legged frame that allows a person to lean on it for balance, support, and rest."
+    "definition": "An <b>assistant of the orderly</b> assists the orderly and the nursing staff with basic assistance in everyday activities such as feeding, bathing, dressing, and changing diapers to patients in hospitals and long-term care facilities. They help improve the patients’ well-being while also keeping an eye and report if there are any changes to their conditions."
   },
   {
     "wordId": "3",
-    "word": "Occupational Therapists (OTs)",
+    "word": "Cane",
 	"lang": "en",
-    "definition": "Occupational therapists’ main role in long-term care homes is to promote optimal function and engagement in every day activities such as self-care, mobility and participation in social and leisure activities. Following assessment in areas such as eating, grooming, dressing, bathing, and toileting, OTs can develop individualized programs that may include positioning, adaptive equipment, and cueing."
+    "definition": "A <b>cane</b> or a walking stick is a type of mobility aid that is often used when a patient has a minor balance problem or a problem with one side of their legs. A cane can have 1 end, 3 ends (tripod cane) and 4 ends (quadripod cane)."
   },
-    {
+  {
     "wordId": "4",
-    "word": "Bed Pads",
+    "word": "Dehydration",
 	"lang": "en",
-    "definition": "Bed pads or underpads are seen in most of the residents’ beds. These waterproof and reusable sheets have the primary purpose is to contain urinary incontinence and other liquid accidents."
+    "definition": "<b>Dehydration</b> occurs when the body does not have the sufficient amount of water it needs. Older adults are often at higher risk for dehydration due to different reasons as a result of aging, including diarrhea, medications, reduced thirst signals, decreased kidney functions and swallowing difficulties. Dehydration can worsen rapidly, and its consequences are often major. Early signs of dehydration in this population may be confusion, difficulty walking, dizziness, headaches, fatigue, dry mouth, sunken eyes."
   },
   {
     "wordId": "5",
+    "word": "Dementia",
+	"lang": "en",
+    "definition": "<b>Dementia</b> is a disorder that is characterized by symptoms affecting thinking, memory and social abilities severely enough to interfere with an individual’s everyday life."
+  },
+  {
+    "wordId": "6",
+    "word": "Dysphagia",
+	"lang": "en",
+    "definition": "<b>Dysphagia</b> is a medical term referring to difficulties with swallowing. An individual with dysphagia may take more time and effort for food or drink to pass down from their mouth to their stomach. An individual with dysphagia is also at risk of choking and aspiration when they are swallowing."
+  },
+  {
+    "wordId": "7",
+    "word": "Incontinence",
+	"lang": "en",
+    "definition": "<b>Incontinence</b> is the involuntary or accidental leakage of urine from the bladder (urinary incontinence) or stool from the bowel (fecal incontinence). Although incontinence is most commonly seen in older adults, it is not a normal part of aging. Incontinence often leads to reduced quality of life while increasing the risk to developing urinary tract infection and pressure sores."
+  },
+  {
+    "wordId": "8",
+    "word": "Nurse",
+	"lang": "en",
+    "definition": "A <b>nurse</b> is a healthcare professional responsible for the planning of the resident’s care. The nurse will perform multiple assessments to evaluate the resident’s physical and mental condition, monitor the resident’s medication and detect risk factors such as falls, wounds and infections. The nurse also aims to ensure the well being of the residents."
+  },
+  {
+    "wordId": "9",
+    "word": "Occupational Therapist (OT): ",
+	"lang": "en",
+    "definition": "An <b>occupational therapist</b> is a healthcare professional often working in long-term care facilities to promote optimal function and engagement in everyday activities that matter to the residents such as self-care, mobility and participation in social and leisure activities. OTs assess the level of function of residents in areas such as eating, grooming, dressing, toileting, in order to develop individualized programs and solutions which may include cueing, positioning, adaptive equipment, and adapted environment."
+  },
+  {
+    "wordId": "10",
+    "word": "Orderly",
+	"lang": "en",
+    "definition": "An <b>orderly</b> is a healthcare professional that provides basic assistance with everyday tasks such as bathing, shaving, putting on clothes, and eating to patients in hospitals and long-term care facilities. They provide help, reassurance, and companionship to all the patients, making a significant positive difference in their experience. They work closely with the nursing staff."
+  },
+  {
+    "wordId": "11",
+    "word": "Physical Therapist (PT)",
+	"lang": "en",
+    "definition": "A <b>physiotherapist</b> is a healthcare professional who promotes well-being by addressing the physical components such as strength, function, balance, etc. In long-term care residencies, the main role of a physiotherapist is to improve or maintain physical function of the residents which can be accomplished through exercise programs, massages, and many more."
+  },
+  {
+    "wordId": "12",
+    "word": "Physician",
+	"lang": "en",
+    "definition": "A <b>physician</b> is a healthcare professional who manages complex matters in long term care facilities such as medical management, risk management, end-of-life care and decision-making. Their approach focuses on preserving the quality of life and the autonomy of the residents."
+  },
+  {
+    "wordId": "13",
+    "word": "Pressure sore",
+	"lang": "en",
+    "definition": "<b>Pressure sores</b> or pressure ulcers are injuries to the skin and the underlying tissues, often caused by increased or prolonged contact between the skin and a hard surface (e.g. mattress, wheelchair, clothes). If left untreated, pressure sores may lead to more severe health complications."
+  },
+  {
+    "wordId": "14",
+    "word": "Reduced mobility",
+	"lang": "en",
+    "definition": "<b>Reduced or loss of mobility</b> is frequently seen in the long-term care population and may be caused by a number of factors such as advanced age, chronic diseases, impaired strength and balance. It is often associated with the loss of ability to participate in activities of daily living, decline in health-related quality of life, increased number of falls and increased risk of developing pressure ulcers and incontinence."
+  },
+  {
+    "wordId": "15",
+    "word": "Regurgitation",
+	"lang": "en",
+    "definition": "<b>Regurgitation</b> is the action of bringing swallowed food up again to the mouth."
+  },
+  {
+    "wordId": "16",
+    "word": "Repositioning",
+	"lang": "en",
+    "definition": "<b>Repositioning</b> is the act of altering, adjusting or placing an individual in a different position. Assistance to repositioning in long-term care facilities is often central to prevention of contractures and pressure sores."
+  },
+  {
+    "wordId": "17",
+    "word": "Soaker Pads",
+	"lang": "en",
+    "definition": "<b>Soaker pads</b> or bed pads are usually placed under an individual positioned on a bed or a chair. These waterproof, reusable and multi-layered sheets have the primary purpose to contain urinary incontinence and other liquid accidents."
+  },
+  {
+    "wordId": "18",
+    "word": "Speech Language Pathologist (SLP)",
+	"lang": "en",
+    "definition": "Also known as a speech therapist, an <b>speech language pathologist</b> is a healthcare professional who focuses on a range of communication and swallowing disorders in individuals of all ages."
+  },
+  {
+    "wordId": "19",
+    "word": "Transfer",
+	"lang": "en",
+    "definition": "A <b>transfer</b> is a safe patient-handling technique usually performed by healthcare professionals in order to mobilize a person from one place to another."
+  },
+  {
+    "wordId": "20",
+    "word": "Walker",
+	"lang": "en",
+    "definition": "A <b>walker</b> is a type of mobility aid used to help people who are still able to walk (e.g., do not require a wheelchair) yet need assistance. It is a four-legged frame that allows a person to lean on it for balance, support, and rest."
+  },
+  {
+    "wordId": "21",
+    "word": "Wheelchair",
+	"lang": "en",
+    "definition": "A <b>wheelchair</b> is a mobility aid used for an individual who has reduced mobility. It is a chair with wheels on the side which allows the person to mobilize while sitting."
+  },
+  {
+    "wordId": "22",
     "word": "Canne",
 	"lang": "fr",
-    "definition": "La canne est une d'aide à la mobilité souvent utilisé lorsqu'un patient a un problème d'équilibre mineur ou un problème avec l'un des côté de ses jambes. Les cannes peuvent venir avec une seule pointe ou avec quatre pointes, aussi appelé canne quadripode. Les cannes quadripode peuvent fournir une base de soutien plus large et aider à réduire les chutes."
+    "definition": "Une <b>canne</b> est un type d’aide à la mobilité qui est souvent utilisé lorsqu’un résident a un problème d’équilibre ou avec un côté de ses jambes. Une canne peut venir avec un bout, trois bouts (canne tripode) et quatre bouts (canne quadripode)."
   },
-    {
-    "wordId": "6",
+  {
+    "wordId": "23",
+    "word": "Marchette",
+	"lang": "fr",
+    "definition": "Une <b>marchette</b> est un type d’aide à la mobilité utilisé pour aider une personne qui est capable de marcher avec de l’assistance. Une marchette est un appareil rigide avec quatre pattes qui permet à la personne de s’appuyer dessus pour l’équilibre, le soutien et le repos."
+  },
+  {
+    "wordId": "244",
+    "word": "Fauteuil roulant",
+	"lang": "fr",
+    "definition": "Un <b>fauteuil roulant</b> est un type d’aide à la mobilité utilisé pour une personne à mobilité réduite. Il s’agit d’une chaise avec des roues dans les côtés, d'où la personne peut se déplacer tout en s'asseyant."
+  },
+  {
+    "wordId": "25",
     "word": "Ergothérapeute",
 	"lang": "fr",
-    "definition": "Le rôle principal des ergothérapeutes aux sein des résidents est de promouvoir l'autonomic functionelle et l'engagement dans les activités quotidiennes telles que les soins d'hygiène, la mobilité et l'engagement social et thérapeutiques. Après avoir évalué certaines domaines tels que l'alimentation, le toilettage et l'habillage, les ergothérapeutes peuvent développer des programmes individualisés qui peuvent inclure le positionnement, l'installation par le personnel, l'équipement adaptatif et les repères verbal."
+    "definition": "L’<b>ergothérapeute</b> est un professionnel de santé qui travaille au sein des résidents afin de promouvoir l'autonomie fonctionnelle et l'engagement dans les activités quotidiennes et signifiantes des résidents telles que les soins d'hygiène, la mobilité et l'engagement social et thérapeutique. Dans les CHSLD, l’ergothérapeute évalue les capacités fonctionnelles des résidents telles que l'alimentation, le toilettage, l'habillage et la mobilité afin de mettre en place des programmes individualisés incluant des indices verbaux, des principes de positionnement, des équipements adaptés ou un environnement adapté."
+  },
+  {
+    "wordId": "26",
+    "word": "Préposé aux bénéficiaires (PAB)",
+	"lang": "fr",
+    "definition": "Un <b>PAB</b>, ou préposé aux bénéficiaires, est un professionnel de la santé qui s’occupe à fournir une assistance de base aux patients pour leurs tâches quotidiennes, telles que se laver, se raser, se vêtir et se nourrir dans les CHSLDs. Ils apportent de l’aide, du réconfort et de la compagnie à tous les résidents. Ils travaillent en collaboration avec le personnel infirmier."
+  },
+  {
+    "wordId": "27",
+    "word": "Infirmière",
+	"lang": "fr",
+    "definition": "L’<b>infirmière</b> est une professionnelle de la santé qui s’occupe de la planification des soins du résident. L’infirmière évalue les conditions physiques et mentales des résidents. Aussi, l’infirmière surveille rigoureusement les médicaments prescrits aux résidents de même que dépistés des facteurs de risque, tels que des chutes, des plaies et des infections. L’infirmière vise également à rendre la personne capable d’assurer son bien-être et d’avoir une bonne qualité de vie."
+  },
+  {
+    "wordId": "28",
+    "word": "Physiothérapeute",
+	"lang": "fr",
+    "definition": "Un <b>physiothérapeute</b> est un professionnel de la santé dont le rôle principal est de promouvoir la santé en se concentrant sur les aspects physiques tels que la force, la fonction, la balance, etc. Dans les résidences, le rôle d’un physiothérapeute est d’améliorer ou de maintenir la condition physique des résidents à l’aide de programmes d’exercices, de massages, et plus."
+  },
+  {
+    "wordId": "29",
+    "word": "Orthophoniste",
+	"lang": "fr",
+    "definition": "Un <b>orthophoniste</b> est un thérapeute spécialisé dans les troubles de la communication et de la déglutition, pour les individus de tous les âges."
+  },
+  {
+    "wordId": "30",
+    "word": "Médecin",
+	"lang": "fr",
+    "definition": "Un <b>médecin</b> est un professionnel de santé qui s’occupe des tâches complexes au sein des résidents, telles que les soins médicaux, la prévention des risques médicaux, l’évaluation des troubles cognitifs et la prise de décision. Leur expertise et leur approche tiennent à favoriser la qualité de vie et préserver l’autonomie des résidents."
+  },
+    {
+    "wordId": "31",
+    "word": "Piqué",
+	"lang": "fr",
+    "definition": "Un <b>piqué</b> est souvent placé sous une personne qui est position sur une chaise ou un lit. Ces draps imperméables et réutilisables ont pour but de contenir l’incontinence urinaire et d’autres accidents liquides."
+  },
+  {
+    "wordId": "32",
+    "word": "Repositionnement",
+	"lang": "fr",
+    "definition": "Un <b>repositionnement</b> est une action qui a pour but d’ajuster ou de changer la position d’une personne. L’aide au repositionnement dans les établissements de soins de longue durée est souvent essentielle à la prévention des contractures et des plaies de pression."
+  },
+  {
+    "wordId": "33",
+    "word": "Transfert",
+	"lang": "fr",
+    "definition": "Un <b>transfert</b> est une technique pour déplacer sécuritairement une personne d’un endroit à un autre.  Cette technique est normalement exécutée par des professionnels de la santé."
+  },
+  {
+    "wordId": "34",
+    "word": "Dysphagie",
+	"lang": "fr",
+    "definition": "La <b>dysphagie</b> est un terme médical pour indiquer une difficulté à avaler. Un individu atteint de dysphagie prend plus de temps et d’efforts à passer les aliments ou les liquides de leur bouche à leur estomac."
+  },
+  {
+    "wordId": "35",
+    "word": "Régurgitation",
+	"lang": "fr",
+    "definition": "La <b>régurgitation</b> est l’action de retourner des aliments qui viennent d'être avalés dans la bouche."
+  },
+  {
+    "wordId": "36",
+    "word": "Aspiration",
+	"lang": "fr",
+    "definition": "L’<b>aspiration</b> est le terme médical défini par l’action d’aspirer ou d’absorber des matières intruses dans les poumons par les voies respiratoires"
+  },
+  {
+    "wordId": "37",
+    "word": "Incontinence",
+	"lang": "fr",
+    "definition": "L’<b>incontinence</b> peut se définir comme étant la perte involontaire d’urine (incontinence urinaire) ou de selles (incontinence fécale). L’incontinence se présente fréquemment chez les personnes âgées, mais ne fait pas partie du processus normal de vieillissement. L’incontinence réduit beaucoup la qualité de vie et peut augmenter les risques de développer une infection des voies urinaire ou des plaies de pression."
+  },
+  {
+    "wordId": "38",
+    "word": "Plaie de pression",
+	"lang": "fr",
+    "definition": "Les <b>plaies de pression</b> sont une blessure de la peau et des tissus causée par le contact continu entre la peau et une surface rigide (ex. Matelas, fauteuil roulant, vêtements). Si elles ne sont pas traitées aussitôt que possible, elles peuvent mener à des complications de santé sévères."
+  },
+  {
+    "wordId": "39",
+    "word": "Déshydratation",
+	"lang": "fr",
+    "definition": "La <b>déshydratation</b> se définit comme étant le manque d’eau dans le corps. Les personnes âgées sont souvent à risque accru de déshydratation pour plusieurs raisons liées au vieillissement, telles que la diarrhée, la difficulté à avaler, la diminution de la sensation de soif, les médicaments et la diminution de la fonction rénale. La déshydratation, lorsque sévère, peut amener à des conséquences lourdes et devenir une menace importante pour la santé. En cas de déshydratation, plusieurs symptômes peuvent se manifester, comme la confusion, l’étourdissement, la fatigue, la sécheresse de la bouche et la difficulté à se mobiliser."
+  },
+  {
+    "wordId": "40",
+    "word": "Mobilité réduite",
+	"lang": "fr",
+    "definition": "La <b>mobilité réduite</b> est la diminution des capacités de déplacement d’une personne, de manière temporaire ou définitive. La mobilité réduite touche souvent les résidents dans les CHSLD et peut être une conséquence du vieillissement, d’une maladie chronique et d’une perte de force musculaire et d’équilibre. La mobilité réduite peut réduire énormément la qualité de vie des personnes âgées et peut amener à des problèmes tels que des chutes, des plaies de pression et l’incontinence."
+  },
+  {
+    "wordId": "41",
+    "word": "Assistant PAB",
+	"lang": "fr",
+    "definition": "L’<b>assistant PAB</b> collabore avec les préposé aux bénéficiaires(PAB) et le personnel infirmier en fournissant des soins d’assistance aux activités de la vie quotidienne (AVQ) telles que pour l’alimentation, les soins d’hygiène, l’habillage et le changement de culotte d’incontinence. Cela vise à améliorer le bien-être des patients tout en gardant un oeil sur leur état et de communiquer tout changement dans leur condition."
+  },
+  {
+    "wordId": "42",
+    "word": "Démence",
+	"lang": "fr",
+    "definition": "La <b>démence</b> est un trouble qui se caractérise par des symptômes affectant la pensée, la mémoire et les capacités sociales, perturbant la vie quotidienne d’une personne."
   }
 ]
