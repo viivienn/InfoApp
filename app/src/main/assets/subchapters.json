@@ -87,7 +87,7 @@
   {
     "parentChapterId": "3",
     "subChapterId": "13",
-    "title": "1. Components of the Wheelchairs (General, Tilt-In Space or Geriatric) ",
+    "title": "1. Components of a Wheelchair",
     "image": "",
     "content": "31.html"
   },
@@ -143,7 +143,7 @@
   {
     "parentChapterId": "4",
     "subChapterId": "21",
-    "title": "3. Feeding and Hydration Assistance (Partial or Total)",
+    "title": "3. Feeding and Hydration Assistance",
     "image": "",
     "content": "43.html"
   },
@@ -360,14 +360,14 @@
   {
     "parentChapterId": "9",
     "subChapterId": "52",
-    "title": "1. Points généraux à retenir à propos des déplacements",
+    "title": "1. Pour un déplacement sécuritaire",
     "image": "",
     "content": "91.html"
   },
   {
     "parentChapterId": "9",
     "subChapterId": "53",
-    "title": "2. Quatre principes pour déplacement securitaire",
+    "title": "2. Quatre principes de base",
     "image": "",
     "content": "92.html"
   },
@@ -395,7 +395,7 @@
   {
     "parentChapterId": "10",
     "subChapterId": "57",
-    "title": "1. Composants du fauteuil roulant (manuel, base roulante ou gériatrique)",
+    "title": "1. Composants du fauteuil roulant",
     "image": "",
     "content": "101.html"
   },
@@ -493,7 +493,7 @@
   {
     "parentChapterId": "12",
     "subChapterId": "71",
-    "title": "3. Prévention des plaies de pressure",
+    "title": "3. Prévention des plaies de pression",
     "image": "",
     "content": "123.html"
   },
@@ -535,7 +535,7 @@
   {
     "parentChapterId": "13",
     "subChapterId": "77",
-    "title": "3. Hygiène aux toilettes et changement de la culotte d'incontinence ",
+    "title": "3. Hygiène aux toilettes et changement de la culotte d'incontinence",
     "image": "",
     "content": "133.html"
   },

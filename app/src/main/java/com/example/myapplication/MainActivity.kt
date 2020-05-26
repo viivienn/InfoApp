@@ -10,9 +10,10 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.myapplication.databinding.ActivityMainBinding
+import hotchemi.android.rate.AppRate
 import java.util.*
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var container : ConstraintLayout
@@ -28,6 +29,14 @@ class MainActivity : AppCompatActivity() {
 //        NavigationUI.setupActionBarWithNavController(this, navController)
         NavigationUI.setupWithNavController(binding.navView, navController)
 //        getSupportActionBar()?.setDisplayHomeAsUpEnabled(true);
+
+        AppRate.with(this)
+            .setInstallDays(5)
+            .setLaunchTimes(3)
+            .setRemindInterval(2)
+            .monitor();
+
+        AppRate.showRateDialogIfMeetsConditions(this)
     }
 
     fun showChangeLang() {

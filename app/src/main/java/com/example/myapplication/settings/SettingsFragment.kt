@@ -39,7 +39,7 @@ class SettingsFragment : Fragment() {
         }
 
         binding.linkButton.setOnClickListener{view: View ->
-            val uri: Uri = Uri.parse("http://www.google.com")
+            val uri: Uri = Uri.parse("https://drive.google.com/open?id=1BpbVJQBByByrvwZkk40sWPoQhE3SNp-2")
             val intent = Intent(Intent.ACTION_VIEW, uri)
             startActivity(intent)
         }

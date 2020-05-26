@@ -110,14 +110,14 @@
   {
     "questionId": "10",
     "parentChapterId": "4",
-    "question": "Question 10: Before feeding Mrs. S, you noticed that her meal plan indicates a need for nectar fluid consistency and a minced modified diet. Which of these foods follow her nutritional plan?",
+    "question": "Question 10: Before feeding Mrs. S, you noticed that her meal coupon indicates a need for nectar fluid consistency and a minced modified diet. Which of these foods follow her nutritional plan?",
     "choices": [
       "a) Orange juice and steak with baked potatoes",
-      "b) Drinkable yogurt and tender fish fillet",
+      "b) Drinkable yogurt and minced beef with gravy",
       "c) Chocolate pudding and peanut butter on multigrain toast",
-      "d) Greek yogurt and beef with pureed carrots"
+      "d) Greek yogurt and grilled fish with pureed carrots"
     ],
-    "answer": "b) Drinkable yogurt and tender fish fillet"
+    "answer": "b) Drinkable yogurt and minced beef with gravy"
   },
   {
     "questionId": "11",
@@ -281,9 +281,9 @@
     "question": "Question 4: Laquelle des indications suivantes N’est PAS convenable lors de la préparation avant l’alimentation?",
     "choices": [
       "a) Placer les boissons tièdes hors de portée du résident pour éviter les brûlures",
-      "b) Laver les mains et brosser les dents du patient avant et après l’alimentation",
+      "b) Laver les mains et brosser les dents du résident avant et après l’alimentation",
       "c) S’assurer que le résident est éveillé et qu’il porte ses aides sensorielles",
-      "d) Positionner le patient sécuritairement et confortablement"
+      "d) Positionner le résident sécuritairement et confortablement"
     ],
     "answer": "a) Placer les boissons tièdes hors de portée du résident pour éviter les brûlures"
   },
@@ -338,7 +338,7 @@
   {
     "questionId": "29",
     "parentChapterId": "11",
-    "question": "Question 9: Placez les énoncés suivants dans le bon ordre:\n\n1.Vérifier le coupon repas du patient\n\n2.Positionner le résident confortablement avec leur tête inclinée vers l’avant\n\n3.Au besoin, rappeler le résident d’ouvrir la bouche, de mastiquer et d’avaler\n\n4.Brosser les dents du résident",
+    "question": "Question 9: Placez les énoncés suivants dans le bon ordre:\n\n1.Vérifier le coupon repas du résident\n\n2.Positionner le résident confortablement avec leur tête inclinée vers l’avant\n\n3.Au besoin, rappeler le résident d’ouvrir la bouche, de mastiquer et d’avaler\n\n4.Brosser les dents du résident",
     "choices": [
       "a) 4 - 1 - 3 - 2 - 3",
       "b) 4 - 3 - 1 - 2 - 4",
@@ -350,14 +350,14 @@
   {
     "questionId": "30",
     "parentChapterId": "11",
-    "question": "Question 10: Avant de commencer le repas, vous remarquez que le coupon repas de Mme S indique du liquide à consistance de nectar et un repas à texture modifiée (hachée). Lequel des choix suivants est approprié selon le coupon repas de Mme S?",
+    "question": "Question 10: Avant de commencer le repas, vous remarquez que le coupon repas de Mme S indique du liquide à consistance de nectar et un repas à texture modifiée hachée. Lequel des choix suivants est approprié selon le coupon repas de Mme S?",
     "choices": [
       "a) Jus d’orange et steak avec patates cuites",
-      "b) Yaourt à boire et filet de poisson tendre",
+      "b) Yaourt à boire et viande hachée avec sauce",
       "c) Pouding au chocolat et toasts multigrains avec beurre d’arachide",
-      "d) Yaourt grec et boeuf avec purée de carotte"
+      "d) Yaourt grec et poisson grillé avec purée de carotte "
     ],
-    "answer": "b) Yaourt à boire et filet de poisson tendre"
+    "answer": "b) Yaourt à boire et viande hachée avec sauce"
   },
   {
     "questionId": "31",
@@ -508,7 +508,7 @@
     "parentChapterId": "1",
     "question": "Question 3: How can you create a safe walking environment?",
     "choices": [
-      "a) The resident likes to have access to all of their belongings at all times. Therefore, you place the patient’s books, chairs, newspapers, pencils, clothes, and shoes all over the tables and the floor of the room.",
+      "a) The resident likes to have access to all of their belongings at all times. Therefore, you place the resident’s books, chairs, newspapers, pencils, clothes, and shoes all over the tables and the floor of the room.",
       "b) Ensure that the floors are not wet and that any spills are cleaned",
       "c) To help them sleep, the resident prefers a room that is darker and not very illuminated. Therefore, you leave the lights turned off and the drapes down.",
       "d) All of the above"
@@ -544,9 +544,9 @@
     "parentChapterId": "2",
     "question": "Question 1: Which of the following is NOT considered as a movement guideline during transfers?",
     "choices": [
-      "a) Explain to the patient about what will be done during the transfer",
-      "b) Using your arm strength, pull on the soaker pad to reposition the patient to the head of the bed",
-      "c) Because the patient is unable to help with the transfer, lift the patient from the bed to their wheelchair",
+      "a) Explain to the resident about what will be done during the transfer",
+      "b) Using your arm strength, pull on the soaker pad to reposition the resident to the head of the bed",
+      "c) Because the resident is unable to help with the transfer, lift the resident from the bed to their wheelchair",
       "d) Both B and C are correct"
     ],
     "answer": "d) Both B and C are correct"
@@ -554,23 +554,23 @@
   {
     "questionId": "47",
     "parentChapterId": "2",
-    "question": "Question 2: How would you NOT assess the patient’s ability to assist in a transfer?",
+    "question": "Question 2: How would you NOT assess the resident’s ability to assist in a transfer?",
     "choices": [
-      "a) Ask the patient for a firm handshake",
-      "b) Ask the patient to look at you",
-      "c) Check the patient’s pulse",
-      "d) Assess the patient’s ability to sit without any support"
+      "a) Ask the resident for a firm handshake",
+      "b) Ask the resident to look at you",
+      "c) Check the resident’s pulse",
+      "d) Assess the resident’s ability to sit without any support"
     ],
-    "answer": "c) Check the patient’s pulse"
+    "answer": "c) Check the resident’s pulse"
   },
   {
     "questionId": "48",
     "parentChapterId": "2",
     "question": "Question 3: Which of these points is NOT important during a transfer?",
     "choices": [
-      "a) Communicate with the patient and caregiver throughout the transfer",
+      "a) Communicate with the resident and caregiver throughout the transfer",
       "b) Adjust the height of the bed/chair and have the proper equipment within reach",
-      "c) Check the patient’s ability to help in transfer",
+      "c) Check the resident’s ability to help in transfer",
       "d) None of the above"
     ],
     "answer": "d) None of the above"
@@ -581,11 +581,11 @@
     "question": "Question 4: Which of these positioning principles is true concerning transfer?",
     "choices": [
       "a) Keep your back bent",
-      "b) Keep your body close to the patient",
+      "b) Keep your body close to the resident",
       "c) Keep your feet close to each other",
       "d) Keep your knees straight"
     ],
-    "answer": "b) Keep your body close to the patient"
+    "answer": "b) Keep your body close to the resident"
   },
   {
     "questionId": "50",
@@ -602,19 +602,19 @@
   {
     "questionId": "51",
     "parentChapterId": "2",
-    "question": "Question 6: If the patient is using a soaker pad, where should it be?",
+    "question": "Question 6: If the resident is using a soaker pad, where should it be?",
     "choices": [
-      "a) Under the patient’s body when lying down the bed",
-      "b) Under the patient’s bed sheet",
-      "c) On the patient’s body when lying down the bed",
-      "d) On the patient’s wheelchair"
+      "a) Under the resident’s body when lying down the bed",
+      "b) Under the resident’s bed sheet",
+      "c) On the resident’s body when lying down the bed",
+      "d) On the resident’s wheelchair"
     ],
-    "answer": "a) Under the patient’s body when lying down the bed"
+    "answer": "a) Under the resident’s body when lying down the bed"
   },
   {
     "questionId": "52",
     "parentChapterId": "2",
-    "question": "Question 7: When communicating with a patient, you should:",
+    "question": "Question 7: When communicating with a resident, you should:",
     "choices": [
       "a) Be respectful",
       "b) Be clear",
@@ -630,15 +630,15 @@
     "choices": [
       "a) Avoid tugging on an arm or leg",
       "b) Avoid using a claw grip",
-      "c) Avoid having the patient help during the transfer",
-      "d) Avoid lifting a patient"
+      "c) Avoid having the resident help during the transfer",
+      "d) Avoid lifting a resident"
     ],
-    "answer": "c) Avoid having the patient help during the transfer"
+    "answer": "c) Avoid having the resident help during the transfer"
   },
   {
     "questionId": "54",
     "parentChapterId": "2",
-    "question": "Question 9: What are the steps when repositioning the patient on a mattress? \n\nA. Reposition the patient towards the side of the bed by performing a weight transfer from front leg to back leg \n\nB. Roll the patient towards the desired side \n\nC. Place a pillow against the patient’s back \n\nD. Make sure both caregiver have a signal",
+    "question": "Question 9: What are the steps when repositioning the resident on a mattress? \n\nA. Reposition the resident towards the side of the bed by performing a weight transfer from front leg to back leg \n\nB. Roll the resident towards the desired side \n\nC. Place a pillow against the resident’s back \n\nD. Make sure both caregiver have a signal",
     "choices": [
       "a) A, B, D, C",
       "b) A, D, B, C",
@@ -748,7 +748,7 @@
     "parentChapterId": "8",
     "question": "Question 3: Comment pouvez-vous créer un environnement sécuritaire pour la marche?",
     "choices": [
-      "a) Le résident préfère avoir accès à leurs affaires en tout temps. Ainsi, vous placez les livres, les chaises, les journaux, les crayons, les vêtements et souliers du patient partout sur les tables et le plancher de la chambre.",
+      "a) Le résident préfère avoir accès à leurs affaires en tout temps. Ainsi, vous placez les livres, les chaises, les journaux, les crayons, les vêtements et souliers du résident partout sur les tables et le plancher de la chambre.",
       "b) S’assurer que le plancher n’est pas mouillé et que tout dégât est nettoyé tout de suite",
       "c) Pour aider avec le sommeil, le résident aime avoir une chambre plus sombre. Donc, vous gardez les lumières éteintes et les rideaux fermés.",
       "d) Toutes les réponses ci-dessus"
@@ -784,9 +784,9 @@
     "parentChapterId": "9",
     "question": "Question 1: Lequel(s) des principes suivants NE fait/font PAS partie des principes des mouvements durant les transferts?",
     "choices": [
-      "a) Expliquer au patient ce qu’il doit faire durant le transfert",
-      "b) Tirer sur le piqué en favorisant la force musculaire pour repositionner le patient à la tête du lit",
-      "c) Si un patient a de la difficulté pendant un transfert, soulevez le patient pour le transférer du lit au fauteuil roulant",
+      "a) Expliquer au résident ce qu’il doit faire durant le transfert",
+      "b) Tirer sur le piqué en favorisant la force musculaire pour repositionner le résident à la tête du lit",
+      "c) Si un résident a de la difficulté pendant un transfert, soulevez le résident pour le transférer du lit au fauteuil roulant",
       "d) Réponses B et C sont correctes"
     ],
     "answer": "d) Réponses B et C sont correctes"
@@ -794,23 +794,23 @@
   {
     "questionId": "67",
     "parentChapterId": "9",
-    "question": "Question 2: Lequel des énoncés suivants N’aide PAS à vérifier si le patient a la capacité d’aider lors des déplacements?",
+    "question": "Question 2: Lequel des énoncés suivants N’aide PAS à vérifier si le résident a la capacité d’aider lors des déplacements?",
     "choices": [
-      "a) Demander au patient de vous serrer la main",
-      "b) Établir un contact visuel avec le patient",
-      "c) Vérifier le pouls du patient",
-      "d) Évaluer si le patient est capable de rester assis sans support"
+      "a) Demander au résident de vous serrer la main",
+      "b) Établir un contact visuel avec le résident",
+      "c) Vérifier le pouls du résident",
+      "d) Évaluer si le résident est capable de rester assis sans support"
     ],
-    "answer": "c) Vérifier le pouls du patient"
+    "answer": "c) Vérifier le pouls du résident"
   },
   {
     "questionId": "68",
     "parentChapterId": "9",
     "question": "Question 3: Lequel des points suivants est négligeable durant un transfert?",
     "choices": [
-      "a) Communiquer avec le patient ainsi que les autres aidants à travers la durée du déplacement",
+      "a) Communiquer avec le résident ainsi que les autres aidants à travers la durée du déplacement",
       "b) Ajuster la hauteur des chaises et des lits et s’assurer d’avoir l’équipement nécessaire à portée de main",
-      "c) Vérifier si le patient a la capacité de vous aider lors des déplacements",
+      "c) Vérifier si le résident a la capacité de vous aider lors des déplacements",
       "d) Aucune réponse ci-dessus"
     ],
     "answer": "d) Aucune réponse ci-dessus"
@@ -821,11 +821,11 @@
     "question": "Question 4: Lequel des principes de positionnement de l’aidant durant les transferts est vrai?",
     "choices": [
       "a) Gardez le dos plié",
-      "b) Gardez-vous près du patient",
+      "b) Gardez-vous près du résident",
       "c) Gardez les pieds ensemble",
       "d) Gardez les genoux tendus"
     ],
-    "answer": "b) Gardez-vous près du patient"
+    "answer": "b) Gardez-vous près du résident"
   },
   {
     "questionId": "70",
@@ -842,19 +842,19 @@
   {
     "questionId": "71",
     "parentChapterId": "9",
-    "question": "Question 6: Si le patient nécessite un piqué lors des transferts, où devrait-il être placé?",
+    "question": "Question 6: Si le résident nécessite un piqué lors des transferts, où devrait-il être placé?",
     "choices": [
-      "a) En dessous du patient lorsqu’il est couché sur le lit",
-      "b) En dessous des draps du patient",
-      "c) Sur le corps du patient lorsqu’il est couché sur le lit",
-      "d) Sur le fauteuil roulant du patien"
+      "a) En dessous du résident lorsqu’il est couché sur le lit",
+      "b) En dessous des draps du résident",
+      "c) Sur le corps du résident lorsqu’il est couché sur le lit",
+      "d) Sur le fauteuil roulant du résident"
     ],
-    "answer": "a) En dessous du patient lorsqu’il est couché sur le lit"
+    "answer": "a) En dessous du résident lorsqu’il est couché sur le lit"
   },
   {
     "questionId": "72",
     "parentChapterId": "9",
-    "question": "Question 7: Lorsque vous communiquez avec un patient, vous devez:",
+    "question": "Question 7: Lorsque vous communiquez avec un résident, vous devez:",
     "choices": [
       "a) Être respectueux",
       "b) Être clair",
@@ -868,17 +868,17 @@
     "parentChapterId": "9",
     "question": "Question 8: Lequel de ces énoncés est FAUX par rapport à un transfert sécuritaire",
     "choices": [
-      "a) Éviter de tirer sur le bras ou la jambe du patient",
-      "b) Éviter de griffer le patient",
-      "c) Éviter d’engager le patient à participer durant les transferts",
-      "d) Éviter de lever le patient"
+      "a) Éviter de tirer sur le bras ou la jambe du résident",
+      "b) Éviter de griffer le résident",
+      "c) Éviter d’engager le résident à participer durant les transferts",
+      "d) Éviter de lever le résident"
     ],
-    "answer": "c) Éviter d’engager le patient à participer durant les transferts"
+    "answer": "c) Éviter d’engager le résident à participer durant les transferts"
   },
   {
     "questionId": "74",
     "parentChapterId": "9",
-    "question": "Question 9: Placer les étapes suivantes en ordre pour repositionner le patient sur le lit: \n\nA. Repositionner le patient vers le bord du lit en exécutant un transfert de poids avant-arrière \n\nB. Rouler le patient vers le côté désiré \n\nC. Placer un oreiller contre le dos du patient \n\nD. S’assurer que les deux aidants donnent un signal",
+    "question": "Question 9: Placer les étapes suivantes en ordre pour repositionner le résident sur le lit: \n\nA. Repositionner le résident vers le bord du lit en exécutant un transfert de poids avant-arrière \n\nB. Rouler le résident vers le côté désiré \n\nC. Placer un oreiller contre le dos du résident \n\nD. S’assurer que les deux aidants donnent un signal",
     "choices": [
       "a) A, B, D, C",
       "b) A, D, B, C",
@@ -892,7 +892,7 @@
     "parentChapterId": "9",
     "question": "Question 10: Lequel de ces énoncés est FAUX concernant la préparation avant un transfert?",
     "choices": [
-      "a) Avoir recours aux équipements nécessaires avant de commencer de bouger le patient",
+      "a) Avoir recours aux équipements nécessaires avant de commencer de bouger le résident",
       "b) S’assurer que l'environnement est sécuritaire et libre d’obstacle",
       "c) Avoir une supervision appropriée",
       "d) Aucune de ces réponses"
@@ -963,7 +963,7 @@
     "questionId": "81",
     "parentChapterId": "3",
     "question": "Question 1: When should the wheelchair brakes be used?",
-    "choices": ["a) When you are going up and down a curb with the patient in the wheelchair", "b) When the resident in wheelchair is in motion", "c) When resident is staying in one place or is transferring in/out of the device", "d) When the wheelchair is not being used"],
+    "choices": ["a) When you are going up and down a curb with the resident in the wheelchair", "b) When the resident in wheelchair is in motion", "c) When resident is staying in one place or is transferring in/out of the device", "d) When the wheelchair is not being used"],
     "answer": "c) When resident is staying in one place or is transferring in/out of the device"
   },
   {
@@ -998,7 +998,7 @@
     "questionId": "86",
     "parentChapterId": "3",
     "question": "Question 6: Which of the following actions should you do when bringing a wheelchair down a curb?",
-    "choices": ["a) Have the patient stand up before bringing the wheelchair down the curb, and help them sit back down", "b) Turn the wheelchair around to have your back facing the curb. You descend the curb first, then gently lower the large wheels of the wheelchair down the curb.", "c) Put on the brakes of the wheelchair, secure the patient by putting on the safety belt, and lift the wheelchair while keeping your back in a straight position", "d) Gently tilt the wheelchair downwards to make sure that the patient is safely seated in his seat, and carefully roll the wheelchair down the curb"],
+    "choices": ["a) Have the resident stand up before bringing the wheelchair down the curb, and help them sit back down", "b) Turn the wheelchair around to have your back facing the curb. You descend the curb first, then gently lower the large wheels of the wheelchair down the curb.", "c) Put on the brakes of the wheelchair, secure the resident by putting on the safety belt, and lift the wheelchair while keeping your back in a straight position", "d) Gently tilt the wheelchair downwards to make sure that the resident is safely seated in his seat, and carefully roll the wheelchair down the curb"],
     "answer": "b) Turn the wheelchair around to have your back facing the curb. You descend the curb first, then gently lower the large wheels of the wheelchair down the curb."
   },
   {
@@ -1012,15 +1012,15 @@
     "questionId": "88",
     "parentChapterId": "3",
     "question": "Question 8: It is your first day in the long term care facility, and you see a resident who is bending forward while walking with a cane. You suspect the cane is too low. What should you do?",
-    "choices": ["a) Adjust the cane", "b) Ask your supervisor to check", "c) Tell the patient to stand straight while walking", "d) Walk beside him, making sure the patient does not fall"],
+    "choices": ["a) Adjust the cane", "b) Ask your supervisor to check", "c) Tell the resident to stand straight while walking", "d) Walk beside him, making sure the resident does not fall"],
     "answer": "b) Ask your supervisor to check"
   },
   {
     "questionId": "89",
     "parentChapterId": "3",
     "question": "Question 9: Which of these following statements are FALSE:",
-    "choices": ["a) Geriatric wheelchairs are used for patients who are 80 years old and above", "b) Tilting the wheelchair involves no hip changes for the residents", "c) Tilt adjustment allows for comfort, stability, positioning and pressure & swelling relief", "d) Users in geriatric wheelchair requires assistance for mobility"],
-    "answer": "a) Geriatric wheelchairs are used for patients who are 80 years old and above"
+    "choices": ["a) Geriatric wheelchairs are used for residents who are 80 years old and above", "b) Tilting the wheelchair involves no hip changes for the residents", "c) Tilt adjustment allows for comfort, stability, positioning and pressure & swelling relief", "d) Users in geriatric wheelchair requires assistance for mobility"],
+    "answer": "a) Geriatric wheelchairs are used for residents who are 80 years old and above"
   },
   {
     "questionId": "90",
@@ -1138,7 +1138,7 @@
     "questionId": "106",
     "parentChapterId": "10",
     "question": "Question 6: Laquelle des actions suivantes devez-vous faire lorsque vous descendiez le fauteuil roulant du trottoir?",
-    "choices": ["a) Demander au patient de se lever debout avant de descendre le fauteuil roulant du trottoir et aider le patient à se rassoir", "b) Tourner le fauteuil roulant jusqu’à ce que votre dos soit face au trottoir. Descendre le trottoir en premier, puis abaisser doucement les grandes roues du fauteuil roulant du trottoir", "c) Mettre les freins du fauteuil roulant, sécuriser le patient en bouclant la ceinture de sécurité et soulever le fauteuil roulant tout en gardant le dos droit", "d) Incliner doucement le fauteuil roulant vers le bas, tout en assurant que le patient est assis de manière sécuritaire, et faire rouler le fauteuil roulant avec précaution pour descendre le trottoir"],
+    "choices": ["a) Demander au résident de se lever debout avant de descendre le fauteuil roulant du trottoir et aider le résident à se rassoir", "b) Tourner le fauteuil roulant jusqu’à ce que votre dos soit face au trottoir. Descendre le trottoir en premier, puis abaisser doucement les grandes roues du fauteuil roulant du trottoir", "c) Mettre les freins du fauteuil roulant, sécuriser le résident en bouclant la ceinture de sécurité et soulever le fauteuil roulant tout en gardant le dos droit", "d) Incliner doucement le fauteuil roulant vers le bas, tout en assurant que le résident est assis de manière sécuritaire, et faire rouler le fauteuil roulant avec précaution pour descendre le trottoir"],
     "answer": "b) Tourner le fauteuil roulant jusqu’à ce que votre dos soit face au trottoir. Descendre le trottoir en premier, puis abaisser doucement les grandes roues du fauteuil roulant du trottoir"
   },
   {
