@@ -24,7 +24,7 @@
                 app:collapsedTitleGravity="center"
                 app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Large"
                 app:expandedTitleMarginEnd="8dp"
-                app:expandedTitleMarginBottom="25dp"
+                app:expandedTitleMarginBottom="30dp"
                 app:expandedTitleTextAppearance="@style/TextAppearance.Toolbar.Expanded"
                 app:contentScrim="?attr/colorPrimaryDark"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
