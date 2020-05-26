@@ -1165,7 +1165,7 @@
   {
     "questionId": "110",
     "parentChapterId": "10",
-    "question": "Question 10: Depuis quelques jours, vous avez remarqué que Mme K est très agitée dans son fauteuil roulant durant le midi. Vous êtes particulièrement inquiet pour sa sécurité aujourd’hui lorsque vous avez aperçu qu’elle a failli subi une chute de son fauteuil. Que faites-vous?",
+    "question": "Question 10: Depuis quelques jours, vous avez remarqué que Mme K est très agitée dans son fauteuil roulant durant le midi. Vous êtes particulièrement inquiet pour sa sécurité aujourd’hui lorsque vous avez aperçu qu’elle a failli subir une chute de son fauteuil. Que faites-vous?",
     "choices": ["a) Installer le cabaret à son fauteuil roulant", "b) Boucher et serrer la ceinture de sécurité à son confort", "c) Demander à la résidente de se calmer", "d) Informer un membre de l’équipe sur la situation et de votre inquiétude"],
     "answer": "d) Informer un membre de l’équipe sur la situation et de votre inquiétude"
   },
