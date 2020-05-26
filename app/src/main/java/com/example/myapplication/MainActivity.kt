@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var container : ConstraintLayout
     private lateinit var languageState: LanguageState
     override fun onCreate(savedInstanceState: Bundle?) {
-        setTheme(R.style.AppTheme)
+
+       setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         languageState = LanguageState.instance
         loadLocate()
