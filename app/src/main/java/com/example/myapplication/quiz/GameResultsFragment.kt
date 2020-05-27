@@ -13,7 +13,6 @@ import androidx.navigation.fragment.navArgs
 import com.example.myapplication.R
 import com.example.myapplication.adapters.GameAdapter
 import com.example.myapplication.adapters.SubChapterAdapter
-import com.example.myapplication.databinding.FragmentGameResultsBinding
 import com.example.myapplication.databinding.FragmentQuizResultsBinding
 import com.example.myapplication.databinding.FragmentSubchapterListBinding
 import com.example.myapplication.utilities.InjectorUtils
