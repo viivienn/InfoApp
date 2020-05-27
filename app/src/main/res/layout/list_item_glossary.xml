@@ -9,7 +9,7 @@
             type="android.view.View.OnClickListener"/>
         <variable
             name="word"
-            type="com.example.myapplication.data.Word"/>
+            type="com.safetrained.myapplication.data.Word"/>
     </data>
 
     <androidx.cardview.widget.CardView

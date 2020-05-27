@@ -6,7 +6,7 @@
     <data>
         <variable
             name="sviewModel"
-            type="com.example.myapplication.glossary.DefinitionViewModel"/>
+            type="com.safetrained.myapplication.glossary.DefinitionViewModel"/>
     </data>
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         tools:ignore="MergeRootFrame"

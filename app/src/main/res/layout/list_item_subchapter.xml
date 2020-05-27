@@ -9,7 +9,7 @@
             type="android.view.View.OnClickListener"/>
         <variable
             name="subChapter"
-            type="com.example.myapplication.data.SubChapter"/>
+            type="com.safetrained.myapplication.data.SubChapter"/>
     </data>
 
     <androidx.cardview.widget.CardView

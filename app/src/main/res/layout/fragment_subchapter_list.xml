@@ -6,7 +6,7 @@
         <data>
             <variable
                 name="sviewModel"
-                type="com.example.myapplication.subChapterList.SubChapterListViewModel"/>
+                type="com.safetrained.myapplication.subChapterList.SubChapterListViewModel"/>
         </data>
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         tools:ignore="MergeRootFrame"

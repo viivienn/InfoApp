@@ -6,7 +6,7 @@
     <data>
         <variable
             name="question"
-            type="com.example.myapplication.data.Question" />
+            type="com.safetrained.myapplication.data.Question" />
         <variable
             name="userAns"
             type="String" />

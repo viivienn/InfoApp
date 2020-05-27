@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.myapplication.chapterList.ChapterListFragment"
+        android:name="com.safetrained.myapplication.chapterList.ChapterListFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_chapter_list" >
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/navigation_settings"
-        android:name="com.example.myapplication.settings.SettingsFragment"
+        android:name="com.safetrained.myapplication.settings.SettingsFragment"
         android:label="@string/title_settings"
         tools:layout="@layout/fragment_settings" >
         <action
@@ -29,11 +29,11 @@
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.example.myapplication.about.AboutFragment"
+        android:name="com.safetrained.myapplication.about.AboutFragment"
         android:label="@string/title_about" />
     <fragment
         android:id="@+id/subChapterListFragment"
-        android:name="com.example.myapplication.subChapterList.SubChapterListFragment"
+        android:name="com.safetrained.myapplication.subChapterList.SubChapterListFragment"
         android:label="SubChapterListFragment">
         <argument
             android:name="parentChapterId"
@@ -50,7 +50,7 @@
     </fragment>
     <fragment
         android:id="@+id/subChapterDetailFragment"
-        android:name="com.example.myapplication.subChapterDetail.SubChapterDetailFragment"
+        android:name="com.safetrained.myapplication.subChapterDetail.SubChapterDetailFragment"
         android:label="SubChapterDetailFragment">
         <argument
             android:name="subChapterId"
@@ -61,7 +61,7 @@
     </fragment>
     <fragment
         android:id="@+id/quizTitleFragment"
-        android:name="com.example.myapplication.quiz.QuizTitleFragment"
+        android:name="com.safetrained.myapplication.quiz.QuizTitleFragment"
         android:label="@string/title_quiz">
         <argument
             android:name="parentChapterId"
@@ -72,7 +72,7 @@
     </fragment>
     <fragment
         android:id="@+id/checklistFragment"
-        android:name="com.example.myapplication.checklist.ChecklistFragment"
+        android:name="com.safetrained.myapplication.checklist.ChecklistFragment"
         android:label="@string/title_checklist">
         <argument
             android:name="subChapterId"
@@ -88,7 +88,7 @@
 
     <fragment
         android:id="@+id/gameWonFragment"
-        android:name="com.example.myapplication.quiz.GameResultsFragment"
+        android:name="com.safetrained.myapplication.quiz.GameResultsFragment"
         android:label="@string/title_results"
         tools:layout="@layout/fragment_game_results">
         <argument
@@ -110,7 +110,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
-        android:name="com.example.myapplication.quiz.GameFragment"
+        android:name="com.safetrained.myapplication.quiz.GameFragment"
         android:label="@string/title_game">
         <argument
             android:name="parentChapterId"
@@ -121,7 +121,7 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_glossary"
-        android:name="com.example.myapplication.glossary.GlossaryFragment"
+        android:name="com.safetrained.myapplication.glossary.GlossaryFragment"
         android:label="@string/title_glossary">
         <action
             android:id="@+id/action_navigation_glossary_to_definitionFragment"
@@ -129,7 +129,7 @@
     </fragment>
     <fragment
         android:id="@+id/definitionFragment"
-        android:name="com.example.myapplication.glossary.DefinitionFragment"
+        android:name="com.safetrained.myapplication.glossary.DefinitionFragment"
         android:label="@string/title_definition">
         <argument
             android:name="wordId"
@@ -137,6 +137,6 @@
     </fragment>
     <fragment
         android:id="@+id/referencesFragment"
-        android:name="com.example.myapplication.settings.ReferencesFragment"
+        android:name="com.safetrained.myapplication.settings.ReferencesFragment"
         android:label="ReferencesFragment" />
 </navigation>
